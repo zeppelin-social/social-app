@@ -77,6 +77,7 @@ interface FeedItemProps {
   hideTopBorder?: boolean
   isParentBlocked?: boolean
   isParentNotFound?: boolean
+  isCarouselItem?: boolean
 }
 
 export function PostFeedItem({
@@ -96,6 +97,7 @@ export function PostFeedItem({
   isParentNotFound,
   rootPost,
   onShowLess,
+  isCarouselItem,
 }: FeedItemProps & {
   post: AppBskyFeedDefs.PostView
   rootPost: AppBskyFeedDefs.PostView
@@ -133,6 +135,7 @@ export function PostFeedItem({
         hideTopBorder={hideTopBorder}
         isParentBlocked={isParentBlocked}
         isParentNotFound={isParentNotFound}
+        isCarouselItem={isCarouselItem}
         rootPost={rootPost}
         onShowLess={onShowLess}
       />
@@ -157,6 +160,7 @@ let FeedItemInner = ({
   hideTopBorder,
   isParentBlocked,
   isParentNotFound,
+  isCarouselItem,
   rootPost,
   onShowLess,
 }: FeedItemProps & {
@@ -301,7 +305,7 @@ let FeedItemInner = ({
       }}>
       <SubtleWebHover hover={hover} />
       <View style={{flexDirection: 'row', gap: 10, paddingLeft: 8}}>
-        <View style={{width: 42}}>
+        <View style={{width: isCarouselItem ? 0 : 42}}>
           {isThreadChild && (
             <View
               style={[
