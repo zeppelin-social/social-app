@@ -13,6 +13,9 @@ export type Device = {
   devMode: boolean
   demoMode: boolean
   activitySubscriptionsNudged?: boolean
+
+  // deer
+  deerGateCache: string
 }
 
 export type Account = {
