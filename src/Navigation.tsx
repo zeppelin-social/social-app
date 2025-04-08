@@ -383,6 +383,14 @@ function commonScreens(Stack: typeof Flat, unreadCountLabel?: string) {
         }}
       />
       <Stack.Screen
+        name="DeerSettings"
+        getComponent={() => DeerSettingsScreen}
+        options={{
+          title: title(msg`Deer Settings`),
+          requireAuth: true,
+        }}
+      />
+      <Stack.Screen
         name="AppearanceSettings"
         getComponent={() => AppearanceSettingsScreen}
         options={{
