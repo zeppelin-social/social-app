@@ -5,6 +5,7 @@ import {useLingui} from '@lingui/react'
 import * as EmailValidator from 'email-validator'
 import type tldts from 'tldts'
 
+import {DEFAULT_SERVICE} from '#/lib/constants'
 import {isEmailMaybeInvalid} from '#/lib/strings/email'
 import {logger} from '#/logger'
 import {ScreenTransition} from '#/screens/Login/ScreenTransition'
@@ -81,6 +82,22 @@ export function StepInfo({
       return
     }
 
+    if (state.serviceUrl === 'https://example.com') {
+      return dispatch({
+        type: 'setError',
+        value: _(msg`Please choose a service host.`),
+      })
+    }
+
+    if (state.serviceUrl === DEFAULT_SERVICE) {
+      return dispatch({
+        type: 'setError',
+        value: _(
+          msg`Please choose a 3rd party service host, or sign up on bsky.app.`,
+        ),
+      })
+    }
+
     if (state.serviceDescription?.inviteCodeRequired && !inviteCode) {
       return dispatch({
         type: 'setError',
@@ -151,7 +168,6 @@ export function StepInfo({
       <View style={[a.gap_md, a.pt_lg]}>
         <FormError error={state.error} />
         <HostingProvider
-          minimal
           serviceUrl={state.serviceUrl}
           onSelectServiceUrl={v => dispatch({type: 'setServiceUrl', value: v})}
         />
@@ -284,7 +300,9 @@ export function StepInfo({
         ) : undefined}
       </View>
       <BackNextButtons
-        hideNext={!is13(state.dateOfBirth)}
+        hideNext={
+          !is13(state.dateOfBirth) || state.serviceUrl === 'https://example.com'
+        }
         showRetry={isServerError}
         isLoading={state.isLoading}
         onBackPress={onPressBack}
