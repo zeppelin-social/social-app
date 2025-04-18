@@ -31,7 +31,6 @@ import {InlineLinkText} from '#/components/Link'
 import {Text} from '#/components/Typography'
 import {GCP_PROJECT_ID} from '#/env'
 import * as bsky from '#/types/bsky'
-import {StepAtmosphere} from './StepAtmosphere'
 
 export function Signup({
   onPressBack,
@@ -127,7 +126,7 @@ export function Signup({
       <LoggedOutLayout
         leadin=""
         title={_(msg`Create Account`)}
-        description={_(msg`We're so excited to have you join us!`)}
+        description={_(msg`Welcome to the ATmosphere!`)}
         scrollable>
         <View testID="createAccount" style={a.flex_1}>
           {showStarterPackCard &&
@@ -171,15 +170,13 @@ export function Signup({
                   Step {state.activeStep + 1} of{' '}
                   {state.serviceDescription &&
                   !state.serviceDescription.phoneVerificationRequired
-                    ? '3'
-                    : '4'}
+                    ? '2'
+                    : '3'}
                 </Trans>
               </Text>
               <Text style={[a.text_3xl, a.font_bold]}>
-                {state.activeStep == SignupStep.ATMOSPHERE ? (
+                {state.activeStep === SignupStep.INFO ? (
                   <Trans>The ATmosphere ✨</Trans>
-                ) : state.activeStep === SignupStep.INFO ? (
-                  <Trans>Your account</Trans>
                 ) : state.activeStep === SignupStep.HANDLE ? (
                   <Trans>Choose your username</Trans>
                 ) : (
@@ -189,14 +186,10 @@ export function Signup({
             </View>
 
             <LayoutAnimationConfig skipEntering skipExiting>
-              {state.activeStep === SignupStep.ATMOSPHERE ? (
-                <StepAtmosphere
-                  onPressBack={onPressBack}
-                  onPressSignIn={onPressSignIn}
-                />
-              ) : state.activeStep === SignupStep.INFO ? (
+              {state.activeStep === SignupStep.INFO ? (
                 <StepInfo
                   onPressBack={onPressBack}
+                  onPressSignIn={onPressSignIn}
                   isLoadingStarterPack={
                     isFetchingStarterPack && !isErrorStarterPack
                   }
