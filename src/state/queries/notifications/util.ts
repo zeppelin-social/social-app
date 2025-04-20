@@ -42,6 +42,7 @@ export async function fetchPage({
   limit,
   queryClient,
   moderationOpts,
+  hideFollowNotifications,
   fetchAdditionalData,
   reasons,
 }: {
@@ -50,6 +51,7 @@ export async function fetchPage({
   limit: number
   queryClient: QueryClient
   moderationOpts: ModerationOpts | undefined
+  hideFollowNotifications: boolean | undefined
   fetchAdditionalData: boolean
   reasons: string[]
 }): Promise<{
@@ -66,7 +68,7 @@ export async function fetchPage({
 
   // filter out notifs by mod rules
   const notifs = res.data.notifications.filter(
-    notif => !shouldFilterNotif(notif, moderationOpts),
+    notif => !shouldFilterNotif(notif, moderationOpts, hideFollowNotifications),
   )
 
   // group notifications which are essentially similar (follows, likes on a post)
@@ -117,9 +119,13 @@ export async function fetchPage({
 export function shouldFilterNotif(
   notif: AppBskyNotificationListNotifications.Notification,
   moderationOpts: ModerationOpts | undefined,
+  hideFollowNotifications: boolean | undefined,
 ): boolean {
   const containsImperative = !!notif.author.labels?.some(labelIsHideableOffense)
   if (containsImperative) {
+    return true
+  }
+  if (hideFollowNotifications && notif.reason == 'follow') {
     return true
   }
   if (!moderationOpts) {
