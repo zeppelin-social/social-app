@@ -9,7 +9,12 @@ import {PUBLIC_APPVIEW_DID, PUBLIC_STAGING_APPVIEW_DID} from '#/lib/constants'
 import {Logger} from '#/logger'
 import {isNative} from '#/platform/detection'
 import {type SessionAccount, useAgent, useSession} from '#/state/session'
-import BackgroundNotificationHandler from '#/../modules/expo-background-notification-handler'
+import BackgroundNotificationHandler from '../../../modules/expo-background-notification-handler'
+
+const SERVICE_DID = (serviceUrl?: string) =>
+  serviceUrl?.includes('staging')
+    ? 'did:web:api.staging.bsky.dev'
+    : 'did:web:api.bsky.app'
 
 const logger = Logger.create(Logger.Context.Notifications)
 
@@ -33,7 +38,7 @@ async function _registerPushToken({
         : PUBLIC_APPVIEW_DID,
       platform: Platform.OS,
       token: token.data,
-      appId: 'xyz.blueskyweb.app',
+      appId: 'social.deer',
     })
 
     logger.debug(`registerPushToken: success`, {
