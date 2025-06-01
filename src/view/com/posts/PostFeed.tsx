@@ -1,4 +1,12 @@
-import {memo, useCallback, useEffect, useMemo, useRef, useState} from 'react'
+import {
+  memo,
+  type ReactNode,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react'
 import {
   ActivityIndicator,
   AppState,
@@ -273,7 +281,7 @@ let PostFeed = ({
   initialNumToRender?: number
   isVideoFeed?: boolean
   useRepostCarousel?: boolean
-}): React.ReactNode => {
+}): ReactNode => {
   const {_} = useLingui()
   const queryClient = useQueryClient()
   const {currentAccount, hasSession} = useSession()
