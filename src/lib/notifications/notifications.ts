@@ -10,11 +10,12 @@ import {logger as notyLogger} from '#/lib/notifications/util'
 import {isNative} from '#/platform/detection'
 import {type SessionAccount, useAgent, useSession} from '#/state/session'
 import BackgroundNotificationHandler from '../../../modules/expo-background-notification-handler'
+import {ZEPPELIN_APPVIEW_DID} from '../constants'
 
 const SERVICE_DID = (serviceUrl?: string) =>
   serviceUrl?.includes('staging')
     ? 'did:web:api.staging.bsky.dev'
-    : 'did:web:api.bsky.app'
+    : ZEPPELIN_APPVIEW_DID
 
 /**
  * @private
