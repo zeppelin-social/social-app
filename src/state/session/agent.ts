@@ -1,10 +1,10 @@
 import {
-  Agent as BaseAgent,
-  type AtprotoServiceType,
-  type AtpSessionData,
-  type AtpSessionEvent,
-  BskyAgent,
-  type Did,
+	Agent as BaseAgent,
+	type AtprotoServiceType,
+	type AtpSessionData,
+	type AtpSessionEvent,
+	BskyAgent,
+	type Did,
 } from '@atproto/api'
 import {type FetchHandler} from '@atproto/api/dist/agent'
 import {type SessionManager} from '@atproto/api/dist/session-manager'
@@ -19,6 +19,7 @@ import {
   IS_PROD_SERVICE,
   PUBLIC_BSKY_SERVICE,
   TIMELINE_SAVED_FEED,
+  ZEPPELIN_APPVIEW_PROXY,
 } from '#/lib/constants'
 import {tryFetchGates} from '#/lib/statsig/statsig'
 import {getAge} from '#/lib/strings/time'
@@ -320,6 +321,8 @@ class BskyAppAgent extends BskyAgent {
     await Promise.all([gates, moderation])
 
     // Now the agent is ready.
+    this.configureProxy(ZEPPELIN_APPVIEW_PROXY)
+
     const account = agentToSessionAccountOrThrow(this)
     let lastSession = this.sessionManager.session
     this.persistSessionHandler = event => {
