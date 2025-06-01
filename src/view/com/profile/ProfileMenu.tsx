@@ -101,12 +101,18 @@ let ProfileMenu = ({
   const goLiveDialogControl = useDialogControl()
   const addToStarterPacksDialogControl = useDialogControl()
 
-  const showLoggedOutWarning = React.useMemo(() => {
-    return (
-      profile.did !== currentAccount?.did &&
-      !!profile.labels?.find(label => label.val === '!no-unauthenticated')
-    )
-  }, [currentAccount, profile])
+  const showLoggedOutWarning = React.useMemo(
+    () => {
+      // return (
+      //   profile.did !== currentAccount?.did &&
+      //   !!profile.labels?.find(label => label.val === '!no-unauthenticated')
+      // )
+      return false
+    },
+    [
+      /*currentAccount, profile*/
+    ],
+  )
 
   const invalidateProfileQuery = React.useCallback(() => {
     queryClient.invalidateQueries({
