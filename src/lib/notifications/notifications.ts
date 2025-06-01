@@ -36,7 +36,7 @@ async function _registerPushToken({
         : PUBLIC_APPVIEW_DID,
       platform: Platform.OS,
       token: token.data,
-      appId: 'social.deer',
+      appId: 'social.zeppelin',
     })
 
     notyLogger.debug(`registerPushToken: success`, {
