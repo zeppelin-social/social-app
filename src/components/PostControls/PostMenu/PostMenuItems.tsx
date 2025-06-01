@@ -1,4 +1,4 @@
-import {memo, useCallback} from 'react'
+import {memo, useMemo} from 'react'
 import {
   Platform,
   type PressableProps,
@@ -35,6 +35,7 @@ import {logEvent, useGate} from '#/lib/statsig/statsig'
 import {richTextToString} from '#/lib/strings/rich-text-helpers'
 import {toShareUrl} from '#/lib/strings/url-helpers'
 import {logger} from '#/logger'
+import {isWeb} from '#/platform/detection'
 import {type Shadow} from '#/state/cache/post-shadow'
 import {useProfileShadow} from '#/state/cache/profile-shadow'
 import {useFeedFeedbackContext} from '#/state/feed-feedback'
@@ -358,7 +359,7 @@ let PostMenuItems = ({
     })
   }
 
-  const onPressDownloadVideo = useCallback(async () => {
+  const onPressDownloadVideo = async () => {
     if (post.embed?.$type !== 'app.bsky.embed.video#view') return
     const video = post.embed as AppBskyEmbedVideo.View
     const did = post.author.did
@@ -375,9 +376,9 @@ let PostMenuItems = ({
 
     if (success) Toast.show('Video downloaded', 'check')
     else Toast.show('Failed to download video', 'xmark')
-  }, [post])
+  }
 
-  const onPressDownloadGif = useCallback(async () => {
+  const onPressDownloadGif = async () => {
     if (post.embed?.$type !== 'app.bsky.embed.external#view') return
     const media = post.embed as AppBskyEmbedExternal.View
 
@@ -389,17 +390,17 @@ let PostMenuItems = ({
 
     if (success) Toast.show('GIF downloaded', 'check')
     else Toast.show('Failed to download GIF', 'xmark')
-  }, [post])
+  }
 
-  const isEmbedGif = useCallback(() => {
+  const isEmbedGif = () => {
     if (post.embed?.$type !== 'app.bsky.embed.external#view') return false
     const embed = post.embed as AppBskyEmbedExternal.View
     // Janky workaround by checking if the domain is tenor.com
     const url = new URL(embed.external.uri)
     return url.host === 'media.tenor.com'
-  }, [post])
+  }
 
-  const onBlockAuthor = useCallback(async () => {
+  const onBlockAuthor = async () => {
     try {
       await queueBlock()
       Toast.show(_(msg({message: 'Account blocked', context: 'toast'})))
@@ -409,7 +410,7 @@ let PostMenuItems = ({
         Toast.show(_(msg`There was an issue! ${e.toString()}`), 'xmark')
       }
     }
-  }, [_, queueBlock])
+  }
 
   const onMuteAuthor = async () => {
     if (postAuthor.viewer?.muted) {
