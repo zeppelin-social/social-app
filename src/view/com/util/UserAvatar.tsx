@@ -610,7 +610,7 @@ export {PreviewableUserAvatar}
 // -prf
 function hackModifyThumbnailPath(uri: string, isEnabled: boolean): string {
   return isEnabled
-    ? uri.replace('/img/avatar/plain/', '/img/avatar_thumbnail/plain/')
+    ? uri.replace('/img/avatar/plain/', '/img/feed_thumbnail/plain/')
     : uri
 }
 
