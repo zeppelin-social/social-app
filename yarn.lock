@@ -77,6 +77,20 @@
     tlds "^1.234.0"
     zod "^3.23.8"
 
+"@atproto/api@npm:@zeppelin-social/api@^0.15.21":
+  version "0.15.25"
+  resolved "https://registry.yarnpkg.com/@zeppelin-social/api/-/api-0.15.25.tgz#beb337f9dd1beefe602e370e55981b65d4baa044"
+  integrity sha512-G0747meOU4Cyv4K0Odp15U4n9T+feMXxvw1dje/h/G73hsmzhZHk3KO+6OuZIMQUPcjm/DU1Er06jMkeb28Wuw==
+  dependencies:
+    "@atproto/common-web" "^0.4.2"
+    "@atproto/lexicon" "^0.4.12"
+    "@atproto/syntax" "^0.4.0"
+    "@atproto/xrpc" "^0.7.1"
+    await-lock "^2.2.2"
+    multiformats "^9.9.0"
+    tlds "^1.234.0"
+    zod "^3.23.8"
+
 "@atproto/aws@^0.2.24":
   version "0.2.24"
   resolved "https://registry.yarnpkg.com/@atproto/aws/-/aws-0.2.24.tgz#c8e7a804710d70be3aa2fa292c1ece4c05127891"
@@ -286,6 +300,17 @@
     multiformats "^9.9.0"
     zod "^3.23.8"
 
+"@atproto/lexicon@^0.4.12":
+  version "0.4.12"
+  resolved "https://registry.yarnpkg.com/@atproto/lexicon/-/lexicon-0.4.12.tgz#89a704789d983f8405a52095769b5b58d87f5af7"
+  integrity sha512-fcEvEQ1GpQYF5igZ4IZjPWEoWVpsEF22L9RexxLS3ptfySXLflEyH384e7HITzO/73McDeaJx3lqHIuqn9ulnw==
+  dependencies:
+    "@atproto/common-web" "^0.4.2"
+    "@atproto/syntax" "^0.4.0"
+    iso-datestring-validator "^2.2.2"
+    multiformats "^9.9.0"
+    zod "^3.23.8"
+
 "@atproto/oauth-provider-api@0.1.6":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@atproto/oauth-provider-api/-/oauth-provider-api-0.1.6.tgz#769a70caaac9b5144f9f867518523d1568a6b47c"
@@ -483,6 +508,14 @@
   integrity sha512-SfhP9dGx2qclaScFDb58Jnrmim5nk4geZXCqg6sB0I/KZhZEkr9iIx1hLCp+sxkIfEsmEJjeWO4B0rjUIJW5cw==
   dependencies:
     "@atproto/lexicon" "^0.4.11"
+    zod "^3.23.8"
+
+"@atproto/xrpc@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@atproto/xrpc/-/xrpc-0.7.1.tgz#51a8fc131eb21bd1229129d0a46384accc50ad65"
+  integrity sha512-ANHEzlskYlMEdH18m+Itp3a8d0pEJao2qoDybDoMupTnoeNkya4VKIaOgAi6ERQnqatBBZyn9asW+7rJmSt/8g==
+  dependencies:
+    "@atproto/lexicon" "^0.4.12"
     zod "^3.23.8"
 
 "@aws-crypto/crc32@3.0.0":
