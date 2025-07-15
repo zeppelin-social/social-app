@@ -77,10 +77,10 @@
     tlds "^1.234.0"
     zod "^3.23.8"
 
-"@atproto/api@npm:@zeppelin-social/api@^0.15.21":
-  version "0.15.25"
-  resolved "https://registry.yarnpkg.com/@zeppelin-social/api/-/api-0.15.25.tgz#beb337f9dd1beefe602e370e55981b65d4baa044"
-  integrity sha512-G0747meOU4Cyv4K0Odp15U4n9T+feMXxvw1dje/h/G73hsmzhZHk3KO+6OuZIMQUPcjm/DU1Er06jMkeb28Wuw==
+"@atproto/api@npm:@zeppelin-social/api@^0.15.26":
+  version "0.15.26"
+  resolved "https://registry.yarnpkg.com/@zeppelin-social/api/-/api-0.15.26.tgz#8659fef01868b403fdf2c1e5b1a5e73acd8396f6"
+  integrity sha512-hfHc2S8vSWWwc8/FGMqteyYb1K5VmEYUzcrqmgOClEXCeAm8xGTvh29d6yJyq+dlmqKSubnF1NITPiS7XDRijA==
   dependencies:
     "@atproto/common-web" "^0.4.2"
     "@atproto/lexicon" "^0.4.12"
