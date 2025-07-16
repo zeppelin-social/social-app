@@ -49,14 +49,31 @@ export function threadPostNotFound({
 export function threadPostBlocked({
   uri,
   depth,
-  value,
-}: ApiThreadItem): Extract<ThreadItem, {type: 'threadPostBlocked'}> {
+  value: _value,
+  moderationOpts,
+}: {
+  uri: string
+  depth: number
+  value: $Typed<AppBskyUnspeccedDefs.ThreadItemBlocked>
+  moderationOpts: ModerationOpts
+}): Extract<ThreadItem, {type: 'threadPostBlocked'}> {
+  const {'social.zeppelin.post': post, ...value} = _value
+  const moderation = moderatePost(post, moderationOpts)
   return {
     type: 'threadPostBlocked',
     key: uri,
     uri,
     depth,
-    value: value as AppBskyUnspeccedDefs.ThreadItemBlocked,
+    value: {
+      ...value,
+      post: post as Omit<AppBskyFeedDefs.PostView, 'record'> & {
+        record: AppBskyFeedPost.Record
+      },
+    },
+    isBlurred: true,
+    moderation,
+    // @ts-ignore populated by the traversal
+    ui: {},
   }
 }
 

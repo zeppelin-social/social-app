@@ -48,6 +48,10 @@ import {
   useSetNoDiscoverFallback,
 } from '#/state/preferences/no-discover-fallback'
 import {
+  useOverrideHide,
+  useSetOverrideHide,
+} from '#/state/preferences/override-hide'
+import {
   useRepostCarouselEnabled,
   useSetRepostCarouselEnabled,
 } from '#/state/preferences/repost-carousel-enabled'
@@ -254,6 +258,9 @@ export function DeerSettingsScreen({}: Props) {
   const directFetchRecords = useDirectFetchRecords()
   const setDirectFetchRecords = useSetDirectFetchRecords()
 
+  const overrideHide = useOverrideHide()
+  const setOverrideHide = useSetOverrideHide()
+
   const noAppLabelers = useNoAppLabelers()
   const setNoAppLabelers = useSetNoAppLabelers()
 
@@ -335,8 +342,19 @@ export function DeerSettingsScreen({}: Props) {
               <Toggle.LabelText style={[a.flex_1]}>
                 <Trans>
                   Fetch records directly from PDS to see contents of blocked and
-                  detatched quotes
+                  detached quotes
                 </Trans>
+              </Toggle.LabelText>
+              <Toggle.Platform />
+            </Toggle.Item>
+            <Toggle.Item
+              name="override_hide"
+              label={_(msg`Allow visibility through hidden content`)}
+              value={overrideHide}
+              onChange={value => setOverrideHide(value)}
+              style={[a.w_full]}>
+              <Toggle.LabelText style={[a.flex_1]}>
+                <Trans>Allow visibility through hidden content</Trans>
               </Toggle.LabelText>
               <Toggle.Platform />
             </Toggle.Item>
