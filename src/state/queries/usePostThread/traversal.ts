@@ -41,14 +41,62 @@ export function sortAndAnnotateThreadItems(
   const otherThreadItems: ThreadItem[] = []
   const metadatas = new Map<string, TraversalMetadata>()
 
+  const traverseParents = (item: ApiThreadItem, outerIndex: number) => {
+    for (let pi = outerIndex - 1; pi >= 0; pi--) {
+      const parent = thread[pi]
+
+      if (AppBskyUnspeccedDefs.isThreadItemNoUnauthenticated(parent.value)) {
+        const post = views.threadPostNoUnauthenticated(parent)
+        post.ui = getThreadPostNoUnauthenticatedUI({
+          depth: parent.depth,
+          // ignore for now
+          // prevItemDepth: thread[pi - 1]?.depth,
+          nextItemDepth: thread[pi + 1]?.depth,
+        })
+        threadItems.unshift(post)
+        // for now, break parent traversal at first no-unauthed
+        break
+      } else if (AppBskyUnspeccedDefs.isThreadItemNotFound(parent.value)) {
+        threadItems.unshift(views.threadPostNotFound(parent))
+        break
+      } else if (AppBskyUnspeccedDefs.isThreadItemBlocked(parent.value)) {
+        threadItems.unshift(
+          views.threadPostBlocked({
+            uri: parent.uri,
+            depth: parent.depth,
+            value: parent.value,
+            moderationOpts,
+          }),
+        )
+      } else if (AppBskyUnspeccedDefs.isThreadItemPost(parent.value)) {
+        threadItems.unshift(
+          views.threadPost({
+            uri: parent.uri,
+            depth: parent.depth,
+            value: parent.value,
+            moderationOpts,
+            threadgateHiddenReplies,
+          }),
+        )
+      }
+    }
+  }
+
   traversal: for (let i = 0; i < thread.length; i++) {
     const item = thread[i]
     let parentMetadata: TraversalMetadata | undefined
     let metadata: TraversalMetadata | undefined
 
-    if (AppBskyUnspeccedDefs.isThreadItemPost(item.value)) {
+    if (
+      AppBskyUnspeccedDefs.isThreadItemPost(item.value) ||
+      AppBskyUnspeccedDefs.isThreadItemBlocked(item.value)
+    ) {
+      const post =
+        item.value.$type === 'app.bsky.unspecced.defs#threadItemPost'
+          ? item.value.post
+          : item.value['social.zeppelin.post']
       parentMetadata = metadatas.get(
-        getPostRecord(item.value.post).reply?.parent?.uri || '',
+        getPostRecord(post).reply?.parent?.uri || '',
       )
       metadata = getTraversalMetadata({
         item,
@@ -70,7 +118,15 @@ export function sortAndAnnotateThreadItems(
       } else if (AppBskyUnspeccedDefs.isThreadItemNotFound(item.value)) {
         threadItems.push(views.threadPostNotFound(item))
       } else if (AppBskyUnspeccedDefs.isThreadItemBlocked(item.value)) {
-        threadItems.push(views.threadPostBlocked(item))
+        threadItems.push(
+          views.threadPostBlocked({
+            uri: item.uri,
+            depth: item.depth,
+            value: item.value,
+            moderationOpts,
+          }),
+        )
+        traverseParents(item, i)
       } else if (AppBskyUnspeccedDefs.isThreadItemPost(item.value)) {
         const post = views.threadPost({
           uri: item.uri,
@@ -80,41 +136,7 @@ export function sortAndAnnotateThreadItems(
           threadgateHiddenReplies,
         })
         threadItems.push(post)
-
-        parentTraversal: for (let pi = i - 1; pi >= 0; pi--) {
-          const parent = thread[pi]
-
-          if (
-            AppBskyUnspeccedDefs.isThreadItemNoUnauthenticated(parent.value)
-          ) {
-            const post = views.threadPostNoUnauthenticated(parent)
-            post.ui = getThreadPostNoUnauthenticatedUI({
-              depth: parent.depth,
-              // ignore for now
-              // prevItemDepth: thread[pi - 1]?.depth,
-              nextItemDepth: thread[pi + 1]?.depth,
-            })
-            threadItems.unshift(post)
-            // for now, break parent traversal at first no-unauthed
-            break parentTraversal
-          } else if (AppBskyUnspeccedDefs.isThreadItemNotFound(parent.value)) {
-            threadItems.unshift(views.threadPostNotFound(parent))
-            break parentTraversal
-          } else if (AppBskyUnspeccedDefs.isThreadItemBlocked(parent.value)) {
-            threadItems.unshift(views.threadPostBlocked(parent))
-            break parentTraversal
-          } else if (AppBskyUnspeccedDefs.isThreadItemPost(parent.value)) {
-            threadItems.unshift(
-              views.threadPost({
-                uri: parent.uri,
-                depth: parent.depth,
-                value: parent.value,
-                moderationOpts,
-                threadgateHiddenReplies,
-              }),
-            )
-          }
-        }
+        traverseParents(item, i)
       }
     } else if (item.depth > 0) {
       /*
@@ -124,15 +146,17 @@ export function sortAndAnnotateThreadItems(
        */
       const shouldBreak =
         AppBskyUnspeccedDefs.isThreadItemNoUnauthenticated(item.value) ||
-        AppBskyUnspeccedDefs.isThreadItemNotFound(item.value) ||
-        AppBskyUnspeccedDefs.isThreadItemBlocked(item.value)
+        AppBskyUnspeccedDefs.isThreadItemNotFound(item.value)
 
       if (shouldBreak) {
         const branch = getBranch(thread, i, item.depth)
         // could insert tombstone
         i = branch.end
         continue traversal
-      } else if (AppBskyUnspeccedDefs.isThreadItemPost(item.value)) {
+      } else if (
+        AppBskyUnspeccedDefs.isThreadItemPost(item.value) ||
+        AppBskyUnspeccedDefs.isThreadItemBlocked(item.value)
+      ) {
         if (parentMetadata) {
           /*
            * Set this value before incrementing the parent's repliesSeenCounter
@@ -142,13 +166,21 @@ export function sortAndAnnotateThreadItems(
           parentMetadata.repliesIndexCounter += 1
         }
 
-        const post = views.threadPost({
-          uri: item.uri,
-          depth: item.depth,
-          value: item.value,
-          moderationOpts,
-          threadgateHiddenReplies,
-        })
+        const post =
+          item.value.$type === 'app.bsky.unspecced.defs#threadItemPost'
+            ? views.threadPost({
+                uri: item.uri,
+                depth: item.depth,
+                value: item.value,
+                moderationOpts,
+                threadgateHiddenReplies,
+              })
+            : views.threadPostBlocked({
+                uri: item.uri,
+                depth: item.depth,
+                value: item.value,
+                moderationOpts,
+              })
 
         if (!post.isBlurred || skipModerationHandling) {
           /*
@@ -251,7 +283,7 @@ export function sortAndAnnotateThreadItems(
       const prevItem = subset.at(i - 1)
       const nextItem = subset.at(i + 1)
 
-      if (item.type === 'threadPost') {
+      if (item.type === 'threadPost' || item.type === 'threadPostBlocked') {
         const metadata = metadatas.get(item.uri)
 
         if (metadata) {
@@ -391,11 +423,16 @@ export function sortAndAnnotateThreadItems(
             i++
           }
 
+          const moreParents =
+            item.value.$type === 'app.bsky.unspecced.defs#threadItemPost'
+              ? item.value.moreParents // @ts-expect-error — FIXME below line won't error once @zeppelin-social/api is upgraded past 0.15.26
+              : item.value['social.zeppelin.moreParents']
+
           /**
            * Only occurs for the first item in the thread, which may have
            * additional parents not included in this request.
            */
-          if (item.value.moreParents) {
+          if (moreParents) {
             metadata.followsReadMoreUp = true
             subset.splice(i, 0, views.readMoreUp(metadata))
             i++

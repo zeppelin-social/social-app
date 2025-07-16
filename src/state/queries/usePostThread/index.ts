@@ -154,10 +154,52 @@ export function usePostThread({anchor}: {anchor?: string}) {
   )
 
   /**
+   * Sets the sort order for the thread and resets the additional thread items
+   */
+  const setSort: typeof baseSetSort = useCallback(
+    nextSort => {
+      setOtherItemsVisible(false)
+      baseSetSort(nextSort)
+    },
+    [baseSetSort, setOtherItemsVisible],
+  )
+
+  /**
+   * Sets the view variant for the thread and resets the additional thread items
+   */
+  const setView: typeof baseSetView = useCallback(
+    nextView => {
+      setOtherItemsVisible(false)
+      baseSetView(nextView)
+    },
+    [baseSetView, setOtherItemsVisible],
+  )
+
+  /*
+   * This is the main thread response, sorted into separate buckets based on
+   * moderation, and annotated with all UI state needed for rendering.
+   */
+  const {threadItems, otherThreadItems} = useMemo(() => {
+    return sortAndAnnotateThreadItems(thread, {
+      view: view,
+      threadgateHiddenReplies: mergeThreadgateHiddenReplies(threadgate?.record),
+      moderationOpts: moderationOpts!,
+    })
+  }, [
+    thread,
+    threadgate?.record,
+    mergeThreadgateHiddenReplies,
+    moderationOpts,
+    view,
+  ])
+
+  /**
    * If we have additional items available from the server and the user has
    * chosen to view them, start loading data
+   * Alternatively, if there are no regular items, start loading data immediately
    */
-  const additionalQueryEnabled = hasOtherThreadItems && otherItemsVisible
+  const additionalQueryEnabled =
+    hasOtherThreadItems && (threadItems.length <= 1 || otherItemsVisible)
   const additionalItemsQuery = useQuery({
     enabled: additionalQueryEnabled,
     queryKey: postThreadOtherQueryKey,
@@ -208,46 +250,6 @@ export function usePostThread({anchor}: {anchor?: string}) {
     mergeThreadgateHiddenReplies,
     moderationOpts,
     threadgate?.record,
-  ])
-
-  /**
-   * Sets the sort order for the thread and resets the additional thread items
-   */
-  const setSort: typeof baseSetSort = useCallback(
-    nextSort => {
-      setOtherItemsVisible(false)
-      baseSetSort(nextSort)
-    },
-    [baseSetSort, setOtherItemsVisible],
-  )
-
-  /**
-   * Sets the view variant for the thread and resets the additional thread items
-   */
-  const setView: typeof baseSetView = useCallback(
-    nextView => {
-      setOtherItemsVisible(false)
-      baseSetView(nextView)
-    },
-    [baseSetView, setOtherItemsVisible],
-  )
-
-  /*
-   * This is the main thread response, sorted into separate buckets based on
-   * moderation, and annotated with all UI state needed for rendering.
-   */
-  const {threadItems, otherThreadItems} = useMemo(() => {
-    return sortAndAnnotateThreadItems(thread, {
-      view: view,
-      threadgateHiddenReplies: mergeThreadgateHiddenReplies(threadgate?.record),
-      moderationOpts: moderationOpts!,
-    })
-  }, [
-    thread,
-    threadgate?.record,
-    mergeThreadgateHiddenReplies,
-    moderationOpts,
-    view,
   ])
 
   /*
