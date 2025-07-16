@@ -60,11 +60,17 @@ export function getTraversalMetadata({
   nextItem?: ApiThreadItem
   parentMetadata?: TraversalMetadata
 }): TraversalMetadata {
-  if (!AppBskyUnspeccedDefs.isThreadItemPost(item.value)) {
+  if (
+    !AppBskyUnspeccedDefs.isThreadItemPost(item.value) &&
+    !AppBskyUnspeccedDefs.isThreadItemBlocked(item.value)
+  ) {
     throw new Error(`Expected thread item to be a post`)
   }
-  const repliesCount = item.value.post.replyCount || 0
-  const repliesUnhydrated = item.value.moreReplies || 0
+  const post =
+    'post' in item.value ? item.value.post : item.value['social.zeppelin.post']
+  const repliesCount = post.replyCount || 0
+  const repliesUnhydrated =
+    'moreReplies' in item.value ? item.value.moreReplies || 0 : 0
   const metadata = {
     depth: item.depth,
     /*
@@ -94,7 +100,7 @@ export function getTraversalMetadata({
     followsReadMoreUp: false,
     postData: {
       uri: item.uri,
-      authorHandle: item.value.post.author.handle,
+      authorHandle: post.author.handle,
     },
     repliesCount,
     repliesUnhydrated,
@@ -106,7 +112,7 @@ export function getTraversalMetadata({
 
   if (isDevMode()) {
     // @ts-ignore dev only for debugging
-    metadata.postData.text = getPostRecord(item.value.post).text
+    metadata.postData.text = getPostRecord(post).text
   }
 
   return metadata

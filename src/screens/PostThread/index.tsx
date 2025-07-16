@@ -62,7 +62,10 @@ export function PostThread({uri}: {uri: string}) {
     // eslint-disable-next-line @typescript-eslint/no-shadow
     let hasParents = false
     for (const item of thread.data.items) {
-      if (item.type === 'threadPost' && item.depth === 0) {
+      if (
+        (item.type === 'threadPost' || item.type === 'threadPostBlocked') &&
+        item.depth === 0
+      ) {
         return {anchor: item, hasParents}
       }
       hasParents = true
@@ -362,14 +365,12 @@ export function PostThread({uri}: {uri: string}) {
 
   const isTombstoneView = useMemo(() => {
     if (slices.length > 1) return false
-    return slices.every(
-      s => s.type === 'threadPostBlocked' || s.type === 'threadPostNotFound',
-    )
+    return slices.every(s => s.type === 'threadPostNotFound')
   }, [slices])
 
   const renderItem = useCallback(
     ({item, index}: {item: ThreadItem; index: number}) => {
-      if (item.type === 'threadPost') {
+      if (item.type === 'threadPost' || item.type === 'threadPostBlocked') {
         if (item.depth < 0) {
           return (
             <ThreadItemPost
@@ -453,8 +454,6 @@ export function PostThread({uri}: {uri: string}) {
         )
       } else if (item.type === 'readMoreUp') {
         return <ThreadItemReadMoreUp item={item} />
-      } else if (item.type === 'threadPostBlocked') {
-        return <ThreadItemPostTombstone type="blocked" />
       } else if (item.type === 'threadPostNotFound') {
         return <ThreadItemPostTombstone type="not-found" />
       } else if (item.type === 'replyComposer') {

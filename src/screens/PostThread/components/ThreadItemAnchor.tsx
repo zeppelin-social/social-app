@@ -68,7 +68,7 @@ export function ThreadItemAnchor({
   threadgateRecord,
   postSource,
 }: {
-  item: Extract<ThreadItem, {type: 'threadPost'}>
+  item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
   onPostSuccess?: (data: OnPostSuccessData) => void
   threadgateRecord?: AppBskyFeedThreadgate.Record
   postSource?: PostSource
@@ -168,7 +168,7 @@ const ThreadItemAnchorInner = memo(function ThreadItemAnchorInner({
   threadgateRecord,
   postSource,
 }: {
-  item: Extract<ThreadItem, {type: 'threadPost'}>
+  item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
   isRoot: boolean
   postShadow: Shadow<AppBskyFeedDefs.PostView>
   onPostSuccess?: (data: OnPostSuccessData) => void
@@ -531,7 +531,10 @@ function ExpandedPostDetails({
   post,
   isThreadAuthor,
 }: {
-  post: Extract<ThreadItem, {type: 'threadPost'}>['value']['post']
+  post: Extract<
+    ThreadItem,
+    {type: 'threadPost' | 'threadPostBlocked'}
+  >['value']['post']
   isThreadAuthor: boolean
 }) {
   const t = useTheme()

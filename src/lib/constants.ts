@@ -15,7 +15,7 @@ export const ZEPPELIN_APPVIEW_PROXY = `${ZEPPELIN_APPVIEW_DID}#bsky_appview`
 export const BSKY_SERVICE_DID = 'did:web:bsky.zeppelin.social'
 export const PUBLIC_BSKY_SERVICE = ZEPPELIN_APPVIEW_SERVICE
 export const DEFAULT_SERVICE = BSKY_SERVICE
-export const HELP_DESK_URL = `https://github.com/appview-wg-bsky/social-app/issues/new/choose`
+export const HELP_DESK_URL = `https://github.com/zeppelin-social/social-app/issues/new/choose`
 export const EMBED_SERVICE = 'https://embed.bsky.app'
 export const EMBED_SCRIPT = `${EMBED_SERVICE}/static/embed.js`
 export const BSKY_DOWNLOAD_URL = 'https://bsky.app/download'
@@ -200,8 +200,8 @@ export const urls = {
   },
 }
 
-export const PUBLIC_APPVIEW = 'https://api.bsky.app'
-export const PUBLIC_APPVIEW_DID = 'did:web:api.bsky.app'
+export const PUBLIC_APPVIEW = 'https://bsky.zeppelin.social'
+export const PUBLIC_APPVIEW_DID = 'did:web:bsky.zeppelin.social'
 export const PUBLIC_STAGING_APPVIEW_DID = 'did:web:api.staging.bsky.dev'
 
 export const DEV_ENV_APPVIEW = `http://localhost:2584` // always the same

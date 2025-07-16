@@ -31,6 +31,7 @@ import {
 import {atoms as a, useTheme} from '#/alf'
 import {useInteractionState} from '#/components/hooks/useInteractionState'
 import {Trash_Stroke2_Corner0_Rounded as TrashIcon} from '#/components/icons/Trash'
+import {ContentHider} from '#/components/moderation/ContentHider'
 import {LabelsOnMyPost} from '#/components/moderation/LabelsOnMe'
 import {PostAlerts} from '#/components/moderation/PostAlerts'
 import {PostHider} from '#/components/moderation/PostHider'
@@ -54,7 +55,7 @@ export function ThreadItemTreePost({
   onPostSuccess,
   threadgateRecord,
 }: {
-  item: Extract<ThreadItem, {type: 'threadPost'}>
+  item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
   overrides?: {
     moderation?: boolean
     topBorder?: boolean
@@ -84,7 +85,7 @@ export function ThreadItemTreePost({
 function ThreadItemTreePostDeleted({
   item,
 }: {
-  item: Extract<ThreadItem, {type: 'threadPost'}>
+  item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
 }) {
   const t = useTheme()
   return (
@@ -120,7 +121,7 @@ const ThreadItemTreePostOuterWrapper = memo(
     item,
     children,
   }: {
-    item: Extract<ThreadItem, {type: 'threadPost'}>
+    item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
     children: React.ReactNode
   }) {
     const t = useTheme()
@@ -163,7 +164,7 @@ const ThreadItemTreePostInnerWrapper = memo(
     item,
     children,
   }: {
-    item: Extract<ThreadItem, {type: 'threadPost'}>
+    item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
     children: React.ReactNode
   }) {
     const t = useTheme()
@@ -214,7 +215,7 @@ const ThreadItemTreeReplyChildReplyLine = memo(
   function ThreadItemTreeReplyChildReplyLine({
     item,
   }: {
-    item: Extract<ThreadItem, {type: 'threadPost'}>
+    item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
   }) {
     const t = useTheme()
     return (
@@ -240,7 +241,7 @@ const ThreadItemTreePostInner = memo(function ThreadItemTreePostInner({
   onPostSuccess,
   threadgateRecord,
 }: {
-  item: Extract<ThreadItem, {type: 'threadPost'}>
+  item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
   postShadow: Shadow<AppBskyFeedDefs.PostView>
   overrides?: {
     moderation?: boolean
@@ -335,38 +336,45 @@ const ThreadItemTreePostInner = memo(function ThreadItemTreePostInner({
                 <ThreadItemTreeReplyChildReplyLine item={item} />
                 <View style={[a.flex_1, a.pl_2xs]}>
                   <LabelsOnMyPost post={post} style={[a.pb_2xs]} />
-                  <PostAlerts
-                    modui={moderation.ui('contentList')}
-                    style={[a.pb_2xs]}
-                    additionalCauses={additionalPostAlerts}
-                  />
-                  {richText?.text ? (
-                    <>
-                      <RichText
-                        enableTags
-                        value={richText}
-                        style={[a.flex_1, a.text_md]}
-                        numberOfLines={limitLines ? MAX_POST_LINES : undefined}
-                        authorHandle={post.author.handle}
-                        shouldProxyLinks={true}
-                      />
-                      {limitLines && (
-                        <ShowMoreTextButton
-                          style={[a.text_md]}
-                          onPress={onPressShowMore}
+                  <ContentHider
+                    modui={moderation.ui('contentView')}
+                    ignoreMute
+                    childContainerStyle={[a.pt_sm]}>
+                    <PostAlerts
+                      modui={moderation.ui('contentList')}
+                      style={[a.pb_2xs]}
+                      additionalCauses={additionalPostAlerts}
+                    />
+                    {richText?.text ? (
+                      <>
+                        <RichText
+                          enableTags
+                          value={richText}
+                          style={[a.flex_1, a.text_md]}
+                          numberOfLines={
+                            limitLines ? MAX_POST_LINES : undefined
+                          }
+                          authorHandle={post.author.handle}
+                          shouldProxyLinks={true}
                         />
-                      )}
-                    </>
-                  ) : null}
-                  {post.embed && (
-                    <View style={[a.pb_xs]}>
-                      <Embed
-                        embed={post.embed}
-                        moderation={moderation}
-                        viewContext={PostEmbedViewContext.Feed}
-                      />
-                    </View>
-                  )}
+                        {limitLines && (
+                          <ShowMoreTextButton
+                            style={[a.text_md]}
+                            onPress={onPressShowMore}
+                          />
+                        )}
+                      </>
+                    ) : null}
+                    {post.embed && (
+                      <View style={[a.pb_xs]}>
+                        <Embed
+                          embed={post.embed}
+                          moderation={moderation}
+                          viewContext={PostEmbedViewContext.Feed}
+                        />
+                      </View>
+                    )}
+                  </ContentHider>
                   <PostControls
                     variant="compact"
                     post={postShadow}

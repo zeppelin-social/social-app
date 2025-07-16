@@ -154,7 +154,8 @@ function RecordEmbed({
       // not implemented
       return null
     }
-    case 'post': {
+    case 'post':
+    case 'post_blocked': {
       if (rest.isWithinQuote && !rest.allowNestedQuotes) {
         return null
       }
@@ -177,13 +178,6 @@ function RecordEmbed({
       return (
         <PostPlaceholderText>
           <Trans>Deleted</Trans>
-        </PostPlaceholderText>
-      )
-    }
-    case 'post_blocked': {
-      return (
-        <PostPlaceholderText>
-          <Trans>Blocked</Trans>
         </PostPlaceholderText>
       )
     }
@@ -228,18 +222,43 @@ export function QuoteEmbed({
   isWithinQuote: parentIsWithinQuote,
   allowNestedQuotes: parentAllowNestedQuotes,
 }: Omit<CommonProps, 'viewContext'> & {
-  embed: EmbedType<'post'>
+  embed: EmbedType<'post'> | EmbedType<'post_blocked'>
   viewContext?: QuoteEmbedViewContext
 }) {
+  const record =
+    embed.type === 'post'
+      ? embed.view.value
+      : // FIXME once @zeppelin-social/api is upgraded past 0.15.26
+        (embed.view['social.zeppelin.value']!.record as any)
+  const author =
+    embed.type === 'post'
+      ? embed.view.author
+      : // @ts-expect-error — FIXME this won't error once @zeppelin-social/api is upgraded past 0.15.26
+        embed.view['social.zeppelin.author']
+  const quoteEmbed = embed.type === 'post' ? embed.view.embeds?.[0] : undefined
+  const cid =
+    embed.type === 'post'
+      ? embed.view.cid
+      : // @ts-expect-error — FIXME this won't error once @zeppelin-social/api is upgraded past 0.15.26
+        embed.view['social.zeppelin.cid']
+  const indexedAt =
+    embed.type === 'post'
+      ? embed.view.indexedAt
+      : // @ts-expect-error — FIXME this won't error once @zeppelin-social/api is upgraded past 0.15.26
+        embed.view['social.zeppelin.indexedAt']!
+
   const moderationOpts = useModerationOpts()
   const quote = React.useMemo<$Typed<AppBskyFeedDefs.PostView>>(
     () => ({
-      ...embed.view,
       $type: 'app.bsky.feed.defs#postView',
-      record: embed.view.value,
-      embed: embed.view.embeds?.[0],
+      record,
+      embed: quoteEmbed,
+      uri: embed.view.uri,
+      cid,
+      author,
+      indexedAt,
     }),
-    [embed],
+    [record, author, quoteEmbed, embed, cid, indexedAt],
   )
   const moderation = React.useMemo(() => {
     return moderationOpts ? moderatePost(quote, moderationOpts) : undefined
@@ -274,61 +293,59 @@ export function QuoteEmbed({
   const [hover, setHover] = React.useState(false)
   return (
     <View
-      style={[a.mt_sm]}
+      style={[a.mt_sm, a.rounded_md, a.border, t.atoms.border_contrast_low]}
       onPointerEnter={() => setHover(true)}
       onPointerLeave={() => setHover(false)}>
-      <ContentHider
-        modui={moderation?.ui('contentList')}
-        style={[a.rounded_md, a.border, t.atoms.border_contrast_low, style]}
-        activeStyle={[a.p_md, a.pt_sm]}
-        childContainerStyle={[a.pt_sm]}>
-        {({active}) => (
-          <>
-            {!active && <SubtleWebHover hover={hover} style={[a.rounded_md]} />}
-            <Link
-              style={[!active && a.p_md]}
-              hoverStyle={{borderColor: pal.colors.borderLinkHover}}
-              href={itemHref}
-              title={itemTitle}
-              onBeforePress={onBeforePress}>
-              <View pointerEvents="none">
-                <PostMeta
-                  author={quote.author}
-                  moderation={moderation}
-                  showAvatar
-                  postHref={itemHref}
-                  timestamp={quote.indexedAt}
-                />
-              </View>
-              {moderation ? (
-                <PostAlerts
-                  modui={moderation.ui('contentView')}
-                  style={[a.py_xs]}
-                />
-              ) : null}
-              {richText ? (
-                <RichText
-                  value={richText}
-                  style={a.text_md}
-                  numberOfLines={20}
-                  disableLinks
-                />
-              ) : null}
-              {quote.embed && (
-                <Embed
-                  embed={quote.embed}
-                  moderation={moderation}
-                  isWithinQuote={parentIsWithinQuote ?? true}
-                  // already within quote? override nested
-                  allowNestedQuotes={
-                    parentIsWithinQuote ? false : parentAllowNestedQuotes
-                  }
-                />
-              )}
-            </Link>
-          </>
-        )}
-      </ContentHider>
+      <>
+        <SubtleWebHover hover={hover} style={[a.rounded_md]} />
+        <Link
+          style={[a.p_md]}
+          hoverStyle={{borderColor: pal.colors.borderLinkHover}}
+          href={itemHref}
+          title={itemTitle}
+          onBeforePress={onBeforePress}>
+          <View pointerEvents="none">
+            <PostMeta
+              author={quote.author}
+              moderation={moderation}
+              showAvatar
+              postHref={itemHref}
+              timestamp={quote.indexedAt}
+            />
+          </View>
+          <ContentHider
+            modui={moderation?.ui('contentList')}
+            style={style}
+            activeStyle={[a.pt_sm, a.pb_0]}
+            childContainerStyle={[a.pt_sm]}>
+            {moderation ? (
+              <PostAlerts
+                modui={moderation.ui('contentView')}
+                style={[a.py_xs]}
+              />
+            ) : null}
+            {richText ? (
+              <RichText
+                value={richText}
+                style={a.text_md}
+                numberOfLines={20}
+                disableLinks
+              />
+            ) : null}
+            {quote.embed && (
+              <Embed
+                embed={quote.embed}
+                moderation={moderation}
+                isWithinQuote={parentIsWithinQuote ?? true}
+                // already within quote? override nested
+                allowNestedQuotes={
+                  parentIsWithinQuote ? false : parentAllowNestedQuotes
+                }
+              />
+            )}
+          </ContentHider>
+        </Link>
+      </>
     </View>
   )
 }
