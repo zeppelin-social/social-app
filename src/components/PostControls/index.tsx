@@ -15,6 +15,7 @@ import {useHaptics} from '#/lib/haptics'
 import {useOpenComposer} from '#/lib/hooks/useOpenComposer'
 import {type Shadow} from '#/state/cache/types'
 import {useFeedFeedbackContext} from '#/state/feed-feedback'
+import {useOverrideHide} from '#/state/preferences/override-hide'
 import {
   usePostLikeMutationQueue,
   usePostRepostMutationQueue,
@@ -86,17 +87,19 @@ let PostControls = ({
   const {sendInteraction} = useFeedFeedbackContext()
   const {captureAction} = useProgressGuideControls()
   const playHaptic = useHaptics()
+  const overrideHide = useOverrideHide()
+
   const isBlocked = Boolean(
     post.author.viewer?.blocking ||
       post.author.viewer?.blockedBy ||
       post.author.viewer?.blockingByList,
   )
-  const replyDisabled = post.viewer?.replyDisabled
+  const replyDisabled = overrideHide ? false : post.viewer?.replyDisabled
 
   const [hasLikeIconBeenToggled, setHasLikeIconBeenToggled] = useState(false)
 
   const onPressToggleLike = async () => {
-    if (isBlocked) {
+    if (isBlocked && !overrideHide) {
       Toast.show(
         _(msg`Cannot interact with a blocked user`),
         'exclamation-circle',
@@ -127,7 +130,7 @@ let PostControls = ({
   }
 
   const onRepost = async () => {
-    if (isBlocked) {
+    if (isBlocked && !overrideHide) {
       Toast.show(
         _(msg`Cannot interact with a blocked user`),
         'exclamation-circle',
@@ -155,7 +158,7 @@ let PostControls = ({
   }
 
   const onQuote = () => {
-    if (isBlocked) {
+    if (isBlocked && !overrideHide) {
       Toast.show(
         _(msg`Cannot interact with a blocked user`),
         'exclamation-circle',
@@ -229,7 +232,9 @@ let PostControls = ({
           onRepost={onRepost}
           onQuote={onQuote}
           big={big}
-          embeddingDisabled={Boolean(post.viewer?.embeddingDisabled)}
+          embeddingDisabled={
+            overrideHide ? false : Boolean(post.viewer?.embeddingDisabled)
+          }
         />
       </View>
       <View style={big ? a.align_center : [a.flex_1, a.align_start]}>
