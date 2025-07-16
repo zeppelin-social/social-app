@@ -70,7 +70,14 @@ export function sortAndAnnotateThreadItems(
       } else if (AppBskyUnspeccedDefs.isThreadItemNotFound(item.value)) {
         threadItems.push(views.threadPostNotFound(item))
       } else if (AppBskyUnspeccedDefs.isThreadItemBlocked(item.value)) {
-        threadItems.push(views.threadPostBlocked(item))
+        threadItems.push(
+          views.threadPostBlocked({
+            uri: item.uri,
+            depth: item.depth,
+            value: item.value,
+            moderationOpts,
+          }),
+        )
       } else if (AppBskyUnspeccedDefs.isThreadItemPost(item.value)) {
         const post = views.threadPost({
           uri: item.uri,
@@ -101,7 +108,14 @@ export function sortAndAnnotateThreadItems(
             threadItems.unshift(views.threadPostNotFound(parent))
             break parentTraversal
           } else if (AppBskyUnspeccedDefs.isThreadItemBlocked(parent.value)) {
-            threadItems.unshift(views.threadPostBlocked(parent))
+            threadItems.unshift(
+              views.threadPostBlocked({
+                uri: parent.uri,
+                depth: parent.depth,
+                value: parent.value,
+                moderationOpts,
+              }),
+            )
             break parentTraversal
           } else if (AppBskyUnspeccedDefs.isThreadItemPost(parent.value)) {
             threadItems.unshift(

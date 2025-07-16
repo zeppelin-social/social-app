@@ -45,7 +45,7 @@ import {SubtleWebHover} from '#/components/SubtleWebHover'
 import {Text} from '#/components/Typography'
 
 export type ThreadItemPostProps = {
-  item: Extract<ThreadItem, {type: 'threadPost'}>
+  item: Extract<ThreadItem, {type: 'threadPost' | 'threadPostBlocked'}>
   overrides?: {
     moderation?: boolean
     topBorder?: boolean

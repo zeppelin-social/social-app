@@ -77,10 +77,13 @@ export function PostHider({
     )
   }
 
+  // FIXME the startsWith check can be removed once @zeppelin-social/api is upgraded past 0.15.26
+  const noOverride = blur?.type.startsWith('block') ? false : modui.noOverride
+
   return !override ? (
     <Pressable
       onPress={() => {
-        if (!modui.noOverride) {
+        if (!noOverride) {
           setOverride(v => !v)
         }
       }}
@@ -129,7 +132,7 @@ export function PostHider({
         numberOfLines={1}>
         {desc.name}
       </Text>
-      {!modui.noOverride && (
+      {!noOverride && (
         <Text style={[{color: t.palette.primary_500}]}>
           {override ? <Trans>Hide</Trans> : <Trans>Show</Trans>}
         </Text>
