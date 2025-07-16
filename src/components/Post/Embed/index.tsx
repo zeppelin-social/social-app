@@ -222,7 +222,8 @@ export function QuoteEmbed({
   const record =
     embed.type === 'post'
       ? embed.view.value
-      : embed.view['social.zeppelin.value']!
+      : // FIXME once @zeppelin-social/api is upgraded past 0.15.26
+        (embed.view['social.zeppelin.value']!.record as any)
   const author =
     embed.type === 'post'
       ? embed.view.author

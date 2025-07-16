@@ -10,6 +10,7 @@ import {getDefinition, getLabelStrings} from '#/lib/moderation/useLabelInfo'
 import {useModerationCauseDescription} from '#/lib/moderation/useModerationCauseDescription'
 import {sanitizeDisplayName} from '#/lib/strings/display-names'
 import {useLabelDefinitions} from '#/state/preferences'
+import {useOverrideHide} from '#/state/preferences/override-hide'
 import {atoms as a, useBreakpoints, useTheme, web} from '#/alf'
 import {Button} from '#/components/Button'
 import {
@@ -76,6 +77,7 @@ function ContentHiderActive({
   const {i18n} = useLingui()
   const blur = modui?.blurs[0]
   const desc = useModerationCauseDescription(blur)
+  const overrideSetting = useOverrideHide()
 
   const labelName = React.useMemo(() => {
     if (!modui?.blurs || !blur) {
@@ -132,6 +134,8 @@ function ContentHiderActive({
     globalLabelStrings,
   ])
 
+  const noOverride = overrideSetting ? false : modui.noOverride
+
   return (
     <View testID={testID} style={[a.overflow_hidden, style]}>
       <ModerationDetailsDialog control={control} modcause={blur} />
@@ -140,7 +144,7 @@ function ContentHiderActive({
         onPress={e => {
           e.preventDefault()
           e.stopPropagation()
-          if (!modui.noOverride) {
+          if (!noOverride) {
             setOverride(v => !v)
           } else {
             control.open()
@@ -148,7 +152,7 @@ function ContentHiderActive({
         }}
         label={desc.name}
         accessibilityHint={
-          modui.noOverride
+          noOverride
             ? _(msg`Learn more about the moderation applied to this content`)
             : override
               ? _(msg`Hides the content`)
@@ -189,7 +193,7 @@ function ContentHiderActive({
               numberOfLines={2}>
               {labelName}
             </Text>
-            {!modui.noOverride && (
+            {!noOverride && (
               <Text
                 style={[
                   a.font_bold,
