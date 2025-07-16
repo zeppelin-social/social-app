@@ -58,7 +58,10 @@ export function PostThread({uri}: {uri: string}) {
     // eslint-disable-next-line @typescript-eslint/no-shadow
     let hasParents = false
     for (const item of thread.data.items) {
-      if (item.type === 'threadPost' && item.depth === 0) {
+      if (
+        (item.type === 'threadPost' || item.type === 'threadPostBlocked') &&
+        item.depth === 0
+      ) {
         return {anchor: item, hasParents}
       }
       hasParents = true

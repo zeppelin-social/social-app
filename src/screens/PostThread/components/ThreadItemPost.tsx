@@ -32,6 +32,7 @@ import {
 import {atoms as a, useTheme} from '#/alf'
 import {useInteractionState} from '#/components/hooks/useInteractionState'
 import {Trash_Stroke2_Corner0_Rounded as TrashIcon} from '#/components/icons/Trash'
+import {ContentHider} from '#/components/moderation/ContentHider'
 import {LabelsOnMyPost} from '#/components/moderation/LabelsOnMe'
 import {PostAlerts} from '#/components/moderation/PostAlerts'
 import {PostHider} from '#/components/moderation/PostHider'
@@ -294,38 +295,43 @@ const ThreadItemPostInner = memo(function ThreadItemPostInner({
                 style={[a.pb_xs]}
               />
               <LabelsOnMyPost post={post} style={[a.pb_xs]} />
-              <PostAlerts
-                modui={moderation.ui('contentList')}
-                style={[a.pb_2xs]}
-                additionalCauses={additionalPostAlerts}
-              />
-              {richText?.text ? (
-                <>
-                  <RichText
-                    enableTags
-                    value={richText}
-                    style={[a.flex_1, a.text_md]}
-                    numberOfLines={limitLines ? MAX_POST_LINES : undefined}
-                    authorHandle={post.author.handle}
-                    shouldProxyLinks={true}
-                  />
-                  {limitLines && (
-                    <ShowMoreTextButton
-                      style={[a.text_md]}
-                      onPress={onPressShowMore}
+              <ContentHider
+                modui={moderation.ui('contentView')}
+                ignoreMute
+                childContainerStyle={[a.pt_sm]}>
+                <PostAlerts
+                  modui={moderation.ui('contentList')}
+                  style={[a.pb_2xs]}
+                  additionalCauses={additionalPostAlerts}
+                />
+                {richText?.text ? (
+                  <>
+                    <RichText
+                      enableTags
+                      value={richText}
+                      style={[a.flex_1, a.text_md]}
+                      numberOfLines={limitLines ? MAX_POST_LINES : undefined}
+                      authorHandle={post.author.handle}
+                      shouldProxyLinks={true}
                     />
-                  )}
-                </>
-              ) : undefined}
-              {post.embed && (
-                <View style={[a.pb_xs]}>
-                  <Embed
-                    embed={post.embed}
-                    moderation={moderation}
-                    viewContext={PostEmbedViewContext.Feed}
-                  />
-                </View>
-              )}
+                    {limitLines && (
+                      <ShowMoreTextButton
+                        style={[a.text_md]}
+                        onPress={onPressShowMore}
+                      />
+                    )}
+                  </>
+                ) : undefined}
+                {post.embed && (
+                  <View style={[a.pb_xs]}>
+                    <Embed
+                      embed={post.embed}
+                      moderation={moderation}
+                      viewContext={PostEmbedViewContext.Feed}
+                    />
+                  </View>
+                )}
+              </ContentHider>
               <PostControls
                 post={postShadow}
                 record={record}
