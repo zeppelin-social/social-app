@@ -85,7 +85,25 @@ export type ThreadItem =
       key: string
       uri: string
       depth: number
-      value: AppBskyUnspeccedDefs.ThreadItemBlocked
+      value: Omit<
+        AppBskyUnspeccedDefs.ThreadItemBlocked,
+        'social.zeppelin.post'
+      > & {
+        post: Omit<AppBskyFeedDefs.PostView, 'record'> & {
+          record: AppBskyFeedPost.Record
+        }
+      }
+      isBlurred: boolean
+      moderation: ModerationDecision
+      ui: {
+        isAnchor: boolean
+        showParentReplyLine: boolean
+        showChildReplyLine: boolean
+        indent: number
+        isLastChild: boolean
+        skippedIndentIndices: Set<number>
+        precedesChildReadMore: boolean
+      }
     }
   | {
       type: 'replyComposer'
