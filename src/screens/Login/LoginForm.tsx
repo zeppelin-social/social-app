@@ -51,7 +51,7 @@ export const LoginForm = ({
   isResolvingService,
 }: {
   error: string
-  serviceUrl: string
+  serviceUrl: string | undefined
   serviceDescription: ServiceDescription | undefined
   initialHandle: string
   setError: (v: string) => void
@@ -101,6 +101,11 @@ export const LoginForm = ({
 
     if (!password) {
       setError(_(msg`Please enter your password`))
+      return
+    }
+
+    if (!serviceUrl) {
+      setError(_(msg`Please enter hosting provider URL`))
       return
     }
 
@@ -345,9 +350,9 @@ export const LoginForm = ({
               <Trans>Retry</Trans>
             </ButtonText>
           </Button>
-        ) : !serviceDescription ? (
+        ) : !serviceDescription && serviceUrl != null ? (
           <>
-            <ActivityIndicator />
+            <ActivityIndicator color={t.palette.contrast_500} />
             <Text style={[t.atoms.text_contrast_high, a.pl_md]}>
               <Trans>Connecting...</Trans>
             </Text>

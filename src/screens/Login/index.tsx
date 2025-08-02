@@ -43,8 +43,8 @@ export const Login = ({onPressBack}: {onPressBack: () => void}) => {
 
   const [isResolvingService, setIsResolvingService] = React.useState(false)
   const [error, setError] = React.useState<string>('')
-  const [serviceUrl, setServiceUrl] = React.useState<string>(
-    requestedAccount?.service || DEFAULT_SERVICE,
+  const [serviceUrl, setServiceUrl] = React.useState<string | undefined>(
+    requestedAccount?.service,
   )
   const [initialHandle, setInitialHandle] = React.useState<string>(
     requestedAccount?.handle || '',
@@ -61,7 +61,7 @@ export const Login = ({onPressBack}: {onPressBack: () => void}) => {
     data: serviceDescription,
     error: serviceError,
     refetch: refetchService,
-  } = useServiceQuery(serviceUrl)
+  } = useServiceQuery(serviceUrl ?? '')
 
   const onSelectAccount = (account?: SessionAccount) => {
     if (account?.service) {
@@ -159,23 +159,23 @@ export const Login = ({onPressBack}: {onPressBack: () => void}) => {
       title = _(msg`Sign in`)
       description = _(msg`Enter your username and password`)
       content = (
-          <LoginForm
-            error={error}
-            serviceUrl={serviceUrl}
-            serviceDescription={serviceDescription}
-            initialHandle={initialHandle}
-            setError={setError}
-            onAttemptFailed={onAttemptFailed}
-            onAttemptSuccess={onAttemptSuccess}
-            setServiceUrl={setServiceUrl}
-            onPressBack={() =>
-              accounts.length ? gotoForm(Forms.ChooseAccount) : handlePressBack()
-            }
-            onPressForgotPassword={onPressForgotPassword}
-            onPressRetryConnect={refetchService}
-            debouncedResolveService={debouncedResolveService}
-            isResolvingService={isResolvingService}
-          />
+        <LoginForm
+          error={error}
+          serviceUrl={serviceUrl}
+          serviceDescription={serviceDescription}
+          initialHandle={initialHandle}
+          setError={setError}
+          onAttemptFailed={onAttemptFailed}
+          onAttemptSuccess={onAttemptSuccess}
+          setServiceUrl={setServiceUrl}
+          onPressBack={() =>
+            accounts.length ? gotoForm(Forms.ChooseAccount) : handlePressBack()
+          }
+          onPressForgotPassword={onPressForgotPassword}
+          onPressRetryConnect={refetchService}
+          debouncedResolveService={debouncedResolveService}
+          isResolvingService={isResolvingService}
+        />
       )
       break
     case Forms.ChooseAccount:
@@ -194,7 +194,7 @@ export const Login = ({onPressBack}: {onPressBack: () => void}) => {
       content = (
         <ForgotPasswordForm
           error={error}
-          serviceUrl={serviceUrl}
+          serviceUrl={serviceUrl ?? DEFAULT_SERVICE}
           serviceDescription={serviceDescription}
           setError={setError}
           setServiceUrl={setServiceUrl}
@@ -209,7 +209,7 @@ export const Login = ({onPressBack}: {onPressBack: () => void}) => {
       content = (
         <SetNewPasswordForm
           error={error}
-          serviceUrl={serviceUrl}
+          serviceUrl={serviceUrl ?? DEFAULT_SERVICE}
           setError={setError}
           onPressBack={() => gotoForm(Forms.ForgotPassword)}
           onPasswordSet={() => gotoForm(Forms.PasswordUpdated)}
