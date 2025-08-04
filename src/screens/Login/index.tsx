@@ -98,7 +98,7 @@ export const Login = ({onPressBack}: {onPressBack: () => void}) => {
 
       try {
         const getDid = async () => {
-          if (identifier.startsWith('did')) return identifier
+          if (identifier.startsWith('did:')) return identifier
           else
             return (
               await agent.resolveHandle({

@@ -18,7 +18,7 @@ export function HostingProvider({
   onOpenDialog,
   minimal,
 }: {
-  serviceUrl: string | undefined
+  serviceUrl?: string | undefined
   onSelectServiceUrl: (provider: string) => void
   onOpenDialog?: () => void
   minimal?: boolean
@@ -27,7 +27,7 @@ export function HostingProvider({
   const t = useTheme()
   const {_} = useLingui()
   const serviceProviderLabel =
-    serviceUrl == null ? _(msg`Automatic`) : toNiceDomain(serviceUrl)
+    serviceUrl === undefined ? _(msg`Automatic`) : toNiceDomain(serviceUrl)
 
   const onPressSelectService = React.useCallback(() => {
     Keyboard.dismiss()

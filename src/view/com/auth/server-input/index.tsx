@@ -39,7 +39,7 @@ export function ServerInputDialog({
       }
     }
     logEvent('signin:hostingProviderPressed', {
-      hostingProviderDidChange: false, // not sure exactly what to put here
+      hostingProviderDidChange: false, // stubbed for PDS auto-resolution
     })
   }, [onSelect])
 
@@ -80,8 +80,7 @@ function DialogInner({
     formRef,
     () => ({
       getFormState: () => {
-        let url
-        url = customAddress.trim().toLowerCase()
+        let url = customAddress.trim().toLowerCase()
         if (!url) {
           return null
         }

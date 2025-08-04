@@ -51,7 +51,7 @@ export const LoginForm = ({
   isResolvingService,
 }: {
   error: string
-  serviceUrl: string | undefined
+  serviceUrl?: string | undefined
   serviceDescription: ServiceDescription | undefined
   initialHandle: string
   setError: (v: string) => void
@@ -225,8 +225,13 @@ export const LoginForm = ({
               onChangeText={v => {
                 identifierValueRef.current = v
                 // Trigger PDS auto-resolution for handles/DIDs
-                if (v.trim() && (v.includes('.') || v.startsWith('did:'))) {
-                  debouncedResolveService(v.trim())
+                const id = v.trim()
+                if (!id) return
+                if (
+                  id.startsWith('did:') ||
+                  (id.includes('.') && !id.includes('@'))
+                ) {
+                  debouncedResolveService(id)
                 }
               }}
               onSubmitEditing={() => {
@@ -350,7 +355,7 @@ export const LoginForm = ({
               <Trans>Retry</Trans>
             </ButtonText>
           </Button>
-        ) : !serviceDescription && serviceUrl != null ? (
+        ) : !serviceDescription && serviceUrl !== undefined ? (
           <>
             <ActivityIndicator color={t.palette.contrast_500} />
             <Text style={[t.atoms.text_contrast_high, a.pl_md]}>
