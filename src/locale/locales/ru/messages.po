@@ -113,6 +113,7 @@ msgid "{0, plural, one {quote} other {quotes}}"
 msgstr "{0, plural, one {цитирование} few {цитирования} other {цитирований}}"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:445
+#: src/view/com/posts/PostFeedItemCarousel.tsx:63
 msgid "{0, plural, one {repost} other {reposts}}"
 msgstr "{0, plural, one {репост} few {репоста} other {репостов}}"
 
@@ -221,7 +222,7 @@ msgstr "{0}м"
 msgid "{0}s"
 msgstr "{0}с"
 
-#: src/view/shell/desktop/LeftNav.tsx:455
+#: src/view/shell/desktop/LeftNav.tsx:457
 msgid "{count, plural, one {# unread item} other {# unread items}}"
 msgstr "{count,  plural, one {# непрочитанный элемент} other {# непрочитанных элементов}}"
 
@@ -445,7 +446,7 @@ msgstr "{rank}."
 msgid "{type}h ago"
 msgstr "{type}ч. назад"
 
-#: src/components/verification/VerifierDialog.tsx:60
+#: src/components/verification/VerifierDialog.tsx:61
 msgid "{userName} is a trusted verifier"
 msgstr "{userName} — доверенный верификатор"
 
@@ -506,7 +507,7 @@ msgstr "<0>Войдите в свой аккаунт</0><1> или </1><2>соз
 msgid "<0>You</0> and<1> </1><2>{0} </2>are included in your starter pack"
 msgstr "<0>Вы</0> и<1> </1><2>{0} </2> включены в ваш стартовый набор"
 
-#: src/screens/Profile/Header/Handle.tsx:57
+#: src/screens/Profile/Header/Handle.tsx:61
 msgid "⚠Invalid Handle"
 msgstr "⚠Недопустимый псевдоним"
 
@@ -514,7 +515,7 @@ msgstr "⚠Недопустимый псевдоним"
 msgid "24 hours"
 msgstr "24 часа"
 
-#: src/screens/Login/LoginForm.tsx:268
+#: src/screens/Login/LoginForm.tsx:293
 msgid "2FA Confirmation"
 msgstr "Подтверждение 2FA"
 
@@ -552,10 +553,10 @@ msgstr ""
 msgid "A screenshot of a profile page with a bell icon next to the follow button, indicating the new activity notifications feature."
 msgstr "Скриншот страницы профиля со значком колокольчика рядом с кнопкой \"Подписаться\", указывающей на новую функцию уведомлений об активности."
 
-#: src/Navigation.tsx:524
-#: src/screens/Settings/AboutSettings.tsx:75
-#: src/screens/Settings/Settings.tsx:244
-#: src/screens/Settings/Settings.tsx:247
+#: src/Navigation.tsx:533
+#: src/screens/Settings/AboutSettings.tsx:73
+#: src/screens/Settings/Settings.tsx:251
+#: src/screens/Settings/Settings.tsx:254
 msgid "About"
 msgstr "Описание"
 
@@ -574,37 +575,37 @@ msgid "Accept Request"
 msgstr "Принять запрос"
 
 #: src/screens/Settings/AccessibilitySettings.tsx:44
-#: src/screens/Settings/Settings.tsx:220
-#: src/screens/Settings/Settings.tsx:223
+#: src/screens/Settings/Settings.tsx:227
+#: src/screens/Settings/Settings.tsx:230
 msgid "Accessibility"
 msgstr "Доступность"
 
-#: src/Navigation.tsx:383
+#: src/Navigation.tsx:384
 msgid "Accessibility Settings"
 msgstr "Настройки Доступности"
 
-#: src/Navigation.tsx:399
-#: src/screens/Login/LoginForm.tsx:194
+#: src/Navigation.tsx:408
+#: src/screens/Login/LoginForm.tsx:210
 #: src/screens/Settings/AccountSettings.tsx:51
-#: src/screens/Settings/Settings.tsx:174
-#: src/screens/Settings/Settings.tsx:177
+#: src/screens/Settings/Settings.tsx:175
+#: src/screens/Settings/Settings.tsx:178
 msgid "Account"
 msgstr "Учётная запись"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:361
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:406
 #: src/screens/Messages/components/RequestButtons.tsx:91
-#: src/view/com/profile/ProfileMenu.tsx:161
+#: src/view/com/profile/ProfileMenu.tsx:176
 msgctxt "toast"
 msgid "Account blocked"
 msgstr "Учётная запись заблокирована"
 
-#: src/view/com/profile/ProfileMenu.tsx:174
+#: src/view/com/profile/ProfileMenu.tsx:189
 msgctxt "toast"
 msgid "Account followed"
 msgstr "Вы подписались на учётную запись"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:384
-#: src/view/com/profile/ProfileMenu.tsx:137
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:429
+#: src/view/com/profile/ProfileMenu.tsx:152
 msgctxt "toast"
 msgid "Account muted"
 msgstr "Учётная запись игнорируется"
@@ -618,34 +619,34 @@ msgstr "Учётная запись игнорируется"
 msgid "Account Muted by List"
 msgstr "Учётная запись игнорируется списком"
 
-#: src/screens/Settings/Settings.tsx:624
+#: src/screens/Settings/Settings.tsx:631
 msgid "Account options"
 msgstr "Параметры учётной записи"
 
-#: src/screens/Settings/Settings.tsx:660
+#: src/screens/Settings/Settings.tsx:667
 msgid "Account removed from quick access"
 msgstr "Учётная запись удалена из быстрого доступа"
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:132
-#: src/view/com/profile/ProfileMenu.tsx:151
+#: src/view/com/profile/ProfileMenu.tsx:166
 msgctxt "toast"
 msgid "Account unblocked"
 msgstr "Учётная запись разблокирована"
 
-#: src/view/com/profile/ProfileMenu.tsx:186
+#: src/view/com/profile/ProfileMenu.tsx:201
 msgctxt "toast"
 msgid "Account unfollowed"
 msgstr "Вы отписались от учётной записи"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:374
-#: src/view/com/profile/ProfileMenu.tsx:127
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:419
+#: src/view/com/profile/ProfileMenu.tsx:142
 msgctxt "toast"
 msgid "Account unmuted"
 msgstr "Учётная запись больше не игнорируется"
 
-#: src/components/verification/VerifierDialog.tsx:96
-msgid "Accounts with a scalloped blue check mark <0><1/></0> can verify others. These trusted verifiers are selected by Bluesky."
-msgstr "Учётные записи с фигурной синей галочкой <0><1/></0> могут верифицировать другие учётные записи. Эти доверенные верификаторы выбраны Bluesky."
+#: src/components/verification/VerifierDialog.tsx:101
+msgid "Accounts with a scalloped blue check mark <0><1/></0> can verify others. These trusted verifiers are selected by {0}."
+msgstr ""
 
 #: src/lib/hooks/useNotificationHandler.ts:182
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:102
@@ -653,7 +654,7 @@ msgstr "Учётные записи с фигурной синей галочк�
 msgid "Activity from others"
 msgstr "Активность от других"
 
-#: src/Navigation.tsx:492
+#: src/Navigation.tsx:501
 msgid "Activity notifications"
 msgstr "Уведомления от активностей"
 
@@ -706,8 +707,8 @@ msgstr "Добавить альтернативный текст"
 msgid "Add alt text (optional)"
 msgstr "Добавьте альтернативный текст (необязательно)"
 
-#: src/screens/Settings/Settings.tsx:564
-#: src/screens/Settings/Settings.tsx:567
+#: src/screens/Settings/Settings.tsx:571
+#: src/screens/Settings/Settings.tsx:574
 #: src/view/shell/desktop/LeftNav.tsx:262
 #: src/view/shell/desktop/LeftNav.tsx:266
 msgid "Add another account"
@@ -786,8 +787,8 @@ msgstr "Добавьте следующую DNS-запись к вашему д�
 msgid "Add this feed to your feeds"
 msgstr "Добавьте эту ленту в свои ленты"
 
-#: src/view/com/profile/ProfileMenu.tsx:317
-#: src/view/com/profile/ProfileMenu.tsx:320
+#: src/view/com/profile/ProfileMenu.tsx:332
+#: src/view/com/profile/ProfileMenu.tsx:335
 msgid "Add to lists"
 msgstr "Добавить в списки"
 
@@ -796,8 +797,8 @@ msgid "Add to saved posts"
 msgstr ""
 
 #: src/components/dialogs/StarterPackDialog.tsx:176
-#: src/view/com/profile/ProfileMenu.tsx:308
-#: src/view/com/profile/ProfileMenu.tsx:311
+#: src/view/com/profile/ProfileMenu.tsx:323
+#: src/view/com/profile/ProfileMenu.tsx:326
 msgid "Add to starter packs"
 msgstr ""
 
@@ -826,7 +827,7 @@ msgstr "Дополнительные сведения (до 300 символов
 msgid "Adult"
 msgstr "Для взрослых"
 
-#: src/components/moderation/ContentHider.tsx:116
+#: src/components/moderation/ContentHider.tsx:118
 #: src/lib/moderation/useGlobalLabelStrings.ts:34
 #: src/lib/moderation/useModerationCauseDescription.ts:148
 #: src/view/com/composer/labels/LabelsBtn.tsx:127
@@ -912,13 +913,18 @@ msgstr "Разрешить новые сообщения от"
 msgid "Allow others to be notified of your posts"
 msgstr "Разрешить уведомлять других пользователей о ваших постах"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:348
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:344
 msgid "Allow quote posts"
 msgstr "Разрешить цитировать посты"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:393
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:390
 msgid "Allow replies from:"
 msgstr "Разрешить ответы от:"
+
+#: src/screens/Settings/DeerSettings.tsx:352
+#: src/screens/Settings/DeerSettings.tsx:357
+msgid "Allow visibility through hidden content"
+msgstr ""
 
 #: src/screens/Settings/AppPasswords.tsx:200
 msgid "Allows access to direct messages"
@@ -1022,7 +1028,7 @@ msgid "An illustration of several Bluesky posts alongside repost, like, and comm
 msgstr ""
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:84
-#: src/components/verification/VerifierDialog.tsx:86
+#: src/components/verification/VerifierDialog.tsx:90
 msgid "An illustration showing that Bluesky selects trusted verifiers, and trusted verifiers in turn verify individual user accounts."
 msgstr "Иллюстрация, показывающая, что Bluesky выбирает доверенных верификаторов, а те, в свою очередь, верифицируют учётные записи индивидуальных пользователей."
 
@@ -1098,12 +1104,16 @@ msgstr "Любой может взаимодействовать"
 msgid "Anyone who follows me"
 msgstr "Любой, кто подписан на меня"
 
-#: src/Navigation.tsx:532
+#: src/Navigation.tsx:541
 #: src/screens/Settings/AppIconSettings/index.tsx:67
 #: src/screens/Settings/AppIconSettings/SettingsListItem.tsx:18
 #: src/screens/Settings/AppIconSettings/SettingsListItem.tsx:23
 msgid "App Icon"
 msgstr "Иконка приложения"
+
+#: src/screens/Settings/DeerSettings.tsx:492
+msgid "App labelers are mandatory top-level labelers that can perform \"takedowns\". This setting does not influence geolocation based labelers."
+msgstr ""
 
 #: src/screens/Settings/LanguageSettings.tsx:87
 msgid "App Language"
@@ -1135,7 +1145,7 @@ msgstr "Имена паролей приложений должны состоя
 msgid "App passwords"
 msgstr "Пароли приложений"
 
-#: src/Navigation.tsx:351
+#: src/Navigation.tsx:352
 #: src/screens/Settings/AppPasswords.tsx:51
 msgid "App Passwords"
 msgstr "Пароли приложений"
@@ -1171,10 +1181,10 @@ msgstr "Обжаловать приостановку"
 msgid "Appeal this decision"
 msgstr "Обжаловать это решение"
 
-#: src/Navigation.tsx:391
+#: src/Navigation.tsx:400
 #: src/screens/Settings/AppearanceSettings.tsx:86
-#: src/screens/Settings/Settings.tsx:212
-#: src/screens/Settings/Settings.tsx:215
+#: src/screens/Settings/Settings.tsx:213
+#: src/screens/Settings/Settings.tsx:216
 msgid "Appearance"
 msgstr "Оформление"
 
@@ -1183,17 +1193,17 @@ msgstr "Оформление"
 msgid "Apply default recommended feeds"
 msgstr "Применить рекомендуемые по умолчанию ленты"
 
-#: src/screens/Settings/Settings.tsx:498
-#: src/screens/Settings/Settings.tsx:500
+#: src/screens/Settings/Settings.tsx:505
+#: src/screens/Settings/Settings.tsx:507
 msgid "Apply Pull Request"
 msgstr ""
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:665
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:668
 msgid "Archived from {0}"
 msgstr "Архивный пост от {0}"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:634
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:673
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:637
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:676
 msgid "Archived post"
 msgstr "Архивный пост"
 
@@ -1254,8 +1264,8 @@ msgstr "Художественная или неэротическая обна�
 msgid "As a small team, we cannot justify building the expensive infrastructure this requirement demands while legal challenges to this law are pending."
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:497
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:499
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:572
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:574
 msgid "Assign topic for algo"
 msgstr "Назначьте тему для алгоритма"
 
@@ -1263,10 +1273,13 @@ msgstr "Назначьте тему для алгоритма"
 msgid "At least 8 characters"
 msgstr "Как минимум 8 символов"
 
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:58
-msgctxt "Name of app icon variant"
-msgid "Aurora"
-msgstr "Аврора"
+#: src/screens/Signup/StepInfo/index.tsx:176
+msgid "ATmosphere"
+msgstr ""
+
+#: src/components/forms/HostingProvider.tsx:30
+msgid "Automatic"
+msgstr ""
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:116
 #: src/screens/Settings/ContentAndMediaSettings.tsx:122
@@ -1284,8 +1297,8 @@ msgstr "Доступен"
 #: src/screens/Login/ChooseAccountForm.tsx:95
 #: src/screens/Login/ForgotPasswordForm.tsx:123
 #: src/screens/Login/ForgotPasswordForm.tsx:129
-#: src/screens/Login/LoginForm.tsx:310
-#: src/screens/Login/LoginForm.tsx:316
+#: src/screens/Login/LoginForm.tsx:335
+#: src/screens/Login/LoginForm.tsx:341
 #: src/screens/Login/SetNewPasswordForm.tsx:168
 #: src/screens/Login/SetNewPasswordForm.tsx:174
 #: src/screens/Messages/components/ChatDisabled.tsx:140
@@ -1349,25 +1362,25 @@ msgstr "Начните процесс проверки возраста, зап�
 msgid "Birthday"
 msgstr "Дата рождения"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:760
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:823
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:328
-#: src/view/com/profile/ProfileMenu.tsx:490
+#: src/view/com/profile/ProfileMenu.tsx:530
 msgid "Block"
 msgstr "Заблокировать"
 
 #: src/components/dms/ConvoMenu.tsx:247
 #: src/components/dms/ConvoMenu.tsx:250
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:645
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:647
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:708
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:710
 #: src/screens/Messages/components/RequestButtons.tsx:144
 #: src/screens/Messages/components/RequestButtons.tsx:146
-#: src/view/com/profile/ProfileMenu.tsx:396
-#: src/view/com/profile/ProfileMenu.tsx:403
+#: src/view/com/profile/ProfileMenu.tsx:436
+#: src/view/com/profile/ProfileMenu.tsx:443
 msgid "Block account"
 msgstr "Заблокировать"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:755
-#: src/view/com/profile/ProfileMenu.tsx:473
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:818
+#: src/view/com/profile/ProfileMenu.tsx:513
 msgid "Block Account?"
 msgstr "Заблокировать учётную запись?"
 
@@ -1404,21 +1417,17 @@ msgstr "Заблокировать пользователя"
 msgid "Block User"
 msgstr "Заблокировать пользователя"
 
-#: src/components/Post/Embed/index.tsx:186
-msgid "Blocked"
-msgstr "Заблокировано"
-
 #: src/screens/Moderation/index.tsx:301
 msgid "Blocked accounts"
 msgstr "Заблокированные учётные записи"
 
-#: src/Navigation.tsx:192
+#: src/Navigation.tsx:193
 #: src/view/screens/ModerationBlockedAccounts.tsx:104
 msgid "Blocked Accounts"
 msgstr "Заблокированные учётные записи"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:757
-#: src/view/com/profile/ProfileMenu.tsx:485
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:820
+#: src/view/com/profile/ProfileMenu.tsx:525
 msgid "Blocked accounts cannot reply in your threads, mention you, or otherwise interact with you."
 msgstr "Заблокированные учётные записи не могут вам отвечать, упоминать вас в своих постах, и взаимодействовать с вами каким-либо другим образом."
 
@@ -1434,33 +1443,19 @@ msgstr "Блокировка не мешает этому маркировщик
 msgid "Blocking is public. Blocked accounts cannot reply in your threads, mention you, or otherwise interact with you."
 msgstr "Блокировка - это открытая информация. Заблокированные учётные записи не могут отвечать в ваших постах, упоминать вас или иным образом взаимодействовать с вами."
 
-#: src/view/com/profile/ProfileMenu.tsx:482
+#: src/view/com/profile/ProfileMenu.tsx:522
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
 msgstr "Блокировка не помешает добавлять метки на вашу учётную запись, но она остановит возможность этой учётной записи комментировать ваши посты или взаимодействовать с вами."
 
-#: src/view/com/auth/SplashScreen.web.tsx:175
-msgid "Blog"
-msgstr "Блог"
-
-#: src/view/com/auth/server-input/index.tsx:136
-#: src/view/com/auth/server-input/index.tsx:137
-msgid "Bluesky"
-msgstr "Bluesky"
-
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:690
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:693
 msgid "Bluesky cannot confirm the authenticity of the claimed date."
 msgstr "Bluesky не может подтвердить подлинность заявленной даты."
 
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:175
-msgctxt "Name of app icon variant"
-msgid "Bluesky Classic™"
-msgstr "Bluesky Classic™"
-
-#: src/view/com/auth/server-input/index.tsx:212
+#: src/view/com/auth/server-input/index.tsx:181
 msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
 msgstr "Bluesky - это открытая сеть, где вы можете выбрать хостинг-провайдера. Если вы разработчик, вы можете создать свой собственный сервер."
 
-#: src/view/com/auth/server-input/index.tsx:149
+#: src/view/com/auth/server-input/index.tsx:120
 msgid "Bluesky is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default Bluesky Social option."
 msgstr "Bluesky - это открытая сеть, где вы можете сами выбирать провайдера. Если вы впервые здесь, мы рекомендуем выбрать Bluesky Social по умолчанию."
 
@@ -1556,9 +1551,9 @@ msgstr "Просмотреть тему {0}"
 msgid "Browse topic {displayName}"
 msgstr "Просмотреть тему {displayName}"
 
-#: src/view/com/auth/SplashScreen.web.tsx:170
-msgid "Business"
-msgstr "Бизнес"
+#: src/screens/Signup/StepInfo/index.tsx:220
+msgid "bsky.app"
+msgstr ""
 
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:683
@@ -1624,7 +1619,7 @@ msgstr "Камера"
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:85
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:246
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:252
-#: src/screens/Settings/Settings.tsx:289
+#: src/screens/Settings/Settings.tsx:296
 #: src/screens/Takendown.tsx:99
 #: src/screens/Takendown.tsx:102
 #: src/view/com/composer/Composer.tsx:1005
@@ -1665,9 +1660,9 @@ msgstr "Отменить реактивацию и выйти из систем�
 msgid "Cancel search"
 msgstr "Отменить поиск"
 
-#: src/components/PostControls/index.tsx:105
-#: src/components/PostControls/index.tsx:136
-#: src/components/PostControls/index.tsx:164
+#: src/components/PostControls/index.tsx:108
+#: src/components/PostControls/index.tsx:139
+#: src/components/PostControls/index.tsx:167
 #: src/state/shell/composer/index.tsx:94
 msgid "Cannot interact with a blocked user"
 msgstr "Невозможно взаимодействовать с заблокированным пользователем"
@@ -1682,6 +1677,8 @@ msgid "Captions & alt text"
 msgstr "Субтитры и альтернативный текст"
 
 #: src/screens/Settings/components/Email2FAToggle.tsx:31
+#: src/screens/Settings/DeerSettings.tsx:423
+#: src/screens/Settings/DeerSettings.tsx:445
 msgid "Change"
 msgstr "Изменить"
 
@@ -1732,7 +1729,7 @@ msgstr "Измените свой пароль"
 msgid "Changes app icon"
 msgstr "Изменяет иконку приложения"
 
-#: src/components/forms/HostingProvider.tsx:49
+#: src/components/forms/HostingProvider.tsx:51
 #: src/components/forms/HostingProvider.tsx:69
 msgid "Changes hosting provider"
 msgstr "Изменяет хостинг-провайдера"
@@ -1742,9 +1739,9 @@ msgid "Changes saved"
 msgstr ""
 
 #: src/lib/hooks/useNotificationHandler.ts:99
-#: src/Navigation.tsx:549
+#: src/Navigation.tsx:558
 #: src/view/shell/bottom-bar/BottomBar.tsx:221
-#: src/view/shell/desktop/LeftNav.tsx:607
+#: src/view/shell/desktop/LeftNav.tsx:609
 #: src/view/shell/Drawer.tsx:466
 msgid "Chat"
 msgstr "Чат"
@@ -1768,7 +1765,7 @@ msgctxt "toast"
 msgid "Chat muted"
 msgstr "Чат без звука"
 
-#: src/Navigation.tsx:559
+#: src/Navigation.tsx:568
 #: src/screens/Messages/components/InboxPreview.tsx:22
 msgid "Chat request inbox"
 msgstr "Почтовый ящик запросов на чат"
@@ -1780,7 +1777,7 @@ msgid "Chat requests"
 msgstr "Запросы на чат"
 
 #: src/components/dms/ConvoMenu.tsx:76
-#: src/Navigation.tsx:554
+#: src/Navigation.tsx:563
 #: src/screens/Messages/ChatList.tsx:81
 #: src/screens/Messages/ChatList.tsx:85
 #: src/screens/Messages/ChatList.tsx:378
@@ -1807,7 +1804,7 @@ msgstr "Чаты"
 msgid "Check my status"
 msgstr "Проверить мой статус"
 
-#: src/screens/Login/LoginForm.tsx:301
+#: src/screens/Login/LoginForm.tsx:326
 msgid "Check your email for a sign in code and enter it here."
 msgstr "Проверьте свою электронную почту на наличие кода для входа и введите его здесь."
 
@@ -1843,7 +1840,7 @@ msgstr "Выберите алгоритмы, которые будут напо�
 msgid "Choose this color as your avatar"
 msgstr "Выберите этот цвет в качестве своего аватара"
 
-#: src/view/com/auth/server-input/index.tsx:130
+#: src/view/com/auth/server-input/index.tsx:115
 msgid "Choose your account provider"
 msgstr "Выберите провайдера вашей учётной записи"
 
@@ -1851,24 +1848,24 @@ msgstr "Выберите провайдера вашей учётной запи
 msgid "Choose your own timeline! Feeds built by the community help you find content you love."
 msgstr "Выберите свою собственную временную шкалу! Ленты, созданные сообществом, помогут вам найти контент, который вы любите."
 
-#: src/screens/Signup/StepInfo/index.tsx:245
+#: src/screens/Signup/StepInfo/index.tsx:316
 msgid "Choose your password"
 msgstr "Укажите пароль"
 
-#: src/screens/Signup/index.tsx:175
+#: src/screens/Signup/index.tsx:181
 msgid "Choose your username"
 msgstr "Выберите свой псевдоним"
 
-#: src/screens/Settings/Settings.tsx:490
+#: src/screens/Settings/Settings.tsx:497
 msgid "Clear all storage data"
 msgstr "Очистите все данные хранилища"
 
-#: src/screens/Settings/Settings.tsx:492
+#: src/screens/Settings/Settings.tsx:499
 msgid "Clear all storage data (restart after this)"
 msgstr "Очистите все данные хранилища (после этого перезагрузитесь)"
 
-#: src/screens/Settings/AboutSettings.tsx:116
-#: src/screens/Settings/AboutSettings.tsx:120
+#: src/screens/Settings/AboutSettings.tsx:114
+#: src/screens/Settings/AboutSettings.tsx:118
 msgid "Clear image cache"
 msgstr "Очистить кэш изображений"
 
@@ -1892,11 +1889,7 @@ msgstr "Нажмите здесь, чтобы перезапустить про�
 msgid "Click here to update your email"
 msgstr "Нажмите здесь, чтобы обновить свою электронную почту"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:341
-msgid "Click to disable quote posts of this post."
-msgstr "Нажмите, чтобы отключить цитирование этого поста."
-
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:342
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:339
 msgid "Click to enable quote posts of this post."
 msgstr "Нажмите, чтобы включить цитирование этого поста."
 
@@ -1941,7 +1934,7 @@ msgstr "Клип 🐴 клоп 🐴"
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:118
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:124
 #: src/components/verification/VerificationsDialog.tsx:144
-#: src/components/verification/VerifierDialog.tsx:149
+#: src/components/verification/VerifierDialog.tsx:154
 #: src/components/WhoCanReply.tsx:202
 #: src/components/WhoCanReply.tsx:209
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:286
@@ -1969,7 +1962,7 @@ msgstr "Закрыть нижнее меню"
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:230
 #: src/components/dialogs/GifSelect.tsx:263
 #: src/components/verification/VerificationsDialog.tsx:136
-#: src/components/verification/VerifierDialog.tsx:141
+#: src/components/verification/VerifierDialog.tsx:146
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:182
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:276
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:308
@@ -2045,6 +2038,11 @@ msgstr "Цветовой режим"
 msgid "Color theme"
 msgstr "Цветовая схема"
 
+#: src/screens/Settings/DeerSettings.tsx:507
+#: src/screens/Settings/DeerSettings.tsx:512
+msgid "Combine reposts into a horizontal carousel"
+msgstr ""
+
 #: src/screens/Onboarding/index.tsx:54
 #: src/screens/Onboarding/state.ts:105
 msgid "Comedy"
@@ -2056,7 +2054,7 @@ msgid "Comics"
 msgstr "Комиксы"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:45
-#: src/Navigation.tsx:341
+#: src/Navigation.tsx:342
 #: src/view/screens/CommunityGuidelines.tsx:34
 msgid "Community Guidelines"
 msgstr "Правила сообщества"
@@ -2066,11 +2064,11 @@ msgstr "Правила сообщества"
 msgid "Complete onboarding and start using your account"
 msgstr "Завершите ознакомление и начните пользоваться вашей учётной записью"
 
-#: src/screens/Signup/index.tsx:177
+#: src/screens/Signup/index.tsx:183
 msgid "Complete the challenge"
 msgstr "Выполните задание"
 
-#: src/view/shell/desktop/LeftNav.tsx:572
+#: src/view/shell/desktop/LeftNav.tsx:574
 msgid "Compose new post"
 msgstr "Составить новый пост"
 
@@ -2130,7 +2128,7 @@ msgid "Confirm your location with GPS. Your location data is not tracked and doe
 msgstr ""
 
 #: src/components/dialogs/EmailDialog/components/TokenField.tsx:36
-#: src/screens/Login/LoginForm.tsx:274
+#: src/screens/Login/LoginForm.tsx:299
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:186
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:190
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:144
@@ -2140,7 +2138,7 @@ msgstr ""
 msgid "Confirmation code"
 msgstr "Код подтверждения"
 
-#: src/screens/Login/LoginForm.tsx:337
+#: src/screens/Login/LoginForm.tsx:362
 msgid "Connecting..."
 msgstr "Соединение..."
 
@@ -2148,14 +2146,26 @@ msgstr "Соединение..."
 msgid "Connection issue"
 msgstr "Проблема с подключением"
 
+#: src/screens/Settings/DeerSettings.tsx:420
+msgid "Constellation Instance"
+msgstr ""
+
+#: src/screens/Settings/DeerSettings.tsx:429
+msgid "Constellation is used to supplement AppView responses for custom verifications and nuclear block bypass, via backlinks. Current instance: {constellationInstance}"
+msgstr ""
+
+#: src/screens/Settings/DeerSettings.tsx:179
+#: src/screens/Settings/DeerSettings.tsx:182
+msgid "Constellations instance URL"
+msgstr ""
+
 #: src/components/ageAssurance/AgeAssuranceAccountCard.tsx:132
 #: src/components/ageAssurance/AgeAssuranceAppealDialog.tsx:29
 msgid "Contact our moderation team"
 msgstr "Обратитесь к нашей команде модерации"
 
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:155
-#: src/screens/Signup/index.tsx:212
-#: src/screens/Signup/index.tsx:215
+#: src/screens/Signup/index.tsx:219
 msgid "Contact support"
 msgstr "Служба поддержки"
 
@@ -2167,12 +2177,12 @@ msgstr "Обратитесь к нам"
 msgid "Content & Media"
 msgstr "Содержание и медиа"
 
-#: src/screens/Settings/Settings.tsx:204
-#: src/screens/Settings/Settings.tsx:207
+#: src/screens/Settings/Settings.tsx:205
+#: src/screens/Settings/Settings.tsx:208
 msgid "Content and media"
 msgstr "Содержимое и медиа"
 
-#: src/Navigation.tsx:508
+#: src/Navigation.tsx:517
 msgid "Content and Media"
 msgstr "Содержимое и медиа"
 
@@ -2263,14 +2273,14 @@ msgstr "Кулинария"
 msgid "Copied"
 msgstr "Скопировано"
 
-#: src/screens/Settings/AboutSettings.tsx:151
+#: src/screens/Settings/AboutSettings.tsx:149
 msgid "Copied build version to clipboard"
 msgstr "Версия сборки скопирована в буфер обмена"
 
 #: src/components/dms/MessageContextMenu.tsx:55
 #: src/components/PostControls/DiscoverDebug.tsx:41
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:230
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:72
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:238
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:77
 #: src/lib/sharing.ts:25
 #: src/lib/sharing.ts:41
 #: src/view/com/modals/InviteCodes.tsx:153
@@ -2282,7 +2292,7 @@ msgstr "Скопировано в буфер обмена"
 msgid "Copied!"
 msgstr "Скопировано!"
 
-#: src/screens/Settings/AboutSettings.tsx:127
+#: src/screens/Settings/AboutSettings.tsx:125
 msgid "Copies build version to clipboard"
 msgstr "Копирует версию сборки в буфер обмена"
 
@@ -2294,13 +2304,13 @@ msgstr "Копировать"
 msgid "Copy App Password"
 msgstr "Копировать пароль приложения"
 
-#: src/view/com/profile/ProfileMenu.tsx:433
-#: src/view/com/profile/ProfileMenu.tsx:436
+#: src/view/com/profile/ProfileMenu.tsx:473
+#: src/view/com/profile/ProfileMenu.tsx:476
 msgid "Copy at:// URI"
 msgstr "Копировать at:// URI"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:153
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:156
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:158
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:161
 msgid "Copy author DID"
 msgstr "Копировать DID автора"
 
@@ -2310,8 +2320,8 @@ msgid "Copy code"
 msgstr "Копировать код"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:501
-#: src/view/com/profile/ProfileMenu.tsx:442
-#: src/view/com/profile/ProfileMenu.tsx:445
+#: src/view/com/profile/ProfileMenu.tsx:482
+#: src/view/com/profile/ProfileMenu.tsx:485
 msgid "Copy DID"
 msgstr "Копировать DID"
 
@@ -2332,15 +2342,15 @@ msgstr "Копировать ссылку"
 msgid "Copy link to list"
 msgstr "Копировать ссылку на список"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:127
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:130
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:87
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:90
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:132
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:135
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:92
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:95
 msgid "Copy link to post"
 msgstr "Копировать ссылку на пост"
 
-#: src/view/com/profile/ProfileMenu.tsx:246
-#: src/view/com/profile/ProfileMenu.tsx:257
+#: src/view/com/profile/ProfileMenu.tsx:261
+#: src/view/com/profile/ProfileMenu.tsx:272
 msgid "Copy link to profile"
 msgstr "Копировать ссылку на профиль"
 
@@ -2353,13 +2363,13 @@ msgstr "Копировать ссылку на стартовый набор"
 msgid "Copy message text"
 msgstr "Копировать текст сообщения"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:144
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:147
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:149
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:152
 msgid "Copy post at:// URI"
 msgstr "Копировать at:// URI поста"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:452
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:454
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:527
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:529
 msgid "Copy post text"
 msgstr "Копировать текст поста"
 
@@ -2373,7 +2383,7 @@ msgstr "Копировать значение TXT-записи"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:40
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:107
-#: src/Navigation.tsx:346
+#: src/Navigation.tsx:347
 #: src/view/screens/CopyrightPolicy.tsx:31
 msgid "Copyright Policy"
 msgstr "Политика защиты авторского права"
@@ -2433,7 +2443,7 @@ msgstr "Создать QR-код для стартового набора"
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:178
 #: src/components/StarterPack/ProfileStarterPacks.tsx:287
-#: src/Navigation.tsx:589
+#: src/Navigation.tsx:598
 msgid "Create a starter pack"
 msgstr "Создать стартовый набор"
 
@@ -2456,7 +2466,7 @@ msgstr "Создать для меня стартовый набор"
 msgid "Create account"
 msgstr "Регистрация"
 
-#: src/screens/Signup/index.tsx:122
+#: src/screens/Signup/index.tsx:128
 msgid "Create Account"
 msgstr "Создать учётную запись"
 
@@ -2507,16 +2517,11 @@ msgstr "Создатель был заблокирован"
 msgid "Culture"
 msgstr "Культура"
 
-#: src/view/com/auth/server-input/index.tsx:142
-#: src/view/com/auth/server-input/index.tsx:143
-msgid "Custom"
-msgstr "Пользовательский"
-
 #: src/components/dialogs/Embed.tsx:144
 msgid "Customization options"
 msgstr ""
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:107
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:105
 msgid "Customize who can interact with this post."
 msgstr "Настройте, кто может взаимодействовать с этим постом."
 
@@ -2531,7 +2536,7 @@ msgstr "Настройте свой опыт работы с Bluesky"
 msgid "Dark"
 msgstr "Тёмная"
 
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:28
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:24
 msgctxt "Name of app icon variant"
 msgid "Dark"
 msgstr "Тёмная"
@@ -2544,7 +2549,7 @@ msgstr "Тёмный режим"
 msgid "Dark theme"
 msgstr "Тёмная тема"
 
-#: src/screens/Signup/StepInfo/index.tsx:273
+#: src/screens/Signup/StepInfo/index.tsx:344
 msgid "Date of birth"
 msgstr "Дата рождения"
 
@@ -2554,13 +2559,23 @@ msgstr "Дата рождения"
 msgid "Deactivate account"
 msgstr "Деактивировать учётную запись"
 
-#: src/screens/Settings/Settings.tsx:455
+#: src/screens/Settings/Settings.tsx:462
 msgid "Debug Moderation"
 msgstr "Настройка модерации"
 
 #: src/view/screens/Debug.tsx:88
 msgid "Debug panel"
 msgstr "Панель отладки"
+
+#: src/screens/Settings/DeerSettings.tsx:304
+#: src/screens/Settings/Settings.tsx:219
+#: src/screens/Settings/Settings.tsx:222
+msgid "Deer"
+msgstr ""
+
+#: src/Navigation.tsx:392
+msgid "Deer Settings"
+msgstr ""
 
 #: src/screens/Settings/AppearanceSettings.tsx:169
 msgid "Default"
@@ -2571,7 +2586,7 @@ msgid "Default icons"
 msgstr "Иконки по умолчанию"
 
 #: src/components/dms/MessageContextMenu.tsx:185
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:704
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:767
 #: src/screens/Messages/components/ChatStatusInfo.tsx:55
 #: src/screens/Settings/AppPasswords.tsx:212
 #: src/screens/StarterPack/StarterPackScreen.tsx:599
@@ -2603,7 +2618,7 @@ msgstr "Удалить пароль для приложения?"
 msgid "Delete chat"
 msgstr "Удалить чат"
 
-#: src/screens/Settings/Settings.tsx:462
+#: src/screens/Settings/Settings.tsx:469
 msgid "Delete chat declaration record"
 msgstr "Удалить запись объявления чата"
 
@@ -2638,8 +2653,8 @@ msgstr "Удалите сообщение для меня"
 msgid "Delete my account"
 msgstr "Удалить мою учётную запись"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:685
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:687
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:748
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:750
 #: src/view/com/composer/Composer.tsx:924
 msgid "Delete post"
 msgstr "Удалить пост"
@@ -2657,11 +2672,11 @@ msgstr "Удалить стартовый набор?"
 msgid "Delete this list?"
 msgstr "Удалить этот список?"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:699
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:762
 msgid "Delete this post?"
 msgstr "Удалить этот пост?"
 
-#: src/components/Post/Embed/index.tsx:179
+#: src/components/Post/Embed/index.tsx:180
 msgid "Deleted"
 msgstr "Удалено"
 
@@ -2688,27 +2703,22 @@ msgstr "Описание"
 msgid "Descriptive alt text"
 msgstr "Описательный альтернативный текст"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:589
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:599
-msgid "Detach quote"
-msgstr "Отделить цитату"
-
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:735
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:798
 msgid "Detach quote post?"
 msgstr "Отделить цитату от поста?"
 
-#: src/screens/Settings/AboutSettings.tsx:140
+#: src/screens/Settings/AboutSettings.tsx:138
 msgctxt "toast"
 msgid "Developer mode disabled"
 msgstr "Режим разработчика отключен"
 
-#: src/screens/Settings/AboutSettings.tsx:134
+#: src/screens/Settings/AboutSettings.tsx:132
 msgctxt "toast"
 msgid "Developer mode enabled"
 msgstr "Режим разработчика включен"
 
-#: src/screens/Settings/Settings.tsx:271
-#: src/screens/Settings/Settings.tsx:274
+#: src/screens/Settings/Settings.tsx:278
+#: src/screens/Settings/Settings.tsx:281
 msgid "Developer options"
 msgstr "Опции разработчика"
 
@@ -2828,6 +2838,19 @@ msgstr "Панель DNS"
 msgid "Do not apply this mute word to users you follow"
 msgstr "Не применять это игнорируемое слово к пользователям, на которых вы подписаны"
 
+#: src/screens/Settings/DeerSettings.tsx:465
+msgid "Do not declare any app labelers"
+msgstr ""
+
+#: src/screens/Settings/DeerSettings.tsx:470
+msgid "Do not declare any default app labelers"
+msgstr ""
+
+#: src/screens/Settings/DeerSettings.tsx:518
+#: src/screens/Settings/DeerSettings.tsx:523
+msgid "Do not fall back to discover feed"
+msgstr ""
+
 #: src/lib/moderation/useGlobalLabelStrings.ts:39
 msgid "Does not include nudity."
 msgstr "Не содержит обнаженности."
@@ -2839,6 +2862,10 @@ msgstr "Домен проверен!"
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:380
 msgid "Don't have a code or need a new one? <0>Click here.</0>"
 msgstr "Нет кода или нужен новый? <0>Нажмите здесь.</0>"
+
+#: src/screens/Signup/StepInfo/index.tsx:216
+msgid "Don't have an account provider or an existing Bluesky account? To create a new account on a Bluesky-hosted PDS, sign up through <0>bsky.app</0> first, then return to zeppelin.social and log in with the account you created."
+msgstr ""
 
 #: src/components/dialogs/EmailDialog/components/ResendEmailText.tsx:37
 msgid "Don't see an email? <0>Click here to resend.</0>"
@@ -2864,8 +2891,10 @@ msgstr ""
 #: src/screens/Onboarding/StepProfile/index.tsx:336
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:215
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:222
-#: src/view/com/auth/server-input/index.tsx:232
-#: src/view/com/auth/server-input/index.tsx:233
+#: src/screens/Settings/DeerSettings.tsx:131
+#: src/screens/Settings/DeerSettings.tsx:137
+#: src/view/com/auth/server-input/index.tsx:201
+#: src/view/com/auth/server-input/index.tsx:202
 #: src/view/com/composer/labels/LabelsBtn.tsx:223
 #: src/view/com/composer/labels/LabelsBtn.tsx:230
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:281
@@ -2907,6 +2936,16 @@ msgstr "Скачать Bluesky"
 #: src/screens/Settings/components/ExportCarDialog.tsx:84
 msgid "Download CAR file"
 msgstr "Скачать CAR файл"
+
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:504
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:506
+msgid "Download GIF"
+msgstr ""
+
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:489
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:491
+msgid "Download Video"
+msgstr ""
 
 #: src/view/com/composer/text-input/TextInput.web.tsx:361
 msgid "Drop to add images"
@@ -2967,7 +3006,7 @@ msgid "Edit"
 msgstr "Редактировать"
 
 #: src/view/com/util/UserAvatar.tsx:439
-#: src/view/com/util/UserBanner.tsx:119
+#: src/view/com/util/UserBanner.tsx:165
 msgid "Edit avatar"
 msgstr "Изменить фото профиля"
 
@@ -2981,8 +3020,8 @@ msgstr "Редактировать ленты"
 msgid "Edit image"
 msgstr "Редактировать изображение"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:666
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:679
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:729
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:742
 msgid "Edit interaction settings"
 msgstr "Редактировать настройки взаимодействия"
 
@@ -2995,8 +3034,8 @@ msgstr "Изменить интересы"
 msgid "Edit list details"
 msgstr "Редактировать описание списка"
 
-#: src/view/com/profile/ProfileMenu.tsx:329
-#: src/view/com/profile/ProfileMenu.tsx:335
+#: src/view/com/profile/ProfileMenu.tsx:344
+#: src/view/com/profile/ProfileMenu.tsx:350
 msgid "Edit live status"
 msgstr "Изменить статус прямого эфира"
 
@@ -3004,7 +3043,7 @@ msgstr "Изменить статус прямого эфира"
 msgid "Edit Moderation List"
 msgstr "Редактирование списка"
 
-#: src/Navigation.tsx:356
+#: src/Navigation.tsx:357
 #: src/view/screens/Feeds.tsx:518
 msgid "Edit My Feeds"
 msgstr "Редактировать мои ленты"
@@ -3017,8 +3056,8 @@ msgstr ""
 msgid "Edit People"
 msgstr "Редактировать людей"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:73
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:243
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:71
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:241
 msgid "Edit post interaction settings"
 msgstr "Редактировать настройки взаимодействия с постом"
 
@@ -3046,7 +3085,7 @@ msgstr "Редактировать список пользователей"
 msgid "Edit who can reply"
 msgstr "Редактировать, кто может отвечать"
 
-#: src/Navigation.tsx:594
+#: src/Navigation.tsx:603
 msgid "Edit your starter pack"
 msgstr "Редактировать ваш стартовый набор"
 
@@ -3060,7 +3099,7 @@ msgid "Either the creator of this list has blocked you or you have blocked the c
 msgstr "Либо создатель этого списка заблокировал вас, либо вы заблокировали создателя."
 
 #: src/screens/Settings/AccountSettings.tsx:66
-#: src/screens/Signup/StepInfo/index.tsx:197
+#: src/screens/Signup/StepInfo/index.tsx:268
 msgid "Email"
 msgstr "Электронная почта"
 
@@ -3099,8 +3138,8 @@ msgstr "Встроить HTML-код"
 
 #: src/components/dialogs/Embed.tsx:104
 #: src/components/dialogs/Embed.tsx:108
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:119
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:124
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:129
 msgid "Embed post"
 msgstr "Встроить пост"
 
@@ -3207,7 +3246,7 @@ msgstr "Введите домен, который вы хотите исполь
 msgid "Enter the email you used to create your account. We'll send you a \"reset code\" so you can set a new password."
 msgstr "Введите адрес электронной почты, который вы использовали для создания учётной записи. Мы вышлем вам \"код подтверждения\", чтобы вы могли установить новый пароль."
 
-#: src/screens/Login/LoginForm.tsx:218
+#: src/screens/Login/LoginForm.tsx:243
 msgid "Enter the username or email address you used when you created your account"
 msgstr "Введите псевдоним или адрес электронной почты, с которым вы создавали учётную запись"
 
@@ -3216,15 +3255,15 @@ msgid "Enter your birth date"
 msgstr "Введите вашу дату рождения"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:99
-#: src/screens/Signup/StepInfo/index.tsx:217
+#: src/screens/Signup/StepInfo/index.tsx:288
 msgid "Enter your email address"
 msgstr "Введите адрес электронной почты"
 
-#: src/screens/Login/LoginForm.tsx:243
+#: src/screens/Login/LoginForm.tsx:268
 msgid "Enter your password"
 msgstr "Введите ваш пароль"
 
-#: src/screens/Login/index.tsx:123
+#: src/screens/Login/index.tsx:164
 msgid "Enter your username and password"
 msgstr "Введите псевдоним и пароль"
 
@@ -3269,7 +3308,7 @@ msgstr "Ошибка:"
 msgid "Error: {error}"
 msgstr "Ошибка: {error}"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:398
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:395
 msgid "Everybody"
 msgstr "Всех"
 
@@ -3347,7 +3386,7 @@ msgstr ""
 msgid "Expands or collapses post text"
 msgstr "Разворачивает или сворачивает текст поста"
 
-#: src/lib/api/index.ts:418
+#: src/lib/api/index.ts:401
 msgid "Expected uri to resolve to a record"
 msgstr "Ожидалось, что uri разрешиться в запись"
 
@@ -3381,9 +3420,9 @@ msgstr "Откровенный или потенциально проблемн�
 msgid "Explicit sexual images."
 msgstr "Откровенные сексуальные изображения."
 
-#: src/Navigation.tsx:759
+#: src/Navigation.tsx:768
 #: src/screens/Search/Shell.tsx:307
-#: src/view/shell/desktop/LeftNav.tsx:689
+#: src/view/shell/desktop/LeftNav.tsx:691
 #: src/view/shell/Drawer.tsx:414
 msgid "Explore"
 msgstr "Обзор"
@@ -3417,7 +3456,7 @@ msgstr "Внешние медиа"
 msgid "External media may allow websites to collect information about you and your device. No information is sent or requested until you press the \"play\" button."
 msgstr "Внешние медиа могут позволить веб-сайтам собирать информацию о вас и вашем устройстве. Информация не отправляется и не запрашивается, пока не нажата кнопка \"Воспроизвести\"."
 
-#: src/Navigation.tsx:375
+#: src/Navigation.tsx:376
 #: src/screens/Settings/ExternalMediaPreferences.tsx:34
 msgid "External Media Preferences"
 msgstr "Настройка внешних медиа"
@@ -3467,7 +3506,7 @@ msgstr "Не удалось удалить чат"
 msgid "Failed to delete message"
 msgstr "Не удалось удалить сообщение"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:199
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:207
 msgid "Failed to delete post, please try again"
 msgstr "Не удалось удалить пост, попробуйте ещё раз"
 
@@ -3581,7 +3620,7 @@ msgstr "Не удалось отправить письмо на электро�
 msgid "Failed to submit appeal, please try again."
 msgstr "Не удалось подать апелляцию, попробуйте ещё раз."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:219
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:227
 msgid "Failed to toggle thread mute, please try again"
 msgstr "Не удалось переключить игнорирование ветки, попробуйте ещё раз"
 
@@ -3621,7 +3660,11 @@ msgstr "Не удалось подтвердить электронную поч
 msgid "Failed to verify handle. Please try again."
 msgstr "Не удалось проверить псевдоним. Попробуйте ещё раз."
 
-#: src/Navigation.tsx:291
+#: src/screens/Settings/DeerSettings.tsx:364
+msgid "Fall back to constellation api to find blocked replies"
+msgstr ""
+
+#: src/Navigation.tsx:292
 msgid "Feed"
 msgstr "Лента"
 
@@ -3656,19 +3699,19 @@ msgstr ""
 msgid "Feedback"
 msgstr "Обратная связь"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:270
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:288
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:278
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:296
 msgctxt "toast"
 msgid "Feedback sent to feed operator"
 msgstr ""
 
-#: src/Navigation.tsx:574
+#: src/Navigation.tsx:583
 #: src/screens/Search/SearchResults.tsx:73
 #: src/screens/StarterPack/StarterPackScreen.tsx:190
 #: src/view/screens/Feeds.tsx:511
 #: src/view/screens/Profile.tsx:230
 #: src/view/screens/SavedFeeds.tsx:104
-#: src/view/shell/desktop/LeftNav.tsx:727
+#: src/view/shell/desktop/LeftNav.tsx:729
 #: src/view/shell/Drawer.tsx:530
 msgid "Feeds"
 msgstr "Ленты"
@@ -3686,6 +3729,14 @@ msgstr "Ленты изменены!"
 #: src/screens/Search/modules/ExploreRecommendations.tsx:65
 msgid "Feeds we think you might like."
 msgstr "Мы думаем, что вам понравятся эти ленты."
+
+#: src/screens/Settings/DeerSettings.tsx:343
+msgid "Fetch records directly from PDS to see contents of blocked and detached quotes"
+msgstr ""
+
+#: src/screens/Settings/DeerSettings.tsx:337
+msgid "Fetch records directly from PDS to see through quote blocks"
+msgstr ""
 
 #: src/screens/Settings/components/OTAInfo.tsx:58
 msgid "Fetch update"
@@ -3752,21 +3803,6 @@ msgstr "Финиш"
 msgid "Fitness"
 msgstr "Фитнес"
 
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:159
-msgctxt "Name of app icon variant"
-msgid "Flat Black"
-msgstr "Плоский черный"
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:127
-msgctxt "Name of app icon variant"
-msgid "Flat Blue"
-msgstr "Плоский синий"
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:143
-msgctxt "Name of app icon variant"
-msgid "Flat White"
-msgstr "Плоский белый"
-
 #: src/screens/Onboarding/StepFinished.tsx:571
 msgid "Flexible"
 msgstr "Гибкий"
@@ -3804,8 +3840,8 @@ msgstr "Подпишитесь на 10 учётных записей"
 msgid "Follow 7 accounts"
 msgstr "Подпишитесь на 7 учётных записей"
 
-#: src/view/com/profile/ProfileMenu.tsx:287
-#: src/view/com/profile/ProfileMenu.tsx:298
+#: src/view/com/profile/ProfileMenu.tsx:302
+#: src/view/com/profile/ProfileMenu.tsx:313
 msgid "Follow account"
 msgstr "Подписаться на учётную запись"
 
@@ -3851,7 +3887,7 @@ msgstr "Подписаны <0>{0}</0> и <1>{1}</1>"
 msgid "Followed by <0>{0}</0>, <1>{1}</1>, and {2, plural, one {# other} other {# others}}"
 msgstr "Подписаны <0>{0}</0>, <1>{1}</1> и {2, plural, one {# другой} other {# других}}"
 
-#: src/Navigation.tsx:245
+#: src/Navigation.tsx:246
 msgid "Followers of @{0} that you know"
 msgstr "Подписчики @{0}, которых вы знаете"
 
@@ -3890,12 +3926,12 @@ msgstr "Подписан на {handle}"
 msgid "Following feed preferences"
 msgstr "Настройка ленты подписок"
 
-#: src/Navigation.tsx:362
+#: src/Navigation.tsx:363
 #: src/screens/Settings/FollowingFeedPreferences.tsx:56
 msgid "Following Feed Preferences"
 msgstr "Настройка ленты подписок"
 
-#: src/screens/Profile/Header/Handle.tsx:32
+#: src/screens/Profile/Header/Handle.tsx:36
 msgid "Follows you"
 msgstr "Подписан на вас"
 
@@ -3945,16 +3981,16 @@ msgstr "Навсегда"
 msgid "Forget the noise"
 msgstr "Забудьте о шуме"
 
-#: src/screens/Login/index.tsx:153
-#: src/screens/Login/index.tsx:168
+#: src/screens/Login/index.tsx:196
+#: src/screens/Login/index.tsx:211
 msgid "Forgot Password"
 msgstr "Забыли пароль"
 
-#: src/screens/Login/LoginForm.tsx:248
+#: src/screens/Login/LoginForm.tsx:273
 msgid "Forgot password?"
 msgstr "Забыли пароль?"
 
-#: src/screens/Login/LoginForm.tsx:259
+#: src/screens/Login/LoginForm.tsx:284
 msgid "Forgot?"
 msgstr "Забыли пароль?"
 
@@ -3975,14 +4011,27 @@ msgstr "От"
 msgid "From @{sanitizedAuthor}"
 msgstr "От @{sanitizedAuthor}"
 
-#: src/view/com/posts/PostFeedItem.tsx:327
+#: src/view/com/posts/PostFeedItem.tsx:331
 msgctxt "from-feed"
 msgid "From <0/>"
 msgstr "Из <0/>"
 
+#: src/screens/Settings/DeerSettings.tsx:565
+msgid "Gates"
+msgstr ""
+
 #: src/components/StarterPack/ProfileStarterPacks.tsx:307
 msgid "Generate a starter pack"
 msgstr "Сгенерировать стартовый набор"
+
+#: src/screens/Settings/DeerSettings.tsx:451
+msgid "Geolocation country code informs required regional app labelers and currency behavior."
+msgstr ""
+
+#: src/screens/Settings/DeerSettings.tsx:103
+#: src/screens/Settings/DeerSettings.tsx:106
+msgid "Geolocation ISO 3166-1 Code"
+msgstr ""
 
 #: src/view/shell/Drawer.tsx:372
 msgid "Get help"
@@ -4057,6 +4106,10 @@ msgstr "Начало работы"
 msgid "GIF"
 msgstr "GIF"
 
+#: src/view/com/auth/SplashScreen.web.tsx:170
+msgid "Github"
+msgstr ""
+
 #: src/screens/Onboarding/StepProfile/index.tsx:235
 msgid "Give your profile a face"
 msgstr "Придайте своему профилю лицо"
@@ -4116,8 +4169,8 @@ msgstr "Вернуться на главную"
 msgid "Go Home"
 msgstr "Вернуться на главную"
 
-#: src/view/com/profile/ProfileMenu.tsx:330
-#: src/view/com/profile/ProfileMenu.tsx:337
+#: src/view/com/profile/ProfileMenu.tsx:345
+#: src/view/com/profile/ProfileMenu.tsx:352
 msgid "Go live"
 msgstr "Выйти в прямой эфир"
 
@@ -4200,7 +4253,7 @@ msgstr "Тактильные ощущения"
 msgid "Harassment, trolling, or intolerance"
 msgstr "Домогательства, троллинг или нетерпимость"
 
-#: src/Navigation.tsx:539
+#: src/Navigation.tsx:548
 msgid "Hashtag"
 msgstr "Хештег"
 
@@ -4213,12 +4266,12 @@ msgstr "Хештег {tag}"
 msgid "Have a code? <0>Click here.</0>"
 msgstr "Есть код? <0>Нажмите здесь.</0>"
 
-#: src/screens/Signup/index.tsx:210
+#: src/screens/Signup/index.tsx:217
 msgid "Having trouble?"
 msgstr "Возникли проблемы?"
 
-#: src/screens/Settings/Settings.tsx:236
-#: src/screens/Settings/Settings.tsx:240
+#: src/screens/Settings/Settings.tsx:243
+#: src/screens/Settings/Settings.tsx:247
 #: src/view/shell/desktop/RightNav.tsx:124
 #: src/view/shell/desktop/RightNav.tsx:125
 #: src/view/shell/Drawer.tsx:381
@@ -4253,10 +4306,10 @@ msgstr "Скрытый список"
 
 #: src/components/interstitials/Trending.tsx:131
 #: src/components/interstitials/TrendingVideos.tsx:138
-#: src/components/moderation/ContentHider.tsx:203
+#: src/components/moderation/ContentHider.tsx:207
 #: src/components/moderation/LabelPreference.tsx:141
-#: src/components/moderation/PostHider.tsx:134
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:715
+#: src/components/moderation/PostHider.tsx:137
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:778
 #: src/lib/moderation/useLabelBehaviorDescription.ts:15
 #: src/lib/moderation/useLabelBehaviorDescription.ts:20
 #: src/lib/moderation/useLabelBehaviorDescription.ts:25
@@ -4274,18 +4327,23 @@ msgstr "Скрыть"
 msgid "Hide customization options"
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:546
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:552
+#: src/screens/Settings/DeerSettings.tsx:551
+#: src/screens/Settings/DeerSettings.tsx:556
+msgid "Hide follow notifications"
+msgstr ""
+
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:621
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:627
 msgid "Hide post for me"
 msgstr "Спрятать пост для меня"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:563
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:573
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:638
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:648
 msgid "Hide reply for everyone"
 msgstr "Спрятать ответ для всех"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:545
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:551
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:620
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:626
 msgid "Hide reply for me"
 msgstr "Спрятать ответ для меня"
 
@@ -4293,12 +4351,12 @@ msgstr "Спрятать ответ для меня"
 msgid "Hide this card"
 msgstr "Скрыть эту карту"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:710
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:773
 msgid "Hide this post?"
 msgstr "Скрыть этот пост?"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:710
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:745
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:773
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:808
 msgid "Hide this reply?"
 msgstr "Скрыть этот ответ?"
 
@@ -4325,8 +4383,8 @@ msgstr "Скрыть список пользователей"
 msgid "Hide verification badges"
 msgstr "Скрыть значки верификации"
 
-#: src/components/moderation/ContentHider.tsx:154
-#: src/components/moderation/PostHider.tsx:89
+#: src/components/moderation/ContentHider.tsx:158
+#: src/components/moderation/PostHider.tsx:92
 msgid "Hides the content"
 msgstr "Скрывает содержимое"
 
@@ -4362,10 +4420,10 @@ msgstr "Хммм, мы не смогли загрузить этот серви�
 msgid "Hold up! We’re gradually giving access to video, and you’re still waiting in line. Check back soon!"
 msgstr "Подождите! Мы постепенно даём доступ к видео, и вы всё ещё в очереди. Возвращайтесь позже!"
 
-#: src/Navigation.tsx:754
-#: src/Navigation.tsx:774
+#: src/Navigation.tsx:763
+#: src/Navigation.tsx:783
 #: src/view/shell/bottom-bar/BottomBar.tsx:178
-#: src/view/shell/desktop/LeftNav.tsx:671
+#: src/view/shell/desktop/LeftNav.tsx:673
 #: src/view/shell/Drawer.tsx:440
 msgid "Home"
 msgstr "Главная"
@@ -4375,7 +4433,7 @@ msgid "Host:"
 msgstr "Хост:"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:83
-#: src/screens/Login/LoginForm.tsx:184
+#: src/screens/Login/LoginForm.tsx:193
 msgid "Hosting provider"
 msgstr "Хостинг-провайдер"
 
@@ -4415,6 +4473,10 @@ msgstr "Если вы ещё не достигли совершеннолети�
 msgid "If you delete this list, you won't be able to recover it."
 msgstr "Если вы удалите этот список, вы не сможете его восстановить."
 
+#: src/screens/Signup/StepInfo/index.tsx:186
+msgid "If you have one, sign in with an existing Bluesky account."
+msgstr ""
+
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:272
 msgid "If you have your own domain, you can use that as your handle. This lets you self-verify your identity. <0>Learn more here.</0>"
 msgstr "Если у вас есть собственный домен, вы можете использовать его в качестве своего псевдонима. Это позволит вам самостоятельно подтвердить свою личность. <0> Узнайте больше здесь.</0>"
@@ -4423,7 +4485,7 @@ msgstr "Если у вас есть собственный домен, вы мо
 msgid "If you need to update your email, <0>click here</0>."
 msgstr "Если вам нужно обновить электронную почту, <0>нажмите здесь</0>."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:701
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:764
 msgid "If you remove this post, you won't be able to recover it."
 msgstr "Если вы удалите этот пост, вы не сможете его восстановить."
 
@@ -4439,7 +4501,7 @@ msgstr "Если вы хотите изменить пароль, мы отпр�
 msgid "If you want to restrict who can receive notifications for your account's activity, you can change this in <0>Settings → Privacy and Security</0>."
 msgstr ""
 
-#: src/view/com/auth/server-input/index.tsx:208
+#: src/view/com/auth/server-input/index.tsx:177
 msgid "If you're a developer, you can host your own server."
 msgstr "Если вы разработчик, вы можете разместить свой собственный сервер."
 
@@ -4456,12 +4518,12 @@ msgstr "Незаконно и срочно"
 msgid "Image"
 msgstr "Изображение"
 
-#: src/screens/Settings/AboutSettings.tsx:64
+#: src/screens/Settings/AboutSettings.tsx:62
 msgid "Image cache cleared"
 msgstr "Кэш изображений очищен"
 
 #. Android-only toast message which includes amount of space freed using localized number formatting
-#: src/screens/Settings/AboutSettings.tsx:50
+#: src/screens/Settings/AboutSettings.tsx:48
 msgid "Image cache cleared, freed {0}"
 msgstr "Кэш изображений очищен, освобождено {0}"
 
@@ -4521,9 +4583,13 @@ msgstr "Неприемлемые сообщения или откровенны�
 msgid "Inbox zero!"
 msgstr "Почтовый ящик пуст!"
 
-#: src/screens/Login/LoginForm.tsx:164
+#: src/screens/Login/LoginForm.tsx:173
 msgid "Incorrect username or password"
 msgstr "Неверный псевдоним или пароль"
+
+#: src/screens/Settings/DeerSettings.tsx:125
+msgid "Input 2 letter ISO 3166-1 country code to use as location"
+msgstr ""
 
 #: src/screens/Login/SetNewPasswordForm.tsx:133
 msgid "Input code sent to your email for password reset"
@@ -4541,9 +4607,13 @@ msgstr "Введите новый пароль"
 msgid "Input password for account deletion"
 msgstr "Введите пароль для удаления учётной записи"
 
-#: src/screens/Login/LoginForm.tsx:289
+#: src/screens/Login/LoginForm.tsx:314
 msgid "Input the code which has been emailed to you"
 msgstr "Введите код, который был отправлен вам по электронной почте"
+
+#: src/screens/Settings/DeerSettings.tsx:198
+msgid "Input the url of the constellations instance to use"
+msgstr ""
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:49
 msgid "Interaction limited"
@@ -4561,7 +4631,7 @@ msgstr "Представляем уведомления об активност�
 msgid "Introducing saved posts AKA bookmarks"
 msgstr ""
 
-#: src/screens/Login/LoginForm.tsx:156
+#: src/screens/Login/LoginForm.tsx:165
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:70
 msgid "Invalid 2FA confirmation code."
 msgstr "Неверный код подтверждения 2FA."
@@ -4582,7 +4652,7 @@ msgstr "Неверный код подтверждения"
 msgid "Invite a Friend"
 msgstr "Пригласить друга"
 
-#: src/screens/Signup/StepInfo/index.tsx:167
+#: src/screens/Signup/StepInfo/index.tsx:238
 msgid "Invite code"
 msgstr "Код приглашения"
 
@@ -4614,7 +4684,11 @@ msgstr "Приглашения, но личные"
 msgid "Is your location not accurate? <0>Tap here to confirm your location.</0>"
 msgstr ""
 
-#: src/screens/Signup/StepInfo/index.tsx:293
+#: src/screens/Settings/DeerSettings.tsx:440
+msgid "ISO 3166-1 Location (currently {0})"
+msgstr ""
+
+#: src/screens/Signup/StepInfo/index.tsx:366
 msgid "It's correct"
 msgstr "Он правильный"
 
@@ -4629,11 +4703,6 @@ msgstr "Сейчас здесь только вы! Добавьте больше
 #: src/view/com/composer/Composer.tsx:1777
 msgid "Job ID: {0}"
 msgstr "ID вакансии: {0}"
-
-#. Link to a page with job openings at Bluesky
-#: src/view/com/auth/SplashScreen.web.tsx:180
-msgid "Jobs"
-msgstr "Вакансии"
 
 #: src/components/LoggedOutCTA.tsx:54
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:205
@@ -4669,13 +4738,17 @@ msgstr "Условия использования KWS"
 msgid "KWS website"
 msgstr "Веб-сайт KWS"
 
-#: src/components/moderation/ContentHider.tsx:234
+#: src/components/moderation/ContentHider.tsx:238
 msgid "Labeled by {0}."
 msgstr "Отмечен {0}."
 
-#: src/components/moderation/ContentHider.tsx:232
+#: src/components/moderation/ContentHider.tsx:236
 msgid "Labeled by the author."
 msgstr "Метка добавлена автором."
+
+#: src/screens/Settings/DeerSettings.tsx:461
+msgid "Labelers"
+msgstr ""
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:75
 #: src/view/screens/Profile.tsx:223
@@ -4698,13 +4771,13 @@ msgstr "Метки на вашей учётной записи"
 msgid "Labels on your content"
 msgstr "Метки на вашем контенте"
 
-#: src/Navigation.tsx:218
+#: src/Navigation.tsx:219
 msgid "Language Settings"
 msgstr "Настройки языка"
 
 #: src/screens/Settings/LanguageSettings.tsx:78
-#: src/screens/Settings/Settings.tsx:228
-#: src/screens/Settings/Settings.tsx:231
+#: src/screens/Settings/Settings.tsx:235
+#: src/screens/Settings/Settings.tsx:238
 msgid "Languages"
 msgstr "Языки"
 
@@ -4727,7 +4800,7 @@ msgid "Latest"
 msgstr "Недавние"
 
 #: src/components/verification/VerificationsDialog.tsx:170
-#: src/components/verification/VerifierDialog.tsx:137
+#: src/components/verification/VerifierDialog.tsx:142
 #: src/screens/Moderation/VerificationSettings.tsx:48
 #: src/screens/Profile/Header/EditProfileDialog.tsx:351
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:213
@@ -4744,16 +4817,12 @@ msgstr "Узнать больше"
 msgid "Learn more about age assurance"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:168
-msgid "Learn more about Bluesky"
-msgstr "Узнайте больше о Bluesky"
-
-#: src/view/com/auth/server-input/index.tsx:218
+#: src/view/com/auth/server-input/index.tsx:187
 msgid "Learn more about self hosting your PDS."
 msgstr "Узнайте больше о самостоятельном хостинге PDS."
 
-#: src/components/moderation/ContentHider.tsx:152
-#: src/components/moderation/ContentHider.tsx:218
+#: src/components/moderation/ContentHider.tsx:156
+#: src/components/moderation/ContentHider.tsx:222
 msgid "Learn more about the moderation applied to this content"
 msgstr "Узнайте больше о модерации, применяемой к этому содержимому"
 
@@ -4765,13 +4834,13 @@ msgstr ""
 msgid "Learn more about these changes and how to share your thoughts with us by reading our blog post."
 msgstr ""
 
-#: src/components/moderation/PostHider.tsx:110
+#: src/components/moderation/PostHider.tsx:113
 #: src/components/moderation/ScreenHider.tsx:127
 msgid "Learn more about this warning"
 msgstr "Узнать больше об этом предупреждении"
 
 #: src/components/verification/VerificationsDialog.tsx:151
-#: src/components/verification/VerifierDialog.tsx:118
+#: src/components/verification/VerifierDialog.tsx:123
 msgctxt "english-only-resource"
 msgid "Learn more about verification on Bluesky"
 msgstr ""
@@ -4785,8 +4854,8 @@ msgstr "Узнать больше о том, что является публи�
 msgid "Learn more in your <0>account settings.</0>"
 msgstr ""
 
-#: src/components/moderation/ContentHider.tsx:242
-#: src/view/com/auth/server-input/index.tsx:220
+#: src/components/moderation/ContentHider.tsx:246
+#: src/view/com/auth/server-input/index.tsx:189
 msgid "Learn more."
 msgstr "Узнать больше."
 
@@ -4824,8 +4893,8 @@ msgstr "ещё осталось."
 msgid "Let me choose"
 msgstr "Позвольте мне выбрать"
 
-#: src/screens/Login/index.tsx:154
-#: src/screens/Login/index.tsx:169
+#: src/screens/Login/index.tsx:197
+#: src/screens/Login/index.tsx:212
 msgid "Let's get your password reset!"
 msgstr "Давайте восстановим ваш пароль!"
 
@@ -4850,7 +4919,7 @@ msgid "Like"
 msgstr "Лайк"
 
 #. Accessibility label for the like button when the post has not been liked, verb form followed by number of likes and noun form
-#: src/components/PostControls/index.tsx:269
+#: src/components/PostControls/index.tsx:274
 msgid "Like ({0, plural, one {# like} other {# likes}})"
 msgstr "Лайк ({0, plural, one {# лайк} few {# лайка} other {# лайков}})"
 
@@ -4863,7 +4932,7 @@ msgstr "Лайкните 10 постов"
 msgid "Like 10 posts to train the Discover feed"
 msgstr "Лайкните 10 постов, чтобы обучить ленту Discover"
 
-#: src/Navigation.tsx:452
+#: src/Navigation.tsx:461
 msgid "Like notifications"
 msgstr ""
 
@@ -4875,8 +4944,8 @@ msgstr "Лайкнуть эту ленту"
 msgid "Like this labeler"
 msgstr "Лайкнуть этот маркировщик"
 
-#: src/Navigation.tsx:296
-#: src/Navigation.tsx:301
+#: src/Navigation.tsx:297
+#: src/Navigation.tsx:302
 msgid "Liked by"
 msgstr "Понравилось"
 
@@ -4911,7 +4980,7 @@ msgstr "Нравится"
 msgid "Likes of your reposts"
 msgstr ""
 
-#: src/Navigation.tsx:476
+#: src/Navigation.tsx:485
 msgid "Likes of your reposts notifications"
 msgstr ""
 
@@ -4924,7 +4993,7 @@ msgstr "Лайки этого поста"
 msgid "Linear"
 msgstr "Линейно"
 
-#: src/Navigation.tsx:251
+#: src/Navigation.tsx:252
 msgid "List"
 msgstr "Список"
 
@@ -4986,11 +5055,11 @@ msgctxt "toast"
 msgid "List unmuted"
 msgstr "Список больше не игнорируется"
 
-#: src/Navigation.tsx:172
+#: src/Navigation.tsx:173
 #: src/view/screens/Lists.tsx:65
 #: src/view/screens/Profile.tsx:224
 #: src/view/screens/Profile.tsx:232
-#: src/view/shell/desktop/LeftNav.tsx:745
+#: src/view/shell/desktop/LeftNav.tsx:747
 #: src/view/shell/Drawer.tsx:545
 msgid "Lists"
 msgstr "Списки"
@@ -5039,7 +5108,7 @@ msgstr "Загрузить новые посты"
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: src/Navigation.tsx:321
+#: src/Navigation.tsx:322
 msgid "Log"
 msgstr "Отчёт"
 
@@ -5130,7 +5199,7 @@ msgstr "Медиа"
 msgid "Media that may be disturbing or inappropriate for some audiences."
 msgstr "Медиа, которые могут вызывать беспокойство или быть неприемлемыми для некоторых аудиторий."
 
-#: src/Navigation.tsx:436
+#: src/Navigation.tsx:445
 msgid "Mention notifications"
 msgstr ""
 
@@ -5138,7 +5207,7 @@ msgstr ""
 msgid "mentioned users"
 msgstr "упомянутые пользователи"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:427
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:424
 msgid "Mentioned users"
 msgstr "Упомянутых пользоватей"
 
@@ -5187,16 +5256,11 @@ msgstr "Сообщение слишком длинное"
 msgid "Message options"
 msgstr "Параметры сообщений"
 
-#: src/Navigation.tsx:769
+#: src/Navigation.tsx:778
 msgid "Messages"
 msgstr "Сообщения"
 
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:111
-msgctxt "Name of app icon variant"
-msgid "Midnight"
-msgstr "Полночь"
-
-#: src/Navigation.tsx:500
+#: src/Navigation.tsx:509
 msgid "Miscellaneous notifications"
 msgstr ""
 
@@ -5210,10 +5274,10 @@ msgstr "Ложная учётная запись"
 msgid "Misleading Post"
 msgstr "Ложный пост"
 
-#: src/Navigation.tsx:177
+#: src/Navigation.tsx:178
 #: src/screens/Moderation/index.tsx:100
-#: src/screens/Settings/Settings.tsx:188
-#: src/screens/Settings/Settings.tsx:191
+#: src/screens/Settings/Settings.tsx:189
+#: src/screens/Settings/Settings.tsx:192
 msgid "Moderation"
 msgstr "Модерация"
 
@@ -5249,7 +5313,7 @@ msgstr "Список модерации изменён"
 msgid "Moderation lists"
 msgstr "Списки модерации"
 
-#: src/Navigation.tsx:182
+#: src/Navigation.tsx:183
 #: src/view/screens/ModerationModlists.tsx:65
 msgid "Moderation Lists"
 msgstr "Списки модерации"
@@ -5258,7 +5322,7 @@ msgstr "Списки модерации"
 msgid "moderation settings"
 msgstr "настройка модерации"
 
-#: src/Navigation.tsx:311
+#: src/Navigation.tsx:312
 msgid "Moderation states"
 msgstr "Статус модерации"
 
@@ -5281,8 +5345,8 @@ msgstr "Больше лент"
 msgid "More languages..."
 msgstr ""
 
-#: src/view/com/profile/ProfileMenu.tsx:223
-#: src/view/com/profile/ProfileMenu.tsx:229
+#: src/view/com/profile/ProfileMenu.tsx:238
+#: src/view/com/profile/ProfileMenu.tsx:244
 #: src/view/screens/ProfileList.tsx:750
 msgid "More options"
 msgstr "Дополнительные опции"
@@ -5306,10 +5370,10 @@ msgstr "Игнорировать"
 msgid "Mute {tag}"
 msgstr "Игнорировать {tag}"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:628
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:634
-#: src/view/com/profile/ProfileMenu.tsx:375
-#: src/view/com/profile/ProfileMenu.tsx:382
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:691
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:697
+#: src/view/com/profile/ProfileMenu.tsx:415
+#: src/view/com/profile/ProfileMenu.tsx:422
 msgid "Mute account"
 msgstr "Игнорировать учётную запись"
 
@@ -5358,13 +5422,13 @@ msgstr "Игнорировать это слово только в тегах"
 msgid "Mute this word until you unmute it"
 msgstr "Игнорировать это слово пока вы его не включите"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:512
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:516
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:587
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:591
 msgid "Mute thread"
 msgstr "Игнорировать ветку"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:526
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:528
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:601
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:603
 msgid "Mute words & tags"
 msgstr "Игнорировать слова и теги"
 
@@ -5372,7 +5436,7 @@ msgstr "Игнорировать слова и теги"
 msgid "Muted accounts"
 msgstr "Игнорируемые учётные записи"
 
-#: src/Navigation.tsx:187
+#: src/Navigation.tsx:188
 #: src/view/screens/ModerationMutedAccounts.tsx:118
 msgid "Muted Accounts"
 msgstr "Игнорируемые учётные записи"
@@ -5436,7 +5500,7 @@ msgid "Navigate to starter pack"
 msgstr "Перейти к стартовому набору"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:166
-#: src/screens/Login/LoginForm.tsx:344
+#: src/screens/Login/LoginForm.tsx:369
 msgid "Navigates to the next screen"
 msgstr "Переходит к следующему экрану"
 
@@ -5495,7 +5559,7 @@ msgstr "Новый адрес электронной почты"
 msgid "New Feature"
 msgstr "Новая функция"
 
-#: src/Navigation.tsx:468
+#: src/Navigation.tsx:477
 msgid "New follower notifications"
 msgstr ""
 
@@ -5544,7 +5608,7 @@ msgctxt "action"
 msgid "New post"
 msgstr "Новый пост"
 
-#: src/view/shell/desktop/LeftNav.tsx:580
+#: src/view/shell/desktop/LeftNav.tsx:582
 msgctxt "action"
 msgid "New Post"
 msgstr "Новый пост"
@@ -5584,8 +5648,8 @@ msgstr "Новости"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:137
 #: src/screens/Login/ForgotPasswordForm.tsx:143
-#: src/screens/Login/LoginForm.tsx:343
-#: src/screens/Login/LoginForm.tsx:350
+#: src/screens/Login/LoginForm.tsx:368
+#: src/screens/Login/LoginForm.tsx:375
 #: src/screens/Login/SetNewPasswordForm.tsx:182
 #: src/screens/Login/SetNewPasswordForm.tsx:188
 #: src/screens/Onboarding/StepFinished.tsx:474
@@ -5600,7 +5664,7 @@ msgstr "Новости"
 msgid "Next"
 msgstr "Далее"
 
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:42
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:34
 msgctxt "Name of app icon variant"
 msgid "Next"
 msgstr "Далее"
@@ -5729,7 +5793,7 @@ msgstr "Результаты поиска по запросу \"{search}\" не 
 msgid "No thanks"
 msgstr "Нет, спасибо"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:409
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:406
 msgid "Nobody"
 msgstr "Никого"
 
@@ -5762,7 +5826,7 @@ msgstr ""
 msgid "Not followed by anyone you're following"
 msgstr "Нет в подписках у тех, на кого подписаны вы"
 
-#: src/Navigation.tsx:167
+#: src/Navigation.tsx:168
 #: src/view/screens/Profile.tsx:125
 msgid "Not Found"
 msgstr "Не найдено"
@@ -5771,7 +5835,7 @@ msgstr "Не найдено"
 msgid "Not in Mississippi?"
 msgstr ""
 
-#: src/view/com/profile/ProfileMenu.tsx:497
+#: src/view/com/profile/ProfileMenu.tsx:537
 msgid "Note about sharing"
 msgstr "Примечание по распространению"
 
@@ -5779,7 +5843,7 @@ msgstr "Примечание по распространению"
 msgid "Note: Bluesky is an open and public network. This setting only limits the visibility of your content on the Bluesky app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
 msgstr "Примечание: Bluesky является открытой и публичной сетью. Этот параметр ограничивает видимость вашего содержимого только в приложениях и на сайте Bluesky, но другие приложения могут этого не придерживаться. Ваш контент все ещё может быть показан посетителям без учётной записи другими приложениями и веб-сайтами."
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:134
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:139
 msgid "Note: This post is only visible to logged-in users."
 msgstr ""
 
@@ -5791,8 +5855,12 @@ msgstr "Тут ничего нет"
 msgid "Nothing saved yet"
 msgstr ""
 
-#: src/Navigation.tsx:422
-#: src/Navigation.tsx:569
+#: src/screens/Settings/DeerSettings.tsx:547
+msgid "Notification Filters"
+msgstr ""
+
+#: src/Navigation.tsx:431
+#: src/Navigation.tsx:578
 #: src/view/screens/Notifications.tsx:136
 msgid "Notification settings"
 msgstr "Настройки уведомления"
@@ -5805,8 +5873,8 @@ msgstr "Звуки уведомлений"
 msgid "Notification Sounds"
 msgstr "Звуки уведомлений"
 
-#: src/Navigation.tsx:564
-#: src/Navigation.tsx:764
+#: src/Navigation.tsx:573
+#: src/Navigation.tsx:773
 #: src/screens/Notifications/ActivityList.tsx:29
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:90
 #: src/screens/Settings/NotificationSettings/index.tsx:92
@@ -5819,11 +5887,11 @@ msgstr "Звуки уведомлений"
 #: src/screens/Settings/NotificationSettings/ReplyNotificationSettings.tsx:30
 #: src/screens/Settings/NotificationSettings/RepostNotificationSettings.tsx:30
 #: src/screens/Settings/NotificationSettings/RepostsOnRepostsNotificationSettings.tsx:30
-#: src/screens/Settings/Settings.tsx:196
-#: src/screens/Settings/Settings.tsx:199
+#: src/screens/Settings/Settings.tsx:197
+#: src/screens/Settings/Settings.tsx:200
 #: src/view/screens/Notifications.tsx:130
 #: src/view/shell/bottom-bar/BottomBar.tsx:252
-#: src/view/shell/desktop/LeftNav.tsx:708
+#: src/view/shell/desktop/LeftNav.tsx:710
 #: src/view/shell/Drawer.tsx:493
 msgid "Notifications"
 msgstr "Уведомления"
@@ -5874,7 +5942,7 @@ msgid "OK"
 msgstr "ОК"
 
 #: src/screens/Login/PasswordUpdatedForm.tsx:37
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:695
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:698
 msgid "Okay"
 msgstr "Хорошо"
 
@@ -5885,11 +5953,16 @@ msgstr "Хорошо"
 msgid "Oldest replies first"
 msgstr "Сначала самые старые"
 
+#: src/screens/Settings/DeerSettings.tsx:530
+#: src/screens/Settings/DeerSettings.tsx:536
+msgid "On non-bsky.social handles, show a link to that URL"
+msgstr ""
+
 #: src/components/StarterPack/QrCode.tsx:82
 msgid "on<0><1/><2><3/></2></0>"
 msgstr "на<0><1/><2><3/></2></0>"
 
-#: src/screens/Settings/Settings.tsx:388
+#: src/screens/Settings/Settings.tsx:395
 msgid "Onboarding reset"
 msgstr "Сброс настроек"
 
@@ -5952,6 +6025,10 @@ msgstr "Ой!"
 msgid "Open"
 msgstr "Открыть"
 
+#: src/screens/Signup/index.tsx:222
+msgid "Open a Github Issue"
+msgstr ""
+
 #: src/screens/Onboarding/StepProfile/index.tsx:289
 msgid "Open avatar creator"
 msgstr "Открыть создатель аватара"
@@ -5991,7 +6068,7 @@ msgstr "Открыть ссылку на {niceUrl}"
 msgid "Open message options"
 msgstr "Открыть параметры сообщений"
 
-#: src/screens/Settings/Settings.tsx:453
+#: src/screens/Settings/Settings.tsx:460
 msgid "Open moderation debug page"
 msgstr "Открыть страницу отладки модерации"
 
@@ -6020,12 +6097,12 @@ msgstr "Открыть меню общего доступа"
 msgid "Open starter pack menu"
 msgstr "Открыть меню стартового набора"
 
-#: src/screens/Settings/Settings.tsx:446
-#: src/screens/Settings/Settings.tsx:460
+#: src/screens/Settings/Settings.tsx:453
+#: src/screens/Settings/Settings.tsx:467
 msgid "Open storybook page"
 msgstr "Открыть страницу историй"
 
-#: src/screens/Settings/Settings.tsx:439
+#: src/screens/Settings/Settings.tsx:446
 msgid "Open system log"
 msgstr "Открыть системный журнал"
 
@@ -6075,6 +6152,10 @@ msgstr "Открывает подборщик эмодзи"
 msgid "Opens flow to create a new Bluesky account"
 msgstr "Открывает процесс создания новой учётной записи Bluesky"
 
+#: src/screens/Signup/StepInfo/index.tsx:196
+msgid "Opens flow to sign in to your existing ATmosphere account"
+msgstr ""
+
 #: src/view/com/auth/SplashScreen.tsx:63
 #: src/view/com/auth/SplashScreen.web.tsx:125
 msgid "Opens flow to sign in to your existing Bluesky account"
@@ -6084,7 +6165,7 @@ msgstr "Открывается процесс входа в существующ
 msgid "Opens GIF select dialog"
 msgstr "Открывает диалоговое окно выбора GIF"
 
-#: src/screens/Settings/Settings.tsx:237
+#: src/screens/Settings/Settings.tsx:244
 msgid "Opens helpdesk in browser"
 msgstr "Открывает службу поддержки в браузере"
 
@@ -6100,7 +6181,7 @@ msgstr "Открывает список кодов приглашения"
 msgid "Opens live status dialog"
 msgstr "Открывает диалоговое окно статуса прямого эфира"
 
-#: src/screens/Login/LoginForm.tsx:249
+#: src/screens/Login/LoginForm.tsx:274
 msgid "Opens password reset form"
 msgstr "Открывает форму сброса пароля"
 
@@ -6122,7 +6203,7 @@ msgstr "По желанию предоставьте дополнительну�
 msgid "Options:"
 msgstr "Варианты:"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:422
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:419
 msgid "Or combine these options:"
 msgstr "Или какие-то из следующих вариантов:"
 
@@ -6181,10 +6262,10 @@ msgstr "Страница не найдена"
 msgid "Page Not Found"
 msgstr "Страница не найдена"
 
-#: src/screens/Login/LoginForm.tsx:228
+#: src/screens/Login/LoginForm.tsx:253
 #: src/screens/Settings/AccountSettings.tsx:121
 #: src/screens/Settings/AccountSettings.tsx:125
-#: src/screens/Signup/StepInfo/index.tsx:232
+#: src/screens/Signup/StepInfo/index.tsx:303
 #: src/view/com/modals/DeleteAccount.tsx:239
 #: src/view/com/modals/DeleteAccount.tsx:246
 msgid "Password"
@@ -6198,7 +6279,7 @@ msgstr ""
 msgid "Password must be at least 8 characters long."
 msgstr "Пароль должен состоять не менее чем из 8 символов."
 
-#: src/screens/Login/index.tsx:181
+#: src/screens/Login/index.tsx:224
 msgid "Password updated"
 msgstr "Пароль изменён"
 
@@ -6222,11 +6303,11 @@ msgstr "Приостановить видео"
 msgid "People"
 msgstr "Люди"
 
-#: src/Navigation.tsx:238
+#: src/Navigation.tsx:239
 msgid "People followed by @{0}"
 msgstr "Люди, на которых подписан(а) @{0}"
 
-#: src/Navigation.tsx:231
+#: src/Navigation.tsx:232
 msgid "People following @{0}"
 msgstr "Люди, которые подписаны на @{0}"
 
@@ -6273,12 +6354,12 @@ msgstr "Закрепить на главной странице"
 msgid "Pin to Home"
 msgstr "Закрепить на главной странице"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:420
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:427
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:465
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:472
 msgid "Pin to your profile"
 msgstr "Закрепить в своём профиле"
 
-#: src/view/com/posts/PostFeedItem.tsx:408
+#: src/view/com/posts/PostFeedItem.tsx:412
 msgid "Pinned"
 msgstr "Закреплён"
 
@@ -6338,12 +6419,16 @@ msgstr ""
 msgid "Please check your email inbox for further instructions. It may take a minute or two to arrive."
 msgstr ""
 
+#: src/screens/Signup/StepInfo/index.tsx:96
+msgid "Please choose a 3rd party service host, or sign up on bsky.app."
+msgstr ""
+
 #: src/screens/Signup/state.ts:287
 msgid "Please choose your handle."
 msgstr "Пожалуйста, выберите псевдоним."
 
 #: src/screens/Signup/state.ts:279
-#: src/screens/Signup/StepInfo/index.tsx:123
+#: src/screens/Signup/StepInfo/index.tsx:140
 msgid "Please choose your password."
 msgstr "Пожалуйста, выберите ваш пароль."
 
@@ -6356,7 +6441,7 @@ msgid "Please complete the verification captcha."
 msgstr "Пожалуйста, завершите проверку Captcha."
 
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:101
-#: src/screens/Signup/StepInfo/index.tsx:112
+#: src/screens/Signup/StepInfo/index.tsx:129
 msgid "Please double-check that you have entered your email address correctly."
 msgstr "Пожалуйста, проверьте, правильно ли вы ввели свой адрес электронной почты."
 
@@ -6391,6 +6476,10 @@ msgstr "Пожалуйста, введите допустимое слово, т
 msgid "Please enter a valid, non-temporary email address. You may need to access this email in the future."
 msgstr ""
 
+#: src/screens/Login/LoginForm.tsx:108
+msgid "Please enter hosting provider URL"
+msgstr ""
+
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:259
 msgid "Please enter the code we sent to <0>{0}</0> below."
 msgstr "Пожалуйста, введите код, который мы отправили <0>{0}</0> ниже."
@@ -6404,11 +6493,11 @@ msgid "Please enter the security code we sent to your previous email address."
 msgstr ""
 
 #: src/screens/Signup/state.ts:263
-#: src/screens/Signup/StepInfo/index.tsx:94
+#: src/screens/Signup/StepInfo/index.tsx:111
 msgid "Please enter your email."
 msgstr "Пожалуйста, введите адрес электронной почты."
 
-#: src/screens/Signup/StepInfo/index.tsx:87
+#: src/screens/Signup/StepInfo/index.tsx:104
 msgid "Please enter your invite code."
 msgstr "Пожалуйста, введите код приглашения."
 
@@ -6416,7 +6505,7 @@ msgstr "Пожалуйста, введите код приглашения."
 msgid "Please enter your new email address."
 msgstr "Пожалуйста, введите новый адрес электронной почты."
 
-#: src/screens/Login/LoginForm.tsx:99
+#: src/screens/Login/LoginForm.tsx:103
 msgid "Please enter your password"
 msgstr "Пожалуйста, введите ваш пароль"
 
@@ -6424,7 +6513,7 @@ msgstr "Пожалуйста, введите ваш пароль"
 msgid "Please enter your password as well:"
 msgstr "Пожалуйста, также введите ваш пароль:"
 
-#: src/screens/Login/LoginForm.tsx:94
+#: src/screens/Login/LoginForm.tsx:98
 msgid "Please enter your username"
 msgstr "Пожалуйста, введите ваш псевдоним"
 
@@ -6480,7 +6569,7 @@ msgstr "Политика"
 msgid "Porn"
 msgstr "Порнография"
 
-#: src/screens/PostThread/index.tsx:502
+#: src/screens/PostThread/index.tsx:501
 msgctxt "description"
 msgid "Post"
 msgstr "Пост"
@@ -6499,25 +6588,25 @@ msgstr "Опубликовать все"
 msgid "Post blocked"
 msgstr ""
 
-#: src/Navigation.tsx:264
-#: src/Navigation.tsx:271
-#: src/Navigation.tsx:278
-#: src/Navigation.tsx:285
+#: src/Navigation.tsx:265
+#: src/Navigation.tsx:272
+#: src/Navigation.tsx:279
+#: src/Navigation.tsx:286
 msgid "Post by @{0}"
 msgstr "Пост от @{0}"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:179
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:187
 msgctxt "toast"
 msgid "Post deleted"
 msgstr "Пост удалён"
 
-#: src/lib/api/index.ts:186
+#: src/lib/api/index.ts:169
 msgid "Post failed to upload. Please check your Internet connection and try again."
 msgstr "Не удалось загрузить пост. Проверьте подключение к Интернету и повторите попытку."
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:133
-#: src/screens/PostThread/components/ThreadItemPost.tsx:110
-#: src/screens/PostThread/components/ThreadItemTreePost.tsx:107
+#: src/screens/PostThread/components/ThreadItemPost.tsx:111
+#: src/screens/PostThread/components/ThreadItemTreePost.tsx:108
 #: src/screens/VideoFeed/index.tsx:532
 msgid "Post has been deleted"
 msgstr "Пост был удалён"
@@ -6532,11 +6621,11 @@ msgstr "Пост скрыт из-за игнорированного слова"
 msgid "Post Hidden by You"
 msgstr "Вы скрыли этот пост"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:104
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:102
 msgid "Post interaction settings"
 msgstr "Настройки взаимодействия с постом"
 
-#: src/Navigation.tsx:198
+#: src/Navigation.tsx:199
 #: src/screens/ModerationInteractionSettings/index.tsx:34
 msgid "Post Interaction Settings"
 msgstr "Настройки взаимодействия с постом"
@@ -6627,13 +6716,13 @@ msgstr "Подписчики в приоритете"
 msgid "Privacy"
 msgstr "Конфиденциальность"
 
-#: src/screens/Settings/Settings.tsx:182
-#: src/screens/Settings/Settings.tsx:185
+#: src/screens/Settings/Settings.tsx:183
+#: src/screens/Settings/Settings.tsx:186
 msgid "Privacy and security"
 msgstr "Конфиденциальность и безопасность"
 
-#: src/Navigation.tsx:407
-#: src/Navigation.tsx:415
+#: src/Navigation.tsx:416
+#: src/Navigation.tsx:424
 #: src/screens/Settings/ActivityPrivacySettings.tsx:40
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:45
 msgid "Privacy and Security"
@@ -6645,10 +6734,10 @@ msgstr ""
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:35
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:102
-#: src/Navigation.tsx:331
-#: src/screens/Settings/AboutSettings.tsx:92
-#: src/screens/Settings/AboutSettings.tsx:95
-#: src/view/screens/PrivacyPolicy.tsx:31
+#: src/Navigation.tsx:332
+#: src/screens/Settings/AboutSettings.tsx:90
+#: src/screens/Settings/AboutSettings.tsx:93
+#: src/view/screens/PrivacyPolicy.tsx:34
 #: src/view/shell/Drawer.tsx:704
 #: src/view/shell/Drawer.tsx:705
 msgid "Privacy Policy"
@@ -6663,13 +6752,13 @@ msgstr "Обработка видео..."
 msgid "Processing..."
 msgstr "Обработка..."
 
-#: src/view/screens/DebugMod.tsx:934
+#: src/view/screens/DebugMod.tsx:942
 #: src/view/screens/Profile.tsx:364
 msgid "profile"
 msgstr "профиль"
 
 #: src/view/shell/bottom-bar/BottomBar.tsx:316
-#: src/view/shell/desktop/LeftNav.tsx:786
+#: src/view/shell/desktop/LeftNav.tsx:788
 #: src/view/shell/Drawer.tsx:77
 #: src/view/shell/Drawer.tsx:596
 msgid "Profile"
@@ -6740,7 +6829,7 @@ msgstr "QR-код был скачан!"
 msgid "QR code saved to your camera roll!"
 msgstr "QR-код сохранён в папке камеры!"
 
-#: src/Navigation.tsx:444
+#: src/Navigation.tsx:453
 msgid "Quote notifications"
 msgstr ""
 
@@ -6751,13 +6840,9 @@ msgstr ""
 msgid "Quote post"
 msgstr "Цитировать пост"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:308
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:312
 msgid "Quote post was re-attached"
 msgstr "Пост с цитатой был повторно прикреплён"
-
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:307
-msgid "Quote post was successfully detached"
-msgstr "Пост с цитатой был успешно отсоединён"
 
 #: src/components/PostControls/RepostButton.tsx:174
 #: src/components/PostControls/RepostButton.tsx:196
@@ -6785,8 +6870,8 @@ msgstr "Цитаты из этого поста"
 msgid "Rate limit exceeded – you've tried to change your handle too many times in a short period. Please wait a minute before trying again."
 msgstr "Лимит превышен - вы пытались сменить псевдоним слишком много раз за короткий промежуток времени. Пожалуйста, подождите минуту, прежде чем повторить попытку."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:588
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:598
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:661
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:663
 msgid "Re-attach quote"
 msgstr "Прикрепить цитату заново"
 
@@ -6824,10 +6909,6 @@ msgstr ""
 msgid "Read our blog post"
 msgstr ""
 
-#: src/view/com/auth/SplashScreen.web.tsx:173
-msgid "Read the Bluesky blog"
-msgstr "Прочтите блог Bluesky"
-
 #: src/screens/Signup/StepInfo/Policies.tsx:88
 #: src/screens/Signup/StepInfo/Policies.tsx:114
 msgid "Read the Bluesky Privacy Policy"
@@ -6837,6 +6918,10 @@ msgstr "Прочтите политику конфиденциальности B
 #: src/screens/Signup/StepInfo/Policies.tsx:101
 msgid "Read the Bluesky Terms of Service"
 msgstr "Прочтите условия предоставления услуг Bluesky"
+
+#: src/view/com/auth/SplashScreen.web.tsx:168
+msgid "Read the patches and contribute"
+msgstr ""
 
 #: src/components/WelcomeModal.tsx:146
 msgid "Real conversations."
@@ -6879,6 +6964,15 @@ msgstr "Рекомендуется"
 msgid "Reconnect"
 msgstr "Переподключиться"
 
+#: src/screens/Settings/DeerSettings.tsx:318
+#: src/screens/Settings/DeerSettings.tsx:323
+msgid "Redirect through go.bsky.app"
+msgstr ""
+
+#: src/screens/Settings/DeerSettings.tsx:314
+msgid "Redirects"
+msgstr ""
+
 #. Reject a chat request, this opens a menu with options
 #: src/screens/Messages/components/RequestButtons.tsx:124
 msgid "Reject"
@@ -6901,7 +6995,7 @@ msgstr "Перезагрузить беседы"
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:104
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:111
 #: src/screens/Bookmarks/index.tsx:255
-#: src/screens/Settings/Settings.tsx:662
+#: src/screens/Settings/Settings.tsx:669
 #: src/view/com/modals/UserAddRemoveLists.tsx:235
 #: src/view/com/posts/PostFeedErrorMessage.tsx:217
 msgid "Remove"
@@ -6915,8 +7009,8 @@ msgstr "Удалить {displayName} из стартового набора"
 msgid "Remove {historyItem}"
 msgstr "Убрать {historyItem}"
 
-#: src/screens/Settings/Settings.tsx:641
-#: src/screens/Settings/Settings.tsx:644
+#: src/screens/Settings/Settings.tsx:648
+#: src/screens/Settings/Settings.tsx:651
 msgid "Remove account"
 msgstr "Удалить учётную запись"
 
@@ -6929,8 +7023,8 @@ msgstr "Удалить вложение"
 msgid "Remove Avatar"
 msgstr "Удалить аватар"
 
-#: src/view/com/util/UserBanner.tsx:186
-#: src/view/com/util/UserBanner.tsx:189
+#: src/view/com/util/UserBanner.tsx:232
+#: src/view/com/util/UserBanner.tsx:235
 msgid "Remove Banner"
 msgstr "Удалить баннер"
 
@@ -6955,7 +7049,7 @@ msgstr "Удалить ленту?"
 msgid "Remove from my feeds"
 msgstr "Удалить из моих лент"
 
-#: src/screens/Settings/Settings.tsx:654
+#: src/screens/Settings/Settings.tsx:661
 msgid "Remove from quick access?"
 msgstr "Удалить из быстрого доступа?"
 
@@ -7003,14 +7097,19 @@ msgstr "Удалить файл субтитров"
 msgid "Remove this feed from your saved feeds"
 msgstr "Удалить эту ленту из сохранённых лент"
 
+#: src/view/com/profile/ProfileMenu.tsx:363
+#: src/view/com/profile/ProfileMenu.tsx:368
+msgid "Remove trust"
+msgstr ""
+
 #: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:157
 msgid "Remove user from list"
 msgstr "Удалить пользователя из списка"
 
 #: src/components/verification/VerificationRemovePrompt.tsx:46
 #: src/components/verification/VerificationsDialog.tsx:252
-#: src/view/com/profile/ProfileMenu.tsx:348
-#: src/view/com/profile/ProfileMenu.tsx:351
+#: src/view/com/profile/ProfileMenu.tsx:388
+#: src/view/com/profile/ProfileMenu.tsx:391
 msgid "Remove verification"
 msgstr "Удаление верификации"
 
@@ -7018,11 +7117,11 @@ msgstr "Удаление верификации"
 msgid "Remove your verification for this account?"
 msgstr "Удалить верификацию для этой учётной записи?"
 
-#: src/components/Post/Embed/index.tsx:214
+#: src/components/Post/Embed/index.tsx:208
 msgid "Removed by author"
 msgstr "Удалено автором"
 
-#: src/components/Post/Embed/index.tsx:212
+#: src/components/Post/Embed/index.tsx:206
 msgid "Removed by you"
 msgstr "Удалено вами"
 
@@ -7103,7 +7202,7 @@ msgid "Reply"
 msgstr "Ответить"
 
 #. Accessibility label for the reply button, verb form followed by number of replies and noun form
-#: src/components/PostControls/index.tsx:223
+#: src/components/PostControls/index.tsx:226
 msgid "Reply ({0, plural, one {# reply} other {# replies}})"
 msgstr "Ответить ({0, plural, one {# ответ} few {# ответа} other {# ответов}})"
 
@@ -7117,15 +7216,15 @@ msgstr "Ответ скрыт автором ветки"
 msgid "Reply Hidden by You"
 msgstr "Ответ скрыт вами"
 
-#: src/Navigation.tsx:428
+#: src/Navigation.tsx:437
 msgid "Reply notifications"
 msgstr ""
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:389
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:386
 msgid "Reply settings"
 msgstr "Настройки ответов"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:374
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:371
 msgid "Reply settings are chosen by the author of the thread"
 msgstr "Настройки ответов выбирает автор ветки"
 
@@ -7133,12 +7232,12 @@ msgstr "Настройки ответов выбирает автор ветки
 msgid "Reply sorting"
 msgstr "Сортировка ответов"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:339
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:343
 msgctxt "toast"
 msgid "Reply visibility updated"
 msgstr "Видимость ответа изменена"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:338
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:342
 msgid "Reply was successfully hidden"
 msgstr "Ответ был успешно скрыт"
 
@@ -7148,8 +7247,8 @@ msgstr "Ответ был успешно скрыт"
 msgid "Report"
 msgstr "Пожаловаться"
 
-#: src/view/com/profile/ProfileMenu.tsx:415
-#: src/view/com/profile/ProfileMenu.tsx:418
+#: src/view/com/profile/ProfileMenu.tsx:455
+#: src/view/com/profile/ProfileMenu.tsx:458
 msgid "Report account"
 msgstr "Пожаловаться на учётную запись"
 
@@ -7180,8 +7279,8 @@ msgstr "Пожаловаться на список"
 msgid "Report message"
 msgstr "Пожаловаться на сообщение"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:654
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:656
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:717
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:719
 msgid "Report post"
 msgstr "Пожаловаться на пост"
 
@@ -7243,7 +7342,7 @@ msgstr "Репостнуть"
 msgid "Repost ({0, plural, one {# repost} other {# reposts}})"
 msgstr "Репостнуть ({0, plural, one {# репост} few {# репоста} other {# репостов}})"
 
-#: src/Navigation.tsx:460
+#: src/Navigation.tsx:469
 msgid "Repost notifications"
 msgstr ""
 
@@ -7258,16 +7357,16 @@ msgstr "Репостить или цитировать"
 msgid "Reposted By"
 msgstr "Сделали репост"
 
-#: src/view/com/posts/PostFeedItem.tsx:348
+#: src/view/com/posts/PostFeedItem.tsx:352
 msgid "Reposted by {0}"
 msgstr "{0} сделал(а) репост"
 
-#: src/view/com/posts/PostFeedItem.tsx:367
+#: src/view/com/posts/PostFeedItem.tsx:371
 msgid "Reposted by <0><1/></0>"
 msgstr "Репост от <0><1/></0>"
 
-#: src/view/com/posts/PostFeedItem.tsx:346
-#: src/view/com/posts/PostFeedItem.tsx:365
+#: src/view/com/posts/PostFeedItem.tsx:350
+#: src/view/com/posts/PostFeedItem.tsx:369
 msgid "Reposted by you"
 msgstr "Вы сделали репост"
 
@@ -7287,7 +7386,7 @@ msgstr "Репосты этого поста"
 msgid "Reposts of your reposts"
 msgstr ""
 
-#: src/Navigation.tsx:484
+#: src/Navigation.tsx:493
 msgid "Reposts of your reposts notifications"
 msgstr ""
 
@@ -7305,7 +7404,7 @@ msgstr "Требовать альтернативный текст изобра�
 msgid "Require an email code to sign in to your account."
 msgstr "Требовать код с электронной почты для входа в учётную запись."
 
-#: src/screens/Signup/StepInfo/index.tsx:181
+#: src/screens/Signup/StepInfo/index.tsx:252
 msgid "Required for this provider"
 msgstr "Требуется этим хостинг-провайдером"
 
@@ -7330,8 +7429,8 @@ msgstr "Отправить письмо повторно"
 msgid "Resend Verification Email"
 msgstr "Отправить письмо с подтверждением повторно"
 
-#: src/screens/Settings/Settings.tsx:482
-#: src/screens/Settings/Settings.tsx:484
+#: src/screens/Settings/Settings.tsx:489
+#: src/screens/Settings/Settings.tsx:491
 msgid "Reset activity subscription nudge"
 msgstr ""
 
@@ -7339,8 +7438,12 @@ msgstr ""
 msgid "Reset code"
 msgstr "Код подтверждения"
 
-#: src/screens/Settings/Settings.tsx:467
-#: src/screens/Settings/Settings.tsx:469
+#: src/screens/Settings/DeerSettings.tsx:580
+msgid "Reset gates"
+msgstr ""
+
+#: src/screens/Settings/Settings.tsx:474
+#: src/screens/Settings/Settings.tsx:476
 msgid "Reset onboarding state"
 msgstr "Сбросить состояние входа в систему"
 
@@ -7348,7 +7451,11 @@ msgstr "Сбросить состояние входа в систему"
 msgid "Reset password"
 msgstr "Сбросить пароль"
 
-#: src/screens/Login/LoginForm.tsx:324
+#: src/screens/Settings/DeerSettings.tsx:478
+msgid "Restart app after changing this setting."
+msgstr ""
+
+#: src/screens/Login/LoginForm.tsx:349
 msgid "Retries signing in"
 msgstr "Повторная попытка входа в систему"
 
@@ -7364,8 +7471,8 @@ msgstr "Повторяет последнее действие, которое �
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/VideoFallback.tsx:55
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/VideoFallback.tsx:57
 #: src/components/StarterPack/ProfileStarterPacks.tsx:346
-#: src/screens/Login/LoginForm.tsx:323
-#: src/screens/Login/LoginForm.tsx:330
+#: src/screens/Login/LoginForm.tsx:348
+#: src/screens/Login/LoginForm.tsx:355
 #: src/screens/Messages/ChatList.tsx:291
 #: src/screens/Messages/components/MessageListError.tsx:25
 #: src/screens/Messages/Inbox.tsx:218
@@ -7408,14 +7515,17 @@ msgid "Returns to the previous step"
 msgstr "Возвращает к предыдущему шагу"
 
 #: src/components/dialogs/BirthDateSettings.tsx:156
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:483
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:489
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:480
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:486
 #: src/components/live/EditLiveDialog.tsx:216
 #: src/components/live/EditLiveDialog.tsx:223
 #: src/components/StarterPack/QrCodeDialog.tsx:192
 #: src/screens/Profile/Header/EditProfileDialog.tsx:238
 #: src/screens/Profile/Header/EditProfileDialog.tsx:252
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:267
+#: src/screens/Settings/DeerSettings.tsx:137
+#: src/screens/Settings/DeerSettings.tsx:204
+#: src/screens/Settings/DeerSettings.tsx:211
 #: src/view/com/composer/GifAltText.tsx:193
 #: src/view/com/composer/GifAltText.tsx:202
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:62
@@ -7453,6 +7563,10 @@ msgstr "Сохранить изображение"
 msgid "Save image crop"
 msgstr "Сохранить обрезаное изображение"
 
+#: src/screens/Settings/DeerSettings.tsx:131
+msgid "Save location"
+msgstr ""
+
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:253
 msgid "Save new handle"
 msgstr "Сохранить новый псевдоним"
@@ -7466,7 +7580,7 @@ msgstr "Сохранить QR-код"
 msgid "Save to my feeds"
 msgstr "Сохранить в мои ленты"
 
-#: src/view/shell/desktop/LeftNav.tsx:764
+#: src/view/shell/desktop/LeftNav.tsx:766
 #: src/view/shell/Drawer.tsx:571
 msgctxt "link to bookmarks screen"
 msgid "Saved"
@@ -7477,7 +7591,7 @@ msgid "Saved Feeds"
 msgstr "Сохранённые ленты"
 
 #: src/components/dialogs/nuxs/BookmarksAnnouncement.tsx:143
-#: src/Navigation.tsx:608
+#: src/Navigation.tsx:617
 #: src/screens/Bookmarks/index.tsx:55
 msgid "Saved Posts"
 msgstr ""
@@ -7507,6 +7621,14 @@ msgstr "Скажи привет!"
 msgid "Science"
 msgstr "Наука"
 
+#: src/view/com/posts/PostFeedItemCarousel.tsx:67
+msgid "Scroll carousel left"
+msgstr ""
+
+#: src/view/com/posts/PostFeedItemCarousel.tsx:76
+msgid "Scroll carousel right"
+msgstr ""
+
 #: src/components/InterestTabs.tsx:250
 msgid "Scroll left"
 msgstr ""
@@ -7528,7 +7650,7 @@ msgstr "Пролистать вверх"
 msgid "Search"
 msgstr "Поиск"
 
-#: src/Navigation.tsx:257
+#: src/Navigation.tsx:258
 #: src/screens/Profile/ProfileSearch.tsx:37
 msgid "Search @{0}'s posts"
 msgstr "Поиск постов @{0}"
@@ -7592,8 +7714,8 @@ msgstr ""
 msgid "Search my posts"
 msgstr "Поиск по моим постам"
 
-#: src/view/com/profile/ProfileMenu.tsx:266
-#: src/view/com/profile/ProfileMenu.tsx:269
+#: src/view/com/profile/ProfileMenu.tsx:281
+#: src/view/com/profile/ProfileMenu.tsx:284
 msgid "Search posts"
 msgstr "Поиск постов"
 
@@ -7634,10 +7756,6 @@ msgstr "Посмотреть посты #{tag}"
 #: src/components/RichTextTag.tsx:132
 msgid "See #{tag} posts by user"
 msgstr "Просмотреть посты пользователя #{tag}"
-
-#: src/view/com/auth/SplashScreen.web.tsx:178
-msgid "See jobs at Bluesky"
-msgstr "Посмотреть вакансии в Bluesky"
 
 #: src/components/FeedInterstitials.tsx:394
 #: src/components/FeedInterstitials.tsx:445
@@ -7706,7 +7824,7 @@ msgstr "Выберите языки содержимого"
 msgid "Select duration"
 msgstr "Выберите продолжительность"
 
-#: src/screens/Login/index.tsx:144
+#: src/screens/Login/index.tsx:187
 msgid "Select from an existing account"
 msgstr "Выбрать существующую учётную запись"
 
@@ -7781,7 +7899,7 @@ msgstr "Выберите язык, который будет использов�
 msgid "Select which languages you want your subscribed feeds to include. If none are selected, all languages will be shown."
 msgstr "Выберите языки, на которых будут отображаться подписанные вами ленты. Если вы не выберете ни одного языка, будут отображаться все языки."
 
-#: src/screens/Signup/StepInfo/index.tsx:274
+#: src/screens/Signup/StepInfo/index.tsx:345
 msgid "Select your date of birth"
 msgstr "Выберите дату рождения"
 
@@ -7789,6 +7907,11 @@ msgstr "Выберите дату рождения"
 #: src/screens/Settings/InterestsSettings.tsx:161
 msgid "Select your interests from the options below"
 msgstr "Выберите ваши интересы из нижеприведённых вариантов"
+
+#: src/screens/Settings/DeerSettings.tsx:387
+#: src/screens/Settings/DeerSettings.tsx:393
+msgid "Select your own set of trusted verifiers, and operate as a verifier"
+msgstr ""
 
 #: src/screens/Settings/LanguageSettings.tsx:124
 msgid "Select your preferred language for translations in your feed."
@@ -7856,10 +7979,10 @@ msgstr "Отправить жалобу в {title}"
 msgid "Send verification email"
 msgstr "Отправьте письмо с подтверждением"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:101
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:107
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:104
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:110
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:106
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:112
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:109
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:115
 msgid "Send via direct message"
 msgstr "Отправить личным сообщением"
 
@@ -7867,7 +7990,7 @@ msgstr "Отправить личным сообщением"
 msgid "Sends email with confirmation code for account deletion"
 msgstr "Отправляет электронное письмо с кодом подтверждения удаления учётной записи"
 
-#: src/view/com/auth/server-input/index.tsx:167
+#: src/view/com/auth/server-input/index.tsx:137
 msgid "Server address"
 msgstr "Адреса сервера"
 
@@ -7891,9 +8014,9 @@ msgstr "Настройте вашу учётную запись"
 msgid "Sets email for password reset"
 msgstr "Устанавливает адрес электронной почты для сброса пароля"
 
-#: src/Navigation.tsx:213
-#: src/screens/Settings/Settings.tsx:99
-#: src/view/shell/desktop/LeftNav.tsx:804
+#: src/Navigation.tsx:214
+#: src/screens/Settings/Settings.tsx:100
+#: src/view/shell/desktop/LeftNav.tsx:806
 #: src/view/shell/Drawer.tsx:609
 msgid "Settings"
 msgstr "Настройки"
@@ -7976,12 +8099,12 @@ msgstr "Поделитесь классной историей!"
 msgid "Share a fun fact!"
 msgstr "Поделитесь забавным фактом!"
 
-#: src/view/com/profile/ProfileMenu.tsx:502
+#: src/view/com/profile/ProfileMenu.tsx:542
 msgid "Share anyway"
 msgstr "Всё равно поделиться"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:159
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:162
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:164
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:167
 msgid "Share author DID"
 msgstr "Поделиться DID автора"
 
@@ -7996,8 +8119,8 @@ msgstr "Поделиться ссылкой"
 msgid "Share link dialog"
 msgstr "Диалоговое окно обмена ссылками"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:150
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:153
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:155
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:158
 msgid "Share post at:// URI"
 msgstr "Поделиться at:// URI поста"
 
@@ -8018,12 +8141,12 @@ msgstr "Поделиться этим стартовым набором"
 msgid "Share this starter pack and help people join your community on Bluesky."
 msgstr "Поделитесь этим стартовым набором и помогите людям присоединиться к вашему сообществу на Bluesky."
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:117
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:120
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:122
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:125
 #: src/screens/StarterPack/StarterPackScreen.tsx:611
 #: src/screens/StarterPack/StarterPackScreen.tsx:619
-#: src/view/com/profile/ProfileMenu.tsx:246
-#: src/view/com/profile/ProfileMenu.tsx:259
+#: src/view/com/profile/ProfileMenu.tsx:261
+#: src/view/com/profile/ProfileMenu.tsx:274
 msgid "Share via..."
 msgstr "Поделиться через..."
 
@@ -8031,13 +8154,13 @@ msgstr "Поделиться через..."
 msgid "Share your favorite feed!"
 msgstr "Поделитесь любимой лентой!"
 
-#: src/Navigation.tsx:316
+#: src/Navigation.tsx:317
 msgid "Shared Preferences Tester"
 msgstr "Тестер общих настроек"
 
-#: src/components/moderation/ContentHider.tsx:203
+#: src/components/moderation/ContentHider.tsx:207
 #: src/components/moderation/LabelPreference.tsx:143
-#: src/components/moderation/PostHider.tsx:134
+#: src/components/moderation/PostHider.tsx:137
 msgid "Show"
 msgstr "Показать"
 
@@ -8066,8 +8189,8 @@ msgstr "Показать значок и фильтры из ленты"
 msgid "Show customization options"
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:483
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:485
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:558
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:560
 msgid "Show less like this"
 msgstr "Показать меньше похожего"
 
@@ -8079,8 +8202,8 @@ msgstr "Всё равно показывать список"
 msgid "Show More"
 msgstr "Показать больше"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:475
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:477
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:550
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:552
 msgid "Show more like this"
 msgstr "Показать больше похожего"
 
@@ -8110,8 +8233,8 @@ msgstr "Показывать ответы"
 msgid "Show replies by people you follow before all other replies"
 msgstr "Показывать ответы людей, на которых вы подписаны, перед всеми остальными ответами"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:562
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:572
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:637
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:647
 msgid "Show reply for everyone"
 msgstr "Показать ответы для всех"
 
@@ -8133,16 +8256,16 @@ msgstr "Показать предупреждения"
 msgid "Show warning and filter from feeds"
 msgstr "Показать предупреждения и фильтровать из ленты"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:636
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:639
 msgid "Shows information about when this post was created"
 msgstr "Показывает информацию о том, когда был создан этот пост"
 
-#: src/screens/Settings/Settings.tsx:125
+#: src/screens/Settings/Settings.tsx:126
 msgid "Shows other accounts you can switch to"
 msgstr "Показывает другие учётные записи, на которые вы можете переключиться"
 
-#: src/components/moderation/ContentHider.tsx:155
-#: src/components/moderation/PostHider.tsx:89
+#: src/components/moderation/ContentHider.tsx:159
+#: src/components/moderation/PostHider.tsx:92
 msgid "Shows the content"
 msgstr "Показывает содержимое"
 
@@ -8150,9 +8273,9 @@ msgstr "Показывает содержимое"
 #: src/components/dialogs/Signin.tsx:99
 #: src/components/WelcomeModal.tsx:194
 #: src/components/WelcomeModal.tsx:206
-#: src/screens/Login/index.tsx:122
-#: src/screens/Login/index.tsx:143
-#: src/screens/Login/LoginForm.tsx:181
+#: src/screens/Login/index.tsx:163
+#: src/screens/Login/index.tsx:186
+#: src/screens/Login/LoginForm.tsx:190
 #: src/screens/Search/SearchResults.tsx:258
 #: src/view/com/auth/SplashScreen.tsx:61
 #: src/view/com/auth/SplashScreen.tsx:69
@@ -8192,14 +8315,19 @@ msgstr "Войти в учётную запись, которой нет в сп
 msgid "Sign in to Bluesky or create a new account"
 msgstr "Войдите в Bluesky или создайте новую учётную запись"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:461
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:463
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:536
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:538
 msgid "Sign in to view post"
 msgstr ""
 
-#: src/screens/Settings/Settings.tsx:254
-#: src/screens/Settings/Settings.tsx:256
-#: src/screens/Settings/Settings.tsx:288
+#: src/screens/Signup/StepInfo/index.tsx:194
+#: src/screens/Signup/StepInfo/index.tsx:202
+msgid "Sign in with ATmosphere"
+msgstr ""
+
+#: src/screens/Settings/Settings.tsx:261
+#: src/screens/Settings/Settings.tsx:263
+#: src/screens/Settings/Settings.tsx:295
 #: src/screens/SignupQueued.tsx:93
 #: src/screens/SignupQueued.tsx:96
 #: src/screens/Takendown.tsx:85
@@ -8213,7 +8341,7 @@ msgstr "Выйти"
 msgid "Sign Out"
 msgstr "Выйти"
 
-#: src/screens/Settings/Settings.tsx:285
+#: src/screens/Settings/Settings.tsx:292
 #: src/view/shell/desktop/LeftNav.tsx:209
 msgid "Sign out?"
 msgstr "Выйти?"
@@ -8266,6 +8394,10 @@ msgstr ""
 #: src/screens/Onboarding/state.ts:108
 msgid "Software Dev"
 msgstr "Разрабочик программного обеспечения"
+
+#: src/screens/Settings/DeerSettings.tsx:483
+msgid "Some appviews will default to using an app labeler if you have no labelers, so consider subscribing to at least one labeler if you have issues."
+msgstr ""
 
 #: src/components/verification/VerificationsDialog.tsx:120
 msgid "Some of your verifications are invalid."
@@ -8386,8 +8518,8 @@ msgstr "Начните добавлять людей!"
 msgid "Start chat with {displayName}"
 msgstr "Начать общаться с {displayName}"
 
-#: src/Navigation.tsx:579
-#: src/Navigation.tsx:584
+#: src/Navigation.tsx:588
+#: src/Navigation.tsx:593
 #: src/screens/StarterPack/Wizard/index.tsx:209
 msgid "Starter Pack"
 msgstr "Стартовый набор"
@@ -8418,21 +8550,21 @@ msgstr "Наборы"
 msgid "Starter packs let you easily share your favorite feeds and people with your friends."
 msgstr "Стартовые наборы позволяют легко делиться любимыми лентами и людьми с друзьями."
 
-#: src/screens/Settings/AboutSettings.tsx:100
-#: src/screens/Settings/AboutSettings.tsx:103
+#: src/screens/Settings/AboutSettings.tsx:98
+#: src/screens/Settings/AboutSettings.tsx:101
 msgid "Status Page"
 msgstr "Страница состояния"
 
-#: src/screens/Signup/index.tsx:163
+#: src/screens/Signup/index.tsx:169
 msgid "Step {0} of {1}"
 msgstr "Шаг {0} из {1}"
 
-#: src/screens/Settings/Settings.tsx:393
+#: src/screens/Settings/Settings.tsx:400
 msgid "Storage cleared, you need to restart the app now."
 msgstr "Хранилище очищено, теперь вам нужно перезапустить приложение."
 
-#: src/Navigation.tsx:306
-#: src/screens/Settings/Settings.tsx:448
+#: src/Navigation.tsx:307
+#: src/screens/Settings/Settings.tsx:455
 msgid "Storybook"
 msgstr "История"
 
@@ -8511,25 +8643,15 @@ msgstr "Предложения для вас"
 msgid "Suggestive"
 msgstr "Неприличный"
 
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:82
-msgctxt "Name of app icon variant"
-msgid "Sunrise"
-msgstr "Восход"
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:96
-msgctxt "Name of app icon variant"
-msgid "Sunset"
-msgstr "Закат"
-
-#: src/Navigation.tsx:326
+#: src/Navigation.tsx:327
 #: src/view/screens/Support.tsx:31
 #: src/view/screens/Support.tsx:34
 msgid "Support"
 msgstr "Поддержка"
 
-#: src/screens/Settings/Settings.tsx:123
-#: src/screens/Settings/Settings.tsx:137
-#: src/screens/Settings/Settings.tsx:604
+#: src/screens/Settings/Settings.tsx:124
+#: src/screens/Settings/Settings.tsx:138
+#: src/screens/Settings/Settings.tsx:611
 #: src/view/shell/desktop/LeftNav.tsx:247
 msgid "Switch account"
 msgstr "Переключить учётную запись"
@@ -8555,9 +8677,9 @@ msgid "System"
 msgstr "Системный"
 
 #: src/screens/Log.tsx:58
-#: src/screens/Settings/AboutSettings.tsx:107
-#: src/screens/Settings/AboutSettings.tsx:110
-#: src/screens/Settings/Settings.tsx:441
+#: src/screens/Settings/AboutSettings.tsx:105
+#: src/screens/Settings/AboutSettings.tsx:108
+#: src/screens/Settings/Settings.tsx:448
 msgid "System log"
 msgstr "Системный журнал"
 
@@ -8628,10 +8750,10 @@ msgstr "Условия"
 #: src/components/dialogs/BirthDateSettings.tsx:135
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:30
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:97
-#: src/Navigation.tsx:336
-#: src/screens/Settings/AboutSettings.tsx:84
-#: src/screens/Settings/AboutSettings.tsx:87
-#: src/view/screens/TermsOfService.tsx:31
+#: src/Navigation.tsx:337
+#: src/screens/Settings/AboutSettings.tsx:82
+#: src/screens/Settings/AboutSettings.tsx:85
+#: src/view/screens/TermsOfService.tsx:34
 #: src/view/shell/Drawer.tsx:697
 #: src/view/shell/Drawer.tsx:699
 msgid "Terms of Service"
@@ -8704,7 +8826,7 @@ msgid "That's everything!"
 msgstr "Это всё!"
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:324
-#: src/view/com/profile/ProfileMenu.tsx:478
+#: src/view/com/profile/ProfileMenu.tsx:518
 msgid "The account will be able to interact with you after unblocking."
 msgstr "Учётная запись сможет взаимодействовать с вами после разблокировки."
 
@@ -8712,6 +8834,10 @@ msgstr "Учётная запись сможет взаимодействова�
 #: src/screens/Settings/AppIconSettings/index.tsx:222
 msgid "The app will be restarted"
 msgstr "Приложение будет перезапущено"
+
+#: src/screens/Signup/index.tsx:179
+msgid "The ATmosphere ✨"
+msgstr ""
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:119
 #: src/lib/moderation/useModerationCauseDescription.ts:128
@@ -8774,7 +8900,7 @@ msgstr ""
 msgid "The open social network."
 msgstr ""
 
-#: src/view/screens/PrivacyPolicy.tsx:35
+#: src/view/screens/PrivacyPolicy.tsx:38
 msgid "The Privacy Policy has been moved to <0/>"
 msgstr "Политика конфиденциальности была перемещена в <0/>"
 
@@ -8800,7 +8926,7 @@ msgstr ""
 msgid "The support form has been moved. If you need help, please <0/> or visit {HELP_DESK_URL} to get in touch with us."
 msgstr "Форма поддержки перемещена. Если вам нужна помощь, пожалуйста, <0/> или посетите {HELP_DESK_URL}, чтобы связаться с нами."
 
-#: src/view/screens/TermsOfService.tsx:35
+#: src/view/screens/TermsOfService.tsx:38
 msgid "The Terms of Service have been moved to"
 msgstr "Условия Использования перенесены в"
 
@@ -8837,7 +8963,7 @@ msgid "There was an issue fetching notifications. Tap here to try again."
 msgstr "Возникла проблема с загрузкой уведомлений. Нажмите здесь, чтобы повторить попытку."
 
 #: src/screens/Search/Explore.tsx:986
-#: src/view/com/posts/PostFeed.tsx:701
+#: src/view/com/posts/PostFeed.tsx:751
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "Возникла проблема с загрузкой постов. Нажмите здесь, чтобы повторить попытку."
 
@@ -8873,24 +8999,24 @@ msgstr "Возникла проблема с отправкой вашей жа�
 msgid "There was an issue updating your feeds, please check your internet connection and try again."
 msgstr "Возникла проблема при изменении ваших лент, проверьте подключение к Интернету и повторите попытку."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:365
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:378
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:388
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:410
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:423
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:433
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:90
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:101
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:101
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:123
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:136
-#: src/view/com/profile/ProfileMenu.tsx:131
-#: src/view/com/profile/ProfileMenu.tsx:141
-#: src/view/com/profile/ProfileMenu.tsx:155
-#: src/view/com/profile/ProfileMenu.tsx:165
-#: src/view/com/profile/ProfileMenu.tsx:178
-#: src/view/com/profile/ProfileMenu.tsx:190
+#: src/view/com/profile/ProfileMenu.tsx:146
+#: src/view/com/profile/ProfileMenu.tsx:156
+#: src/view/com/profile/ProfileMenu.tsx:170
+#: src/view/com/profile/ProfileMenu.tsx:180
+#: src/view/com/profile/ProfileMenu.tsx:193
+#: src/view/com/profile/ProfileMenu.tsx:205
 msgid "There was an issue! {0}"
 msgstr "Возникла проблема! {0}"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:221
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:219
 #: src/screens/List/ListHiddenScreen.tsx:63
 #: src/screens/List/ListHiddenScreen.tsx:77
 #: src/screens/List/ListHiddenScreen.tsx:99
@@ -8910,6 +9036,10 @@ msgstr "В приложении возникла неожиданная проб
 #: src/screens/SignupQueued.tsx:130
 msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
 msgstr "Произошёл наплыв новых пользователей в Bluesky! Мы активируем вашу учётную запись как только сможем."
+
+#: src/screens/Settings/DeerSettings.tsx:590
+msgid "These settings might summon nasel demons! Restart the app after changing if anything breaks."
+msgstr ""
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:65
 msgid "These settings only apply to the Following feed."
@@ -9063,7 +9193,7 @@ msgstr "Этот список пуст."
 msgid "This moderation service is unavailable. See below for more details. If this issue persists, contact us."
 msgstr "Данный сервис модерации недоступен. Просмотрите детали ниже. Если проблема не исчезнет, свяжитесь с нами."
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:676
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:679
 msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
 msgstr "Этот пост утверждает, что был создан <0>{0}</0>, но впервые был замечен Bluesky <1>{1}</1>."
 
@@ -9071,7 +9201,7 @@ msgstr "Этот пост утверждает, что был создан <0>{0
 msgid "This post has an unknown type of threadgate on it. Your app may be out of date."
 msgstr "Этот пост имеет неизвестный тип ограничения на ответы. Возможно, ваше приложение устарело."
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:140
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:145
 msgid "This post is only visible to logged-in users."
 msgstr ""
 
@@ -9079,7 +9209,7 @@ msgstr ""
 msgid "This post was deleted by its author"
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:712
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:775
 msgid "This post will be hidden from feeds and threads. This cannot be undone."
 msgstr "Этот пост будет скрыт из лент и тем. Это невозможно отменить."
 
@@ -9087,11 +9217,11 @@ msgstr "Этот пост будет скрыт из лент и тем. Это 
 msgid "This post's author has disabled quote posts."
 msgstr "Автор этого поста отключил цитирование постов."
 
-#: src/view/com/profile/ProfileMenu.tsx:499
+#: src/view/com/profile/ProfileMenu.tsx:539
 msgid "This profile is only visible to logged-in users. It won't be visible to people who aren't signed in."
 msgstr "Этот профиль виден только вошедшим в систему пользователям. Он не будет видно тем, кто не вошел в систему."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:747
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:810
 msgid "This reply will be sorted into a hidden section at the bottom of your thread and will mute notifications for subsequent replies - both for yourself and others."
 msgstr "Этот ответ будет отсортирован в скрытый раздел в нижней части вашей ветки и отключит уведомления о последующих ответах - как для вас, так и для других."
 
@@ -9148,11 +9278,11 @@ msgstr "Этот пользователь не подписан ни на ког
 msgid "This will delete \"{0}\" from your muted words. You can always add it back later."
 msgstr "Это удалит \"{0}\" из ваших отключённых слов. Вы всегда сможете добавить его обратно позже."
 
-#: src/screens/Settings/Settings.tsx:656
+#: src/screens/Settings/Settings.tsx:663
 msgid "This will remove @{0} from the quick access list."
 msgstr "Это удалит @{0} из списка быстрого доступа."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:737
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:800
 msgid "This will remove your post from this quote post for all users, and replace it with a placeholder."
 msgstr "Это удалит ваш пост из этой цитаты для всех пользователей, и заменит его на заглушку."
 
@@ -9175,7 +9305,7 @@ msgstr "Настройки веток"
 msgid "Threaded"
 msgstr "Как ветки"
 
-#: src/Navigation.tsx:369
+#: src/Navigation.tsx:370
 msgid "Threads Preferences"
 msgstr "Настройки веток"
 
@@ -9204,6 +9334,10 @@ msgstr "Кому вы хотели бы отправить эту жалобу?"
 msgid "Today"
 msgstr "Сегодня"
 
+#: src/screens/Settings/DeerSettings.tsx:371
+msgid "TODO: Fall back to constellation api to find blocked replies"
+msgstr ""
+
 #: src/screens/Moderation/index.tsx:403
 msgid "Toggle to enable or disable adult content"
 msgstr "Включить или отключить контент для взрослых"
@@ -9225,16 +9359,16 @@ msgstr "Лучшее"
 msgid "Top replies first"
 msgstr ""
 
-#: src/Navigation.tsx:544
+#: src/Navigation.tsx:553
 msgid "Topic"
 msgstr "Тема"
 
 #: src/components/dms/MessageContextMenu.tsx:137
 #: src/components/dms/MessageContextMenu.tsx:139
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:444
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:446
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:598
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:519
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:521
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:601
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:604
 msgid "Translate"
 msgstr "Перевести"
 
@@ -9255,6 +9389,11 @@ msgstr "Актуальные видео"
 msgid "Trust emerges from relationships, communities, and shared context, so we’re also enabling <0>trusted verifiers</0>: organizations that can directly issue verification."
 msgstr "Доверие рождается в отношениях, сообществах и общем контексте, поэтому мы также вводим <0>доверенных верификаторов</0> — организации, которые могут непосредственно вручать верификацию."
 
+#: src/view/com/profile/ProfileMenu.tsx:375
+#: src/view/com/profile/ProfileMenu.tsx:378
+msgid "Trust verifier"
+msgstr ""
+
 #: src/view/com/util/error/ErrorScreen.tsx:103
 msgctxt "action"
 msgid "Try again"
@@ -9263,6 +9402,10 @@ msgstr "Попробовать ещё раз"
 #: src/screens/Onboarding/state.ts:123
 msgid "TV"
 msgstr "ТВ"
+
+#: src/screens/Settings/DeerSettings.tsx:503
+msgid "Tweaks"
+msgstr ""
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:65
 msgid "Two-factor authentication (2FA)"
@@ -9291,10 +9434,10 @@ msgid "Unable to contact your service. Please check your internet connection and
 msgstr ""
 
 #: src/screens/Login/ForgotPasswordForm.tsx:68
-#: src/screens/Login/index.tsx:79
-#: src/screens/Login/LoginForm.tsx:169
+#: src/screens/Login/index.tsx:83
+#: src/screens/Login/LoginForm.tsx:178
 #: src/screens/Login/SetNewPasswordForm.tsx:81
-#: src/screens/Signup/index.tsx:76
+#: src/screens/Signup/index.tsx:82
 msgid "Unable to contact your service. Please check your Internet connection."
 msgstr "Не удалось связаться с вашим хостинг-провайдером. Проверьте ваше подключение к Интернету."
 
@@ -9302,11 +9445,11 @@ msgstr "Не удалось связаться с вашим хостинг-пр
 msgid "Unable to delete"
 msgstr "Не удаётся удалить"
 
-#: src/screens/Settings/Settings.tsx:507
+#: src/screens/Settings/Settings.tsx:514
 msgid "Unapply Pull Request"
 msgstr ""
 
-#: src/screens/Settings/Settings.tsx:509
+#: src/screens/Settings/Settings.tsx:516
 msgid "Unapply Pull Request {currentChannel}"
 msgstr ""
 
@@ -9324,7 +9467,7 @@ msgstr "Информация о ленте недоступна"
 #: src/components/dms/MessagesListBlockedFooter.tsx:119
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:208
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:328
-#: src/view/com/profile/ProfileMenu.tsx:490
+#: src/view/com/profile/ProfileMenu.tsx:530
 #: src/view/screens/ProfileList.tsx:723
 msgid "Unblock"
 msgstr "Разблокировать"
@@ -9336,13 +9479,13 @@ msgstr "Разблокировать"
 
 #: src/components/dms/ConvoMenu.tsx:247
 #: src/components/dms/ConvoMenu.tsx:250
-#: src/view/com/profile/ProfileMenu.tsx:395
-#: src/view/com/profile/ProfileMenu.tsx:401
+#: src/view/com/profile/ProfileMenu.tsx:435
+#: src/view/com/profile/ProfileMenu.tsx:441
 msgid "Unblock account"
 msgstr "Разблокировать учётную запись"
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:322
-#: src/view/com/profile/ProfileMenu.tsx:472
+#: src/view/com/profile/ProfileMenu.tsx:512
 msgid "Unblock Account?"
 msgstr "Разблокировать учётную запись?"
 
@@ -9374,8 +9517,8 @@ msgstr "Отписаться"
 msgid "Unfollow {0}"
 msgstr "Отписаться от {0}"
 
-#: src/view/com/profile/ProfileMenu.tsx:286
-#: src/view/com/profile/ProfileMenu.tsx:296
+#: src/view/com/profile/ProfileMenu.tsx:301
+#: src/view/com/profile/ProfileMenu.tsx:311
 msgid "Unfollow account"
 msgstr "Отписаться от учётной записи"
 
@@ -9400,7 +9543,7 @@ msgid "Unlike"
 msgstr "Дизлайк"
 
 #. Accessibility label for the like button when the post has been liked, verb followed by number of likes and noun
-#: src/components/PostControls/index.tsx:259
+#: src/components/PostControls/index.tsx:264
 msgid "Unlike ({0, plural, one {# like} other {# likes}})"
 msgstr "Дизлайк ({0, plural, one {# лайк} few {# лайка} other {# лайков}})"
 
@@ -9419,10 +9562,10 @@ msgstr "Не игнорировать"
 msgid "Unmute {tag}"
 msgstr "Не игнорировать {tag}"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:627
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:633
-#: src/view/com/profile/ProfileMenu.tsx:374
-#: src/view/com/profile/ProfileMenu.tsx:380
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:690
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:696
+#: src/view/com/profile/ProfileMenu.tsx:414
+#: src/view/com/profile/ProfileMenu.tsx:420
 msgid "Unmute account"
 msgstr "Не игнорировать учётную запись"
 
@@ -9434,8 +9577,8 @@ msgstr "Включить звук"
 msgid "Unmute list"
 msgstr "Перестать игнорировать список"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:512
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:516
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:587
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:591
 msgid "Unmute thread"
 msgstr "Перестать игнорировать ветку"
 
@@ -9461,8 +9604,8 @@ msgstr "Открепить ленту"
 msgid "Unpin from home"
 msgstr "Открепить от главной страницы"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:419
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:426
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:464
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:471
 msgid "Unpin from profile"
 msgstr "Открепить от профиля"
 
@@ -9478,8 +9621,8 @@ msgstr "Откреплено {0} от главной страницы"
 msgid "Unpinned from your feeds"
 msgstr "Откреплено из ваших лент"
 
-#: src/screens/Settings/Settings.tsx:474
-#: src/screens/Settings/Settings.tsx:476
+#: src/screens/Settings/Settings.tsx:481
+#: src/screens/Settings/Settings.tsx:483
 msgid "Unsnooze email reminder"
 msgstr ""
 
@@ -9536,12 +9679,12 @@ msgstr "Изменить на {domain}"
 msgid "Update your email"
 msgstr "Обновите вашу электронную почту"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:312
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:315
 msgctxt "toast"
 msgid "Updating quote attachment failed"
 msgstr "Не удалось изменить вложение цитаты"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:343
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:347
 msgctxt "toast"
 msgid "Updating reply visibility failed"
 msgstr "Не удалось изменить видимость ответа"
@@ -9560,29 +9703,29 @@ msgstr "Загрузить текстовый файл в:"
 
 #: src/view/com/util/UserAvatar.tsx:469
 #: src/view/com/util/UserAvatar.tsx:472
-#: src/view/com/util/UserBanner.tsx:157
-#: src/view/com/util/UserBanner.tsx:160
+#: src/view/com/util/UserBanner.tsx:203
+#: src/view/com/util/UserBanner.tsx:206
 msgid "Upload from Camera"
 msgstr "Загрузить с камеры"
 
 #: src/view/com/util/UserAvatar.tsx:486
-#: src/view/com/util/UserBanner.tsx:174
+#: src/view/com/util/UserBanner.tsx:220
 msgid "Upload from Files"
 msgstr "Загрузить из файлов"
 
 #: src/view/com/util/UserAvatar.tsx:480
 #: src/view/com/util/UserAvatar.tsx:484
-#: src/view/com/util/UserBanner.tsx:168
-#: src/view/com/util/UserBanner.tsx:172
+#: src/view/com/util/UserBanner.tsx:214
+#: src/view/com/util/UserBanner.tsx:218
 msgid "Upload from Library"
 msgstr "Загрузить из библиотеки"
 
-#: src/lib/api/index.ts:302
+#: src/lib/api/index.ts:285
 msgid "Uploading images..."
 msgstr "Загрузка изображений..."
 
-#: src/lib/api/index.ts:368
-#: src/lib/api/index.ts:392
+#: src/lib/api/index.ts:351
+#: src/lib/api/index.ts:375
 msgid "Uploading link thumbnail..."
 msgstr "Загрузка миниатюры ссылки..."
 
@@ -9689,7 +9832,7 @@ msgstr ""
 msgid "Username must only contain letters (a-z), numbers, and hyphens"
 msgstr ""
 
-#: src/screens/Login/LoginForm.tsx:201
+#: src/screens/Login/LoginForm.tsx:217
 msgid "Username or email address"
 msgstr "Псевдоним или электронная почта"
 
@@ -9706,17 +9849,21 @@ msgstr "пользователи подписанные на <0>@{0}</0>"
 msgid "Users I follow"
 msgstr "Пользователи, на которых я подписан"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:460
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:457
 msgid "Users in \"{0}\""
 msgstr "Пользователи в \"{0}\""
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:437
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:434
 msgid "Users you follow"
 msgstr "Пользователи, на которых вы подписаны"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:448
 msgid "Value:"
 msgstr "Значение:"
+
+#: src/screens/Settings/DeerSettings.tsx:382
+msgid "Verification"
+msgstr ""
 
 #: src/components/verification/VerificationCreatePrompt.tsx:39
 msgid "Verification failed, please try again."
@@ -9726,7 +9873,7 @@ msgstr "Верификация не удалась, попробуйте ещё 
 msgid "Verification settings"
 msgstr "Настройки верификации"
 
-#: src/Navigation.tsx:206
+#: src/Navigation.tsx:207
 #: src/screens/Moderation/VerificationSettings.tsx:32
 msgid "Verification Settings"
 msgstr "Настройки верификации"
@@ -9741,8 +9888,8 @@ msgstr "Подтвержден:"
 
 #: src/components/verification/VerificationCreatePrompt.tsx:84
 #: src/components/verification/VerificationCreatePrompt.tsx:86
-#: src/view/com/profile/ProfileMenu.tsx:358
-#: src/view/com/profile/ProfileMenu.tsx:361
+#: src/view/com/profile/ProfileMenu.tsx:398
+#: src/view/com/profile/ProfileMenu.tsx:401
 msgid "Verify account"
 msgstr "Подтвердить аккаунт"
 
@@ -9804,8 +9951,8 @@ msgstr ""
 msgid "Verifying your age assurance status"
 msgstr ""
 
-#: src/screens/Settings/AboutSettings.tsx:126
-#: src/screens/Settings/AboutSettings.tsx:155
+#: src/screens/Settings/AboutSettings.tsx:124
+#: src/screens/Settings/AboutSettings.tsx:153
 msgid "Version {0}"
 msgstr "Версия {0}"
 
@@ -9818,7 +9965,7 @@ msgstr "Видео"
 msgid "Video failed to process"
 msgstr "Не удалось обработать видео"
 
-#: src/Navigation.tsx:600
+#: src/Navigation.tsx:609
 msgid "Video Feed"
 msgstr "Лента видео"
 
@@ -9939,6 +10086,10 @@ msgstr ""
 msgid "View profile"
 msgstr "Просмотреть профиль"
 
+#: src/view/com/util/UserBanner.tsx:259
+msgid "View profile banner"
+msgstr ""
+
 #: src/view/com/profile/ProfileSubpageHeader.tsx:123
 msgid "View the avatar"
 msgstr "Просмотреть аватар"
@@ -9992,6 +10143,10 @@ msgstr "Просмотр полного изображения"
 #: src/components/VideoPostCard.tsx:121
 msgid "Views video in immersive mode"
 msgstr "Просмотр видео в режиме погружения"
+
+#: src/screens/Settings/DeerSettings.tsx:332
+msgid "Visibility"
+msgstr ""
 
 #: src/components/dialogs/LinkWarning.tsx:96
 #: src/components/dialogs/LinkWarning.tsx:106
@@ -10130,10 +10285,6 @@ msgstr "У нас проблемы с сетью, попробуйте ещё р
 msgid "We’re introducing a new layer of verification on Bluesky — an easy-to-see checkmark."
 msgstr "Мы представляем новый уровень верификации на Bluesky — простые и понятные галочки."
 
-#: src/screens/Signup/index.tsx:123
-msgid "We're so excited to have you join us!"
-msgstr "Мы очень рады, что вы присоединились!"
-
 #: src/components/ageAssurance/AgeAssuranceAccountCard.tsx:105
 msgid "We're sorry, but based on your device's location, you are currently located in a region that requires age assurance."
 msgstr ""
@@ -10190,6 +10341,10 @@ msgstr ""
 #: src/screens/Deactivated.tsx:125
 msgid "Welcome back!"
 msgstr "С возвращением!"
+
+#: src/screens/Signup/index.tsx:129
+msgid "Welcome to the ATmosphere!"
+msgstr ""
 
 #: src/components/NewskieDialog.tsx:103
 msgid "Welcome, friend!"
@@ -10278,6 +10433,10 @@ msgstr "Почему этот стартовый набор должен быт�
 msgid "Why should this user be reviewed?"
 msgstr "Почему следует просмотреть этого пользователя?"
 
+#: src/screens/Settings/DeerSettings.tsx:404
+msgid "WIP. May slow down the client or fail to find all labels. Revoke and grant trust in the meatball menu on a profile. {0} trust the following verifiers:"
+msgstr ""
+
 #: src/screens/Messages/components/MessageInput.tsx:154
 #: src/screens/Messages/components/MessageInput.web.tsx:214
 msgid "Write a message"
@@ -10319,11 +10478,11 @@ msgstr "Да, деактивировать"
 msgid "Yes, delete this starter pack"
 msgstr "Да, удалите этот стартовый набор"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:740
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:803
 msgid "Yes, detach"
 msgstr "Да, отсоединить"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:750
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:813
 msgid "Yes, hide"
 msgstr "Да, скрыть"
 
@@ -10343,11 +10502,11 @@ msgstr "Вы"
 msgid "You also agree to <0>Bluesky’s Community Guidelines</0>. An <1>updated version of our Community Guidelines</1> will take effect on October 15th."
 msgstr ""
 
-#: src/components/verification/VerifierDialog.tsx:59
+#: src/components/verification/VerifierDialog.tsx:60
 msgid "You are a trusted verifier"
 msgstr "Вы — доверенный верификатор"
 
-#: src/components/forms/HostingProvider.tsx:45
+#: src/components/forms/HostingProvider.tsx:47
 msgid "You are creating an account on"
 msgstr "Вы создаёте учётную запись на"
 
@@ -10421,7 +10580,7 @@ msgstr "Вы можете продолжать беседу независимо
 msgid "You can now choose to be notified when specific people post. If there’s someone you want timely updates from, go to their profile and find the new bell icon near the follow button."
 msgstr "Теперь вы можете выбирать, получать ли уведомления о публикациях определенных людей. Если есть кто-то, от кого вы хотите получать своевременные обновления, перейдите в его профиль и найдите значок нового колокольчика рядом с кнопкой \"Подписаться\"."
 
-#: src/screens/Login/index.tsx:182
+#: src/screens/Login/index.tsx:225
 #: src/screens/Login/PasswordUpdatedForm.tsx:26
 msgid "You can now sign in with your new password."
 msgstr "Теперь вы можете войти с помощью нового пароля."
@@ -10443,7 +10602,7 @@ msgstr "Вы можете реактивировать свою учётную �
 msgid "You can select up to {MAX_IMAGES, plural, other {# images}} in total."
 msgstr ""
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:85
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:83
 msgid "You can set default interaction settings in <0>Settings → Moderation → Interaction settings</0>."
 msgstr "Вы можете установить настройки взаимодействия по умолчанию в <0>Настройки → Модерация → Настройки взаимодействия</0>."
 
@@ -10629,7 +10788,7 @@ msgstr "Чтобы включить функцию 2FA, необходимо п�
 msgid "You previously deactivated @{0}."
 msgstr "Вы ранее деактивировали @{0}."
 
-#: src/screens/Settings/Settings.tsx:404
+#: src/screens/Settings/Settings.tsx:411
 msgid "You probably want to restart the app now."
 msgstr ""
 
@@ -10641,7 +10800,7 @@ msgstr "Вы отреагировали {0}"
 msgid "You reacted {0} to {1}"
 msgstr "Вы отреагировали {0} на {1}"
 
-#: src/screens/Settings/Settings.tsx:286
+#: src/screens/Settings/Settings.tsx:293
 #: src/view/shell/desktop/LeftNav.tsx:210
 msgid "You will be signed out of all your accounts."
 msgstr "Вы выйдете из всех своих учётных записей."
@@ -10650,11 +10809,11 @@ msgstr "Вы выйдете из всех своих учётных записе
 msgid "You will no longer receive notifications for {0}"
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:212
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:220
 msgid "You will no longer receive notifications for this thread"
 msgstr "Вы больше не будете получать уведомления из этой ветки"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:208
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:216
 msgid "You will now receive notifications for this thread"
 msgstr "Вы будете получать уведомления из этой ветки"
 
@@ -10674,11 +10833,11 @@ msgstr "Вы: {defaultEmbeddedContentMessage}"
 msgid "You: {short}"
 msgstr "Вы: {short}"
 
-#: src/screens/Signup/index.tsx:139
+#: src/screens/Signup/index.tsx:145
 msgid "You'll follow the suggested users and feeds once you finish creating your account!"
 msgstr "Вы будете подписаны на предложенных пользователей и ленты, как только создадите свою учётную запись!"
 
-#: src/screens/Signup/index.tsx:144
+#: src/screens/Signup/index.tsx:150
 msgid "You'll follow the suggested users once you finish creating your account!"
 msgstr "Вы будете подписаны на предложенных пользователей, как только создадите свою учётную запись!"
 
@@ -10748,10 +10907,6 @@ msgstr "Вы достигли дневного лимита по загрузк�
 msgid "You've run out of videos to watch. Maybe it's a good time to take a break?"
 msgstr "У вас закончились видео для просмотра. Может быть, сейчас самое время сделать перерыв?"
 
-#: src/screens/Signup/index.tsx:173
-msgid "Your account"
-msgstr "Ваша учётная запись"
-
 #: src/view/com/modals/DeleteAccount.tsx:84
 msgid "Your account has been deleted"
 msgstr "Ваша учётная запись удалена"
@@ -10776,7 +10931,7 @@ msgstr "Ваша учётная запись была признана нару�
 msgid "Your appeal has been submitted. If your appeal succeeds, you will receive an email."
 msgstr "Ваше обращение было отправлено. Если обращение будет успешным, вы получите электронное письмо."
 
-#: src/screens/Signup/StepInfo/index.tsx:261
+#: src/screens/Signup/StepInfo/index.tsx:332
 msgid "Your birth date"
 msgstr "Ваша дата рождения"
 
@@ -10809,7 +10964,7 @@ msgstr ""
 #: src/screens/Login/ForgotPasswordForm.tsx:51
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:81
 #: src/screens/Signup/state.ts:271
-#: src/screens/Signup/StepInfo/index.tsx:101
+#: src/screens/Signup/StepInfo/index.tsx:118
 msgid "Your email appears to be invalid."
 msgstr "Не удалось распознать адрес электронной почты."
 
@@ -10821,7 +10976,7 @@ msgstr "Ваша электронная почта еще не проверен�
 msgid "Your first like!"
 msgstr "Ваш первый лайк!"
 
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:447
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:444
 msgid "Your followers"
 msgstr "Ваши подписчики"
 
@@ -10833,7 +10988,7 @@ msgstr "Ваша домашняя лента пуста! Подпишитесь 
 msgid "Your full handle will be <0>@{0}</0>"
 msgstr "Вашим полным псевдонимом будет <0>@{0}</0>"
 
-#: src/Navigation.tsx:516
+#: src/Navigation.tsx:525
 #: src/screens/Search/modules/ExploreInterestsCard.tsx:67
 #: src/screens/Settings/ContentAndMediaSettings.tsx:92
 #: src/screens/Settings/ContentAndMediaSettings.tsx:95
@@ -10862,7 +11017,7 @@ msgstr "Ваши игнорируемые слова"
 msgid "Your password has been changed successfully! Please use your new password when you sign in to Bluesky from now on."
 msgstr ""
 
-#: src/screens/Signup/StepInfo/index.tsx:130
+#: src/screens/Signup/StepInfo/index.tsx:147
 msgid "Your password must be at least 8 characters long."
 msgstr "Ваш пароль должен состоять не менее чем из 8 символов."
 
@@ -10913,3 +11068,7 @@ msgstr "Выбранные вами интересы помогают нам п�
 #: src/components/verification/VerificationsDialog.tsx:65
 msgid "Your verifications"
 msgstr "Ваши подтверждения"
+
+#: src/screens/Signup/StepInfo/index.tsx:172
+msgid "zeppelin.social is part of the <0>ATmosphere</0>—the network of apps, services, and accounts built on the AT Protocol."
+msgstr ""
