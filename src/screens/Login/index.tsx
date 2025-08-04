@@ -110,7 +110,11 @@ export const Login = ({onPressBack}: {onPressBack: () => void}) => {
         const did = (await getDid()) as `did:${string}`
         const pdsUrl = await resolvePdsServiceUrl(did)
 
-        setServiceUrl(pdsUrl)
+        if (pdsUrl.endsWith('.bsky.network')) {
+          setServiceUrl('https://bsky.social')
+        } else {
+          setServiceUrl(pdsUrl)
+        }
       } catch (err) {
         logger.error(`Service auto-resolution failed: ${err}`)
       } finally {
