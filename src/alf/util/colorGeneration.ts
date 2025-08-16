@@ -1,6 +1,6 @@
 import {logger} from '#/logger'
 
-export const BLUE_HUE = 45
+export const BLUE_HUE = 47
 export const RED_HUE = 346
 export const GREEN_HUE = 152
 
@@ -20,7 +20,7 @@ export function generateScale(start: number, end: number) {
 
 export const defaultScale = generateScale(6, 100)
 // dim shifted 6% lighter
-export const dimScale = generateScale(12, 100)
+export const dimScale = generateScale(11, 100)
 
 export function transparentifyColor(color: string, alpha: number) {
   if (color.startsWith('hsl(')) {
