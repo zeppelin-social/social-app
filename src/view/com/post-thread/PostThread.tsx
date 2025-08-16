@@ -117,7 +117,7 @@ export function PostThread({uri}: {uri: string}) {
   const serverPrefs = preferences?.threadViewPrefs
   const serverPrioritizeFollowedUsers =
     serverPrefs?.prioritizeFollowedUsers ?? true
-  const serverTreeViewEnabled = serverPrefs?.lab_treeViewEnabled ?? false
+  const serverTreeViewEnabled = serverPrefs?.lab_treeViewEnabled ?? true
   const serverSortReplies = serverPrefs?.sort ?? 'hotness'
 
   // However, we also need these to work locally for PWI (without persistence).

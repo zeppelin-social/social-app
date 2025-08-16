@@ -6,7 +6,6 @@ import {
   type CommonNavigatorParams,
   type NativeStackScreenProps,
 } from '#/lib/routes/types'
-import {useGate} from '#/lib/statsig/statsig'
 import {
   usePreferencesQuery,
   useSetThreadViewPreferencesMutation,
@@ -28,13 +27,7 @@ import * as SettingsList from './components/SettingsList'
 
 type Props = NativeStackScreenProps<CommonNavigatorParams, 'PreferencesThreads'>
 export function ThreadPreferencesScreen({}: Props) {
-  const gate = useGate()
-
-  return gate('post_threads_v2_unspecced') ? (
-    <ThreadPreferencesV2 />
-  ) : (
-    <ThreadPreferencesV1 />
-  )
+  return <ThreadPreferencesV2 />
 }
 
 export function ThreadPreferencesV2() {
