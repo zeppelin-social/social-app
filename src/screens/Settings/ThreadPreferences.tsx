@@ -22,6 +22,10 @@ import * as SettingsList from './components/SettingsList'
 
 type Props = NativeStackScreenProps<CommonNavigatorParams, 'PreferencesThreads'>
 export function ThreadPreferencesScreen({}: Props) {
+  return <ThreadPreferencesV2 />
+}
+
+export function ThreadPreferencesV2() {
   const t = useTheme()
   const {_} = useLingui()
   const {
