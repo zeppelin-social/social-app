@@ -495,7 +495,7 @@ msgstr "<0>{date}</0> lúc {time}"
 
 #: src/screens/Search/SearchResults.tsx:255
 msgid "<0>Sign in</0><1> or </1><2>create an account</2><3> </3><4>to search for news, sports, politics, and everything else happening on Bluesky.</4>"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/StarterPack/Wizard/index.tsx:479
 msgid "<0>You</0> and<1> </1><2>{0} </2>are included in your starter pack"
@@ -532,7 +532,7 @@ msgstr "Một dạng xác thực hoàn toàn mới"
 
 #: src/components/dialogs/nuxs/ActivitySubscriptions.tsx:113
 msgid "A screenshot of a profile page with a bell icon next to the follow button, indicating the new activity notifications feature."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:532
 #: src/screens/Settings/AboutSettings.tsx:73
@@ -583,7 +583,7 @@ msgstr "Tài khoản đã bị chặn"
 #: src/view/com/profile/ProfileMenu.tsx:186
 msgctxt "toast"
 msgid "Account followed"
-msgstr "Tài khoản được theo dõi<<<<<<< HEAD"
+msgstr "Tài khoản được theo dõi"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:425
 #: src/view/com/profile/ProfileMenu.tsx:149
@@ -598,7 +598,7 @@ msgstr "Tài khoản đã bị ẩn"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:89
 msgid "Account Muted by List"
-msgstr "Tài khoản đã bị ẩn bởi Danh sách<<<<<<< HEAD"
+msgstr "Tài khoản đã bị ẩn bởi Danh sách"
 
 #: src/screens/Settings/Settings.tsx:631
 msgid "Account options"
@@ -617,7 +617,7 @@ msgstr "Tài khoản đã được bỏ chặn"
 #: src/view/com/profile/ProfileMenu.tsx:198
 msgctxt "toast"
 msgid "Account unfollowed"
-msgstr "Tài khoản đã bị bỏ theo dõi<<<<<<< HEAD"
+msgstr "Tài khoản đã bị bỏ theo dõi"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:415
 #: src/view/com/profile/ProfileMenu.tsx:139
@@ -684,7 +684,7 @@ msgstr "Thêm văn bản thay thế"
 
 #: src/view/com/composer/videos/SubtitleDialog.tsx:106
 msgid "Add alt text (optional)"
-msgstr "Thêm văn bản thay thế (không bắt buộc)<<<<<<< HEAD"
+msgstr "Thêm văn bản thay thế (không bắt buộc)"
 
 #: src/screens/Settings/Settings.tsx:571
 #: src/screens/Settings/Settings.tsx:574
@@ -946,7 +946,7 @@ msgstr "Đã có lỗi xảy ra khi đang tạo gói khởi đầu của bạn. 
 
 #: src/components/Post/Embed/VideoEmbed/index.tsx:157
 msgid "An error occurred while loading the video. Please try again later."
-msgstr "Đã có lỗi xảy ra khi đang tải video. Vui lòng thử lại sau.<<<<<<< HEAD"
+msgstr "Đã có lỗi xảy ra khi đang tải video. Vui lòng thử lại sau."
 
 #: src/components/Post/Embed/VideoEmbed/index.web.tsx:227
 msgid "An error occurred while loading the video. Please try again."
@@ -1132,7 +1132,7 @@ msgstr "Giao diện"
 #: src/screens/Feeds/NoSavedFeedsOfAnyType.tsx:47
 #: src/screens/Home/NoFeedsPinned.tsx:93
 msgid "Apply default recommended feeds"
-msgstr "Áp dụng bảng tin được đề xuất mặc định<<<<<<< HEAD"
+msgstr "Áp dụng bảng tin được đề xuất mặc định"
 
 #: src/screens/Settings/Settings.tsx:505
 #: src/screens/Settings/Settings.tsx:507
@@ -1202,7 +1202,7 @@ msgstr "Nghệ thuật"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:171
 msgid "Artistic or non-erotic nudity."
-msgstr "Khỏa thân nghệ thuật hoặc không khiêu dâm.<<<<<<< HEAD"
+msgstr "Khỏa thân nghệ thuật hoặc không khiêu dâm."
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:566
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:568
@@ -1215,7 +1215,7 @@ msgstr ""
 
 #: src/components/forms/HostingProvider.tsx:30
 msgid "Automatic"
-msgstr ">>>>>>> 6a94a753c (Update message catalogs & lockfile)"
+msgstr ""
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:116
 #: src/screens/Settings/ContentAndMediaSettings.tsx:122
@@ -1294,7 +1294,7 @@ msgstr ""
 #: src/components/dialogs/BirthDateSettings.tsx:103
 #: src/screens/Settings/AccountSettings.tsx:140
 msgid "Birthday"
-msgstr "Ngày sinh<<<<<<< HEAD"
+msgstr "Ngày sinh"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:816
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:320
@@ -1311,7 +1311,7 @@ msgstr "Chặn"
 #: src/view/com/profile/ProfileMenu.tsx:424
 #: src/view/com/profile/ProfileMenu.tsx:431
 msgid "Block account"
-msgstr "Chặn tài khoản<<<<<<< HEAD"
+msgstr "Chặn tài khoản"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:811
 #: src/view/com/profile/ProfileMenu.tsx:496
@@ -1358,7 +1358,7 @@ msgstr "Tài khoản đã bị chặn"
 #: src/Navigation.tsx:192
 #: src/view/screens/ModerationBlockedAccounts.tsx:104
 msgid "Blocked Accounts"
-msgstr "Tài khoản đã bị chặn<<<<<<< HEAD"
+msgstr "Tài khoản đã bị chặn"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:813
 #: src/view/com/profile/ProfileMenu.tsx:508
@@ -1383,7 +1383,7 @@ msgstr "Việc chặn là công khai. Tài khoản bị chặng không thể tr�
 
 #: src/view/com/profile/ProfileMenu.tsx:505
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
-msgstr "Việc chặn không ngăn nhãn gắn trên tài khoản của bạn, nhưng sẽ ngăn tài khoản này trả lời trong bài đăng của bạn hoặc tương tác với bạn.<<<<<<< HEAD"
+msgstr "Việc chặn không ngăn nhãn gắn trên tài khoản của bạn, nhưng sẽ ngăn tài khoản này trả lời trong bài đăng của bạn hoặc tương tác với bạn."
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:666
 #: src/view/com/post-thread/PostThreadItem.tsx:978
@@ -1691,7 +1691,7 @@ msgstr ""
 #: src/components/dms/ConvoMenu.tsx:176
 msgctxt "toast"
 msgid "Chat muted"
-msgstr "Đã tắt thông báo chat<<<<<<< HEAD"
+msgstr "Đã tắt thông báo chat"
 
 #: src/Navigation.tsx:567
 #: src/screens/Messages/components/InboxPreview.tsx:22
@@ -1769,7 +1769,7 @@ msgstr "Chọn nơi quản lý tài khoản của bạn"
 
 #: src/view/screens/Feeds.tsx:733
 msgid "Choose your own timeline! Feeds built by the community help you find content you love."
-msgstr "Chọn bảng tin của riêng bạn! Các bảng tin được xây dựng bởi cộng đồng giúp bạn tìm nội dung bạn yêu thích.<<<<<<< HEAD"
+msgstr "Chọn bảng tin của riêng bạn! Các bảng tin được xây dựng bởi cộng đồng giúp bạn tìm nội dung bạn yêu thích."
 
 #: src/screens/Signup/StepInfo/index.tsx:316
 msgid "Choose your password"
@@ -1963,7 +1963,7 @@ msgstr "Hài kịch"
 #: src/screens/Onboarding/index.tsx:24
 #: src/screens/Onboarding/state.ts:101
 msgid "Comics"
-msgstr "Truyện tranh<<<<<<< HEAD"
+msgstr "Truyện tranh"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:45
 #: src/Navigation.tsx:341
@@ -1973,7 +1973,7 @@ msgstr "Quy tắc cộng đồng"
 
 #: src/screens/Onboarding/StepFinished.tsx:311
 msgid "Complete onboarding and start using your account"
-msgstr "Hoàn thành quá trình hướng dẫn và bắt đầu sử dụng tài khoản của bạn<<<<<<< HEAD"
+msgstr "Hoàn thành quá trình hướng dẫn và bắt đầu sử dụng tài khoản của bạn"
 
 #: src/screens/Signup/index.tsx:183
 msgid "Complete the challenge"
@@ -2072,7 +2072,7 @@ msgstr ""
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:51
 msgid "Content & Media"
-msgstr "Nội dung & phương tiện<<<<<<< HEAD"
+msgstr "Nội dung & phương tiện"
 
 #: src/screens/Settings/Settings.tsx:205
 #: src/screens/Settings/Settings.tsx:208
@@ -2171,7 +2171,7 @@ msgstr "Đã sao chép"
 
 #: src/screens/Settings/AboutSettings.tsx:149
 msgid "Copied build version to clipboard"
-msgstr "Đã sao chép phiên bản xây dựng vào bảng ghi tạm<<<<<<< HEAD"
+msgstr "Đã sao chép phiên bản xây dựng vào bảng ghi tạm"
 
 #: src/components/dms/MessageContextMenu.tsx:55
 #: src/components/PostControls/DiscoverDebug.tsx:41
@@ -2262,7 +2262,7 @@ msgstr "Sao chép văn bản tin nhắn"
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:149
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:152
 msgid "Copy post at:// URI"
-msgstr "Sao chép URI at:// của bài đăng<<<<<<< HEAD"
+msgstr "Sao chép URI at:// của bài đăng"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:523
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:525
@@ -2275,7 +2275,7 @@ msgstr "Sao chép mã QR"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:445
 msgid "Copy TXT record value"
-msgstr "Sao chép giá trị bản ghi TXT<<<<<<< HEAD"
+msgstr "Sao chép giá trị bản ghi TXT"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:40
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:107
@@ -2352,7 +2352,7 @@ msgstr "Tạo gói khởi đầu cho tôi"
 #: src/view/shell/NavSignupCard.tsx:47
 #: src/view/shell/NavSignupCard.tsx:52
 msgid "Create account"
-msgstr "Tạo tài khoản<<<<<<< HEAD"
+msgstr "Tạo tài khoản"
 
 #: src/screens/Signup/index.tsx:128
 msgid "Create Account"
@@ -2430,7 +2430,7 @@ msgstr "Chế độ tối"
 
 #: src/screens/Settings/AppearanceSettings.tsx:121
 msgid "Dark theme"
-msgstr "Chế độ tối<<<<<<< HEAD"
+msgstr "Chế độ tối"
 
 #: src/screens/Signup/StepInfo/index.tsx:344
 msgid "Date of birth"
@@ -2440,7 +2440,7 @@ msgstr "Ngày sinh"
 #: src/screens/Settings/AccountSettings.tsx:164
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:73
 msgid "Deactivate account"
-msgstr "Vô hiệu hóa tài khoản<<<<<<< HEAD"
+msgstr "Vô hiệu hóa tài khoản"
 
 #: src/screens/Settings/Settings.tsx:462
 msgid "Debug Moderation"
@@ -2466,7 +2466,7 @@ msgstr "Mặc định"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:75
 msgid "Default icons"
-msgstr "Biểu tượng mặc định<<<<<<< HEAD"
+msgstr "Biểu tượng mặc định"
 
 #: src/components/dms/MessageContextMenu.tsx:185
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:760
@@ -2499,7 +2499,7 @@ msgstr "Xóa mật khẩu ứng dụng?"
 #: src/screens/Messages/components/RequestButtons.tsx:316
 #: src/screens/Messages/components/RequestButtons.tsx:323
 msgid "Delete chat"
-msgstr "Xóa đoạn chat<<<<<<< HEAD"
+msgstr "Xóa đoạn chat"
 
 #: src/screens/Settings/Settings.tsx:469
 msgid "Delete chat declaration record"
@@ -2534,7 +2534,7 @@ msgstr "Xóa tin nhắn cho tôi"
 
 #: src/view/com/modals/DeleteAccount.tsx:267
 msgid "Delete my account"
-msgstr "Xóa tài khoản của tôi<<<<<<< HEAD"
+msgstr "Xóa tài khoản của tôi"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:741
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:743
@@ -2553,7 +2553,7 @@ msgstr "Xóa gói khởi đầu?"
 
 #: src/view/screens/ProfileList.tsx:763
 msgid "Delete this list?"
-msgstr "Xóa danh sách này?<<<<<<< HEAD"
+msgstr "Xóa danh sách này?"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:755
 msgid "Delete this post?"
@@ -2588,7 +2588,7 @@ msgstr "Mô tả"
 #: src/view/com/composer/GifAltText.tsx:150
 #: src/view/com/composer/photos/ImageAltTextDialog.tsx:114
 msgid "Descriptive alt text"
-msgstr "Văn bản thay thế mô tả<<<<<<< HEAD"
+msgstr "Văn bản thay thế mô tả"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:791
 msgid "Detach quote post?"
@@ -2602,7 +2602,7 @@ msgstr "Đã tắt chế độ dành cho nhà phát triển"
 #: src/screens/Settings/AboutSettings.tsx:132
 msgctxt "toast"
 msgid "Developer mode enabled"
-msgstr "Đã bật chế độ dành cho nhà phát triển<<<<<<< HEAD"
+msgstr "Đã bật chế độ dành cho nhà phát triển"
 
 #: src/screens/Settings/Settings.tsx:278
 #: src/screens/Settings/Settings.tsx:281
@@ -2903,7 +2903,7 @@ msgstr "Chỉnh sửa bảng tin"
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:89
 #: src/view/com/composer/photos/Gallery.tsx:195
 msgid "Edit image"
-msgstr "Chỉnh sửa hình ảnh<<<<<<< HEAD"
+msgstr "Chỉnh sửa hình ảnh"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:722
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:735
@@ -3384,7 +3384,7 @@ msgstr "Xóa đoạn chat không thành công"
 
 #: src/components/dms/MessageContextMenu.tsx:79
 msgid "Failed to delete message"
-msgstr "Không xóa được tin nhắn<<<<<<< HEAD"
+msgstr "Không xóa được tin nhắn"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:207
 msgid "Failed to delete post, please try again"
@@ -3486,7 +3486,7 @@ msgstr ""
 #: src/components/moderation/LabelsOnMeDialog.tsx:254
 #: src/screens/Messages/components/ChatDisabled.tsx:87
 msgid "Failed to submit appeal, please try again."
-msgstr "Không gởi được kháng nghị, vui lòng thử lại.<<<<<<< HEAD"
+msgstr "Không gởi được kháng nghị, vui lòng thử lại."
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:227
 msgid "Failed to toggle thread mute, please try again"
@@ -3565,13 +3565,13 @@ msgstr ""
 #: src/view/shell/desktop/RightNav.tsx:103
 #: src/view/shell/Drawer.tsx:357
 msgid "Feedback"
-msgstr "Phản hồi<<<<<<< HEAD"
+msgstr "Phản hồi"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:277
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:293
 msgctxt "toast"
 msgid "Feedback sent!"
-msgstr "Đã gởi phản hồi!<<<<<<< HEAD"
+msgstr "Đã gởi phản hồi!"
 
 #: src/Navigation.tsx:582
 #: src/screens/Search/SearchResults.tsx:73
@@ -4095,7 +4095,7 @@ msgstr "Hashtag {tag}"
 #: src/components/dialogs/EmailDialog/screens/Manage2FA/Disable.tsx:198
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:317
 msgid "Have a code? <0>Click here.</0>"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Signup/index.tsx:217
 msgid "Having trouble?"
@@ -4156,7 +4156,7 @@ msgstr "Ẩn"
 
 #: src/components/dialogs/Embed.tsx:128
 msgid "Hide customization options"
-msgstr "Ẩn tùy chọn trùy chỉnh<<<<<<< HEAD"
+msgstr "Ẩn tùy chọn trùy chỉnh"
 
 #: src/screens/Settings/DeerSettings.tsx:551
 #: src/screens/Settings/DeerSettings.tsx:556
@@ -4180,7 +4180,7 @@ msgstr "Ẩn trả lời cho tôi"
 
 #: src/screens/Search/modules/ExploreInterestsCard.tsx:110
 msgid "Hide this card"
-msgstr "Ẩn thẻ này<<<<<<< HEAD"
+msgstr "Ẩn thẻ này"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:766
 msgid "Hide this post?"
@@ -4321,7 +4321,7 @@ msgstr "Nếu bạn có tên miền riêng, bạn có thể sử dụng nó làm
 
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:272
 msgid "If you need to update your email, <0>click here</0>."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:757
 msgid "If you remove this post, you won't be able to recover it."
@@ -4488,7 +4488,7 @@ msgstr "Mã xác minh không hợp lệ"
 
 #: src/view/com/modals/InviteCodes.tsx:94
 msgid "Invite a Friend"
-msgstr "Mời bạn<<<<<<< HEAD"
+msgstr "Mời bạn"
 
 #: src/screens/Signup/StepInfo/index.tsx:238
 msgid "Invite code"
@@ -4516,7 +4516,7 @@ msgstr "Mời bạn bè theo dõi bảng tin và người bạn yêu thích"
 
 #: src/screens/StarterPack/Wizard/StepDetails.tsx:31
 msgid "Invites, but personal"
-msgstr "Lời mời, nhưng cá nhân<<<<<<< HEAD"
+msgstr "Lời mời, nhưng cá nhân"
 
 #: src/screens/Settings/DeerSettings.tsx:440
 msgid "ISO 3166-1 Location (currently {0})"
@@ -4662,7 +4662,7 @@ msgstr "Tìm hiểu thêm về kiểm duyệt được áp dụng cho nội dung
 
 #: src/components/moderation/ContentHider.tsx:222
 msgid "Learn more about the moderation applied to this content."
-msgstr "Tìm hiểu thêm về kiểm duyệt được áp dụng cho nội dung này.<<<<<<< HEAD"
+msgstr "Tìm hiểu thêm về kiểm duyệt được áp dụng cho nội dung này."
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:149
 msgid "Learn more about these changes and how to share your thoughts with us by <0>reading our blog post.</0>"
@@ -5216,7 +5216,7 @@ msgstr "Tắt tiếng"
 #: src/components/RichTextTag.tsx:140
 #: src/components/RichTextTag.tsx:153
 msgid "Mute {tag}"
-msgstr "Ẩn {tag}<<<<<<< HEAD"
+msgstr "Ẩn {tag}"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:684
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:690
@@ -5268,7 +5268,7 @@ msgstr "Chỉ ẩn từ này trong thẻ"
 
 #: src/components/dialogs/MutedWords.tsx:170
 msgid "Mute this word until you unmute it"
-msgstr "Ẩn từ này cho đến khi bạn bật lại<<<<<<< HEAD"
+msgstr "Ẩn từ này cho đến khi bạn bật lại"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:580
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
@@ -5794,7 +5794,7 @@ msgstr ""
 
 #: src/components/StarterPack/QrCode.tsx:82
 msgid "on<0><1/><2><3/></2></0>"
-msgstr "trên<0><1/><2><3/></2></0><<<<<<< HEAD"
+msgstr "trên<0><1/><2><3/></2></0>"
 
 #: src/screens/Settings/Settings.tsx:395
 msgid "Onboarding reset"
@@ -5892,7 +5892,7 @@ msgstr "Mở liên kết đến {niceUrl}"
 
 #: src/components/dms/ActionsWrapper.tsx:35
 msgid "Open message options"
-msgstr "Mở tùy chọn tin nhắn<<<<<<< HEAD"
+msgstr "Mở tùy chọn tin nhắn"
 
 #: src/screens/Settings/Settings.tsx:460
 msgid "Open moderation debug page"
@@ -5921,7 +5921,7 @@ msgstr ""
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:566
 msgid "Open starter pack menu"
-msgstr "Mở trình đơn gói khởi đầu<<<<<<< HEAD"
+msgstr "Mở trình đơn gói khởi đầu"
 
 #: src/screens/Settings/Settings.tsx:453
 #: src/screens/Settings/Settings.tsx:467
@@ -5992,7 +5992,7 @@ msgstr "Mở quy trình đăng nhập vào tài khoản Bluesky hiện tại c�
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
 msgid "Opens GIF select dialog"
-msgstr "Mở hộp thoại chọn GIF<<<<<<< HEAD"
+msgstr "Mở hộp thoại chọn GIF"
 
 #: src/screens/Settings/Settings.tsx:244
 msgid "Opens helpdesk in browser"
@@ -6012,7 +6012,7 @@ msgstr ""
 
 #: src/screens/Login/LoginForm.tsx:274
 msgid "Opens password reset form"
-msgstr "Mở biểu mẫu đặt lại mật khẩu<<<<<<< HEAD"
+msgstr "Mở biểu mẫu đặt lại mật khẩu"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:906
 #: src/view/com/util/UserAvatar.tsx:594
@@ -6185,7 +6185,7 @@ msgstr "Ghim vào trang chủ"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:337
 msgid "Pin to Home"
-msgstr "Ghim vào trang chủ<<<<<<< HEAD"
+msgstr "Ghim vào trang chủ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:461
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:468
@@ -6307,7 +6307,7 @@ msgstr "Vui lòng nhập một từ, thẻ hoặc cụm từ hợp lệ để �
 
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:144
 msgid "Please enter a valid, non-temporary email address. You may need to access this email in the future."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Login/LoginForm.tsx:108
 msgid "Please enter hosting provider URL"
@@ -6427,7 +6427,7 @@ msgstr "Đăng bởi {0}"
 #: src/Navigation.tsx:278
 #: src/Navigation.tsx:285
 msgid "Post by @{0}"
-msgstr "Đăng bởi @{0}<<<<<<< HEAD"
+msgstr "Đăng bởi @{0}"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:187
 msgctxt "toast"
@@ -6555,7 +6555,7 @@ msgstr "Ưu tiên người bạn theo dõi"
 #: src/view/shell/desktop/RightNav.tsx:110
 #: src/view/shell/desktop/RightNav.tsx:111
 msgid "Privacy"
-msgstr "Quyền riêng tư<<<<<<< HEAD"
+msgstr "Quyền riêng tư"
 
 #: src/screens/Settings/Settings.tsx:183
 #: src/screens/Settings/Settings.tsx:186
@@ -6571,7 +6571,7 @@ msgstr "Quyền riêng tư và bảo mật"
 
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:158
 msgid "Privacy and Security settings"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:35
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:102
@@ -6679,11 +6679,11 @@ msgstr ""
 #: src/components/PostControls/RepostButton.web.tsx:84
 #: src/components/PostControls/RepostButton.web.tsx:91
 msgid "Quote post"
-msgstr "Trích dẫn bài đăng<<<<<<< HEAD"
+msgstr "Trích dẫn bài đăng"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:308
 msgid "Quote post was re-attached"
-msgstr "Bài đăng trích dẫn đã được đính kèm lại>>>>>>> 6a94a753c (Update message catalogs & lockfile)"
+msgstr "Bài đăng trích dẫn đã được đính kèm lại"
 
 #: src/components/PostControls/RepostButton.tsx:173
 #: src/components/PostControls/RepostButton.tsx:195
@@ -6717,7 +6717,7 @@ msgstr "Ngẫu nhiên (còn gọi là \"Poster's Roulette\")"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:600
 msgid "Rate limit exceeded – you've tried to change your handle too many times in a short period. Please wait a minute before trying again."
-msgstr "Vượt quá giới hạn - bạn đã thử thay đổi tên người dùng quá nhiều lần trong thời gian ngắn. Vui lòng chờ một chút trước khi thử lại.<<<<<<< HEAD"
+msgstr "Vượt quá giới hạn - bạn đã thử thay đổi tên người dùng quá nhiều lần trong thời gian ngắn. Vui lòng chờ một chút trước khi thử lại."
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:654
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:656
@@ -6751,7 +6751,7 @@ msgstr "Xem thêm"
 
 #: src/screens/PostThread/components/ThreadItemReadMore.tsx:71
 msgid "Read more replies"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:112
 msgid "Read our blog post"
@@ -6840,7 +6840,7 @@ msgstr "Xóa {displayName} khỏi gói khởi đầu"
 
 #: src/screens/Search/components/SearchHistory.tsx:94
 msgid "Remove {historyItem}"
-msgstr "Xóa {historyItem}<<<<<<< HEAD"
+msgstr "Xóa {historyItem}"
 
 #: src/screens/Settings/Settings.tsx:648
 #: src/screens/Settings/Settings.tsx:651
@@ -6880,7 +6880,7 @@ msgstr "Xóa bảng tin?"
 #: src/view/screens/ProfileList.tsx:528
 #: src/view/screens/SavedFeeds.tsx:350
 msgid "Remove from my feeds"
-msgstr "Xóa khỏi bảng tin của tôi<<<<<<< HEAD"
+msgstr "Xóa khỏi bảng tin của tôi"
 
 #: src/screens/Settings/Settings.tsx:661
 msgid "Remove from quick access?"
@@ -7055,7 +7055,7 @@ msgstr "Sắp xếp trả lời"
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:339
 msgctxt "toast"
 msgid "Reply visibility updated"
-msgstr "Đã cập nhật trạng thái hiển thị trả lời<<<<<<< HEAD"
+msgstr "Đã cập nhật trạng thái hiển thị trả lời"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:338
 msgid "Reply was successfully hidden"
@@ -7097,7 +7097,7 @@ msgstr "Báo cáo danh sách"
 
 #: src/components/dms/MessageContextMenu.tsx:164
 msgid "Report message"
-msgstr "Báo cáo tin nhắn<<<<<<< HEAD"
+msgstr "Báo cáo tin nhắn"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:710
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:712
@@ -7223,7 +7223,7 @@ msgstr "Yêu cầu văn bản thay thế trước khi đăng"
 
 #: src/components/dialogs/EmailDialog/screens/Manage2FA/Enable.tsx:96
 msgid "Require an email code to sign in to your account."
-msgstr "Yêu cầu một mã gửi qua email để đăng nhập vào tài khoản của bạn.<<<<<<< HEAD"
+msgstr "Yêu cầu một mã gửi qua email để đăng nhập vào tài khoản của bạn."
 
 #: src/screens/Signup/StepInfo/index.tsx:252
 msgid "Required for this provider"
@@ -7248,7 +7248,7 @@ msgstr "Gửi lại email"
 
 #: src/components/intents/VerifyEmailIntentDialog.tsx:122
 msgid "Resend Verification Email"
-msgstr "Gửi lại email xác minh<<<<<<< HEAD"
+msgstr "Gửi lại email xác minh"
 
 #: src/screens/Settings/Settings.tsx:489
 #: src/screens/Settings/Settings.tsx:491
@@ -7262,7 +7262,7 @@ msgstr "Mã đặt lại"
 
 #: src/view/com/modals/ChangePassword.tsx:204
 msgid "Reset Code"
-msgstr "Mã đặt lại<<<<<<< HEAD"
+msgstr "Mã đặt lại"
 
 #: src/screens/Settings/DeerSettings.tsx:580
 msgid "Reset gates"
@@ -7676,7 +7676,7 @@ msgstr "Chọn một ngôn ngữ để dùng làm giao diện người dùng cho
 
 #: src/screens/Settings/LanguageSettings.tsx:157
 msgid "Select which languages you want your subscribed feeds to include. If none are selected, all languages will be shown."
-msgstr "Chọn ngôn ngữ bạn muốn bảng tin đăng ký của mình bao gồm. Nếu không chọn, tất cả ngôn ngữ sẽ được hiển thị.<<<<<<< HEAD"
+msgstr "Chọn ngôn ngữ bạn muốn bảng tin đăng ký của mình bao gồm. Nếu không chọn, tất cả ngôn ngữ sẽ được hiển thị."
 
 #: src/screens/Signup/StepInfo/index.tsx:345
 msgid "Select your date of birth"
@@ -7791,7 +7791,7 @@ msgstr "Thiết lập tài khoản của bạn"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:107
 msgid "Sets email for password reset"
-msgstr "Đặt email để đặt lại mật khẩu<<<<<<< HEAD"
+msgstr "Đặt email để đặt lại mật khẩu"
 
 #: src/Navigation.tsx:213
 #: src/screens/Settings/Settings.tsx:100
@@ -7970,7 +7970,7 @@ msgstr "Hiện tùy chọn tùy chỉnh"
 
 #: src/view/com/post-thread/PostThreadShowHiddenReplies.tsx:22
 msgid "Show hidden replies"
-msgstr "Hiển thị trả lời ẩn<<<<<<< HEAD"
+msgstr "Hiển thị trả lời ẩn"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:554
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:556
@@ -7983,7 +7983,7 @@ msgstr "Vẫn hiển thị danh sách"
 
 #: src/components/Post/ShowMoreTextButton.tsx:51
 msgid "Show More"
-msgstr "Hiển thị thêm<<<<<<< HEAD"
+msgstr "Hiển thị thêm"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:546
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:548
@@ -8024,7 +8024,7 @@ msgstr "Hiển thị trả lời dưới dạng phân luồng"
 #: src/screens/Settings/ThreadPreferences.tsx:120
 #: src/screens/Settings/ThreadPreferences.tsx:260
 msgid "Show replies by people you follow before all other replies"
-msgstr "Hiển thị trước các trả lời từ người bạn theo dõi<<<<<<< HEAD"
+msgstr "Hiển thị trước các trả lời từ người bạn theo dõi"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:630
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:640
@@ -8047,7 +8047,7 @@ msgstr "Hiển thị cảnh báo"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:56
 msgid "Show warning and filter from feeds"
-msgstr "Hiển thị cảnh báo và bộ lọc từ bảng tin<<<<<<< HEAD"
+msgstr "Hiển thị cảnh báo và bộ lọc từ bảng tin"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:612
 #: src/view/com/post-thread/PostThreadItem.tsx:924
@@ -8105,7 +8105,7 @@ msgstr "Đăng nhập vào tải khoản chưa được liệt kê"
 
 #: src/components/dialogs/Signin.tsx:46
 msgid "Sign in to Bluesky or create a new account"
-msgstr "Đăng nhập vào Bluesky hoặc tạo tài khoản mới<<<<<<< HEAD"
+msgstr "Đăng nhập vào Bluesky hoặc tạo tài khoản mới"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:532
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:534
@@ -8131,7 +8131,7 @@ msgstr "Đăng xuất"
 
 #: src/screens/Takendown.tsx:88
 msgid "Sign Out"
-msgstr "Đăng xuất<<<<<<< HEAD"
+msgstr "Đăng xuất"
 
 #: src/screens/Settings/Settings.tsx:292
 #: src/view/shell/desktop/LeftNav.tsx:208
@@ -8298,7 +8298,7 @@ msgstr "Bắt đầu thêm người!"
 
 #: src/components/dialogs/SearchablePeopleList.tsx:382
 msgid "Start chat with {displayName}"
-msgstr "Bắt đầu trò chuyện với {displayName}<<<<<<< HEAD"
+msgstr "Bắt đầu trò chuyện với {displayName}"
 
 #: src/Navigation.tsx:587
 #: src/Navigation.tsx:592
@@ -8335,7 +8335,7 @@ msgstr "Gói khởi đầu giúp bạn dễ dàng chia sẻ bảng tin và ngư�
 #: src/screens/Settings/AboutSettings.tsx:98
 #: src/screens/Settings/AboutSettings.tsx:101
 msgid "Status Page"
-msgstr "Trang trạng thái<<<<<<< HEAD"
+msgstr "Trang trạng thái"
 
 #: src/screens/Signup/index.tsx:169
 msgid "Step {0} of {1}"
@@ -8427,7 +8427,7 @@ msgstr "Đề xuất"
 #: src/view/screens/Support.tsx:31
 #: src/view/screens/Support.tsx:34
 msgid "Support"
-msgstr "Hỗ trợ<<<<<<< HEAD"
+msgstr "Hỗ trợ"
 
 #: src/screens/Settings/Settings.tsx:124
 #: src/screens/Settings/Settings.tsx:138
@@ -8454,7 +8454,7 @@ msgstr "Chuyển sang {0}"
 #: src/screens/Settings/AppearanceSettings.tsx:100
 #: src/screens/Settings/AppearanceSettings.tsx:150
 msgid "System"
-msgstr "Hệ thống<<<<<<< HEAD"
+msgstr "Hệ thống"
 
 #: src/screens/Settings/AboutSettings.tsx:105
 #: src/screens/Settings/AboutSettings.tsx:108
@@ -8520,7 +8520,7 @@ msgstr "Kể thêm một chút nữa"
 #: src/view/shell/desktop/RightNav.tsx:116
 #: src/view/shell/desktop/RightNav.tsx:117
 msgid "Terms"
-msgstr "Điều khoản<<<<<<< HEAD"
+msgstr "Điều khoản"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:30
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:97
@@ -8726,7 +8726,7 @@ msgstr "Có vấn đề khi kết nối với máy chủ, vui lòng kiểm tra k
 
 #: src/view/com/notifications/NotificationFeed.tsx:130
 msgid "There was an issue fetching notifications. Tap here to try again."
-msgstr "Có vấn đề khi tải thông báo. Nhấn vào đây để thử lại.<<<<<<< HEAD"
+msgstr "Có vấn đề khi tải thông báo. Nhấn vào đây để thử lại."
 
 #: src/screens/Search/Explore.tsx:986
 #: src/view/com/posts/PostFeed.tsx:751
@@ -8763,7 +8763,7 @@ msgstr "Có vấn đề khi gửi báo cáo. Vui lòng kiểm tra kết nối m�
 #: src/view/com/posts/FeedShutdownMsg.tsx:52
 #: src/view/com/posts/FeedShutdownMsg.tsx:71
 msgid "There was an issue updating your feeds, please check your internet connection and try again."
-msgstr "Có vấn đề cập nhật bảng tin của bạn, vui lòng kiểm tra kết nối mạng của bạn và thử lại.<<<<<<< HEAD"
+msgstr "Có vấn đề cập nhật bảng tin của bạn, vui lòng kiểm tra kết nối mạng của bạn và thử lại."
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:406
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:419
@@ -8952,7 +8952,7 @@ msgstr "Danh sách này đang trống."
 
 #: src/screens/Profile/ErrorState.tsx:40
 msgid "This moderation service is unavailable. See below for more details. If this issue persists, contact us."
-msgstr "Dịch vụ kiểm duyệt này không khả dụng. Xem bên dưới để biết thêm chi tiết. Nếu vấn đề này vẫn tiếp tục, hãy liên hệ với chúng tôi.<<<<<<< HEAD"
+msgstr "Dịch vụ kiểm duyệt này không khả dụng. Xem bên dưới để biết thêm chi tiết. Nếu vấn đề này vẫn tiếp tục, hãy liên hệ với chúng tôi."
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:652
 #: src/view/com/post-thread/PostThreadItem.tsx:964
@@ -8969,7 +8969,7 @@ msgstr "Bài đăng này đã bị xóa."
 
 #: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:145
 msgid "This post is only visible to logged-in users."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:768
 msgid "This post will be hidden from feeds and threads. This cannot be undone."
@@ -8981,7 +8981,7 @@ msgstr "Tác giả bài đăng này đã tắt chức năng trích dẫn bài đ
 
 #: src/view/com/profile/ProfileMenu.tsx:522
 msgid "This profile is only visible to logged-in users. It won't be visible to people who aren't signed in."
-msgstr "Chỉ những người dùng đã đăng nhập mới xem được hồ sơ người dùng này. Người chưa đăng nhập sẽ không thể xem được.<<<<<<< HEAD"
+msgstr "Chỉ những người dùng đã đăng nhập mới xem được hồ sơ người dùng này. Người chưa đăng nhập sẽ không thể xem được."
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:803
 msgid "This reply will be sorted into a hidden section at the bottom of your thread and will mute notifications for subsequent replies - both for yourself and others."
@@ -9038,7 +9038,7 @@ msgstr "Người dùng này không theo dõi ai cả."
 
 #: src/components/dialogs/MutedWords.tsx:435
 msgid "This will delete \"{0}\" from your muted words. You can always add it back later."
-msgstr "Tác vụ này sẽ xóa \"{0}\" khỏi danh sách từ cấm của bạn. Bạn luôn có thể thêm lại sau này.<<<<<<< HEAD"
+msgstr "Tác vụ này sẽ xóa \"{0}\" khỏi danh sách từ cấm của bạn. Bạn luôn có thể thêm lại sau này."
 
 #: src/screens/Settings/Settings.tsx:663
 msgid "This will remove @{0} from the quick access list."
@@ -9103,11 +9103,11 @@ msgstr "Bạn muốn gởi báo cáo này cho ai?"
 
 #: src/components/dms/DateDivider.tsx:44
 msgid "Today"
-msgstr "Hôm nay<<<<<<< HEAD======="
+msgstr "Hôm nay"
 
 #: src/screens/Settings/DeerSettings.tsx:371
 msgid "TODO: Fall back to constellation api to find blocked replies"
-msgstr ">>>>>>> 6a94a753c (Update message catalogs & lockfile)"
+msgstr ""
 
 #: src/view/com/util/forms/DropdownButton.tsx:263
 msgid "Toggle dropdown"
@@ -9136,7 +9136,7 @@ msgstr ""
 
 #: src/Navigation.tsx:552
 msgid "Topic"
-msgstr "Chủ đề<<<<<<< HEAD"
+msgstr "Chủ đề"
 
 #: src/components/dms/MessageContextMenu.tsx:137
 #: src/components/dms/MessageContextMenu.tsx:139
@@ -9213,7 +9213,7 @@ msgstr "Không thể kết nối với dịch vụ của bạn. Vui lòng kiểm
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:673
 msgid "Unable to delete"
-msgstr "Không thể xóa<<<<<<< HEAD"
+msgstr "Không thể xóa"
 
 #: src/screens/Settings/Settings.tsx:514
 msgid "Unapply Pull Request"
@@ -9321,7 +9321,7 @@ msgstr "Bỏ ẩn"
 #: src/components/RichTextTag.tsx:140
 #: src/components/RichTextTag.tsx:153
 msgid "Unmute {tag}"
-msgstr "Bỏ ẩn {tag}<<<<<<< HEAD"
+msgstr "Bỏ ẩn {tag}"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:683
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:689
@@ -9336,7 +9336,7 @@ msgstr "Bật lại thông báo cho hội thoại"
 
 #: src/view/screens/ProfileList.tsx:605
 msgid "Unmute list"
-msgstr "Bỏ ẩn danh sách<<<<<<< HEAD"
+msgstr "Bỏ ẩn danh sách"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:580
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
@@ -9363,7 +9363,7 @@ msgstr "Bỏ ghim bảng tin"
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:310
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:312
 msgid "Unpin from home"
-msgstr "Bỏ ghim khỏi trang chủ<<<<<<< HEAD"
+msgstr "Bỏ ghim khỏi trang chủ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:460
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:467
@@ -9380,7 +9380,7 @@ msgstr "Đã bỏ ghim {0} khỏi Trang chủ"
 
 #: src/view/screens/ProfileList.tsx:362
 msgid "Unpinned from your feeds"
-msgstr "Bỏ ghim khỏi bảng ghi của bạn<<<<<<< HEAD"
+msgstr "Bỏ ghim khỏi bảng ghi của bạn"
 
 #: src/screens/Settings/Settings.tsx:481
 #: src/screens/Settings/Settings.tsx:483
@@ -9442,12 +9442,12 @@ msgstr "Cập nhật thành {domain}"
 
 #: src/components/dialogs/EmailDialog/screens/Update.tsx:203
 msgid "Update your email"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:311
 msgctxt "toast"
 msgid "Updating quote attachment failed"
-msgstr "Không thể cập nhật tệp đính kèm trong trích dẫn<<<<<<< HEAD"
+msgstr "Không thể cập nhật tệp đính kèm trong trích dẫn"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:343
 msgctxt "toast"
@@ -9583,7 +9583,7 @@ msgstr "Đã tạo danh sách người dùng"
 #: src/view/com/modals/CreateOrEditList.tsx:160
 msgctxt "toast"
 msgid "User list updated"
-msgstr "Đã cập nhật danh sách người dùng<<<<<<< HEAD"
+msgstr "Đã cập nhật danh sách người dùng"
 
 #: src/screens/Signup/StepHandle/index.tsx:235
 msgid "Username cannot be longer than {MAX_SERVICE_HANDLE_LENGTH, plural, other {# characters}}"
@@ -9714,7 +9714,7 @@ msgstr ""
 
 #: src/components/ageAssurance/AgeAssuranceRedirectDialog.tsx:74
 msgid "Verifying your age assurance status"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/AboutSettings.tsx:124
 #: src/screens/Settings/AboutSettings.tsx:153
@@ -9750,7 +9750,7 @@ msgstr "Đã tạm dừng video"
 
 #: src/screens/VideoFeed/index.tsx:1072
 msgid "Video is playing"
-msgstr "Đang phát video<<<<<<< HEAD"
+msgstr "Đang phát video"
 
 #: src/components/Post/Embed/VideoEmbed/index.web.tsx:220
 msgid "Video not found."
@@ -10036,7 +10036,7 @@ msgstr "Chúng tôi đang gặp vấn đề mạng, hãy thử lại"
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:94
 msgid "We’re introducing a new layer of verification on Bluesky — an easy-to-see checkmark."
-msgstr "Chúng tôi đang giới thiệu một lớp xác minh mới trên Bluesky — một dấu tích dễ nổi bật.<<<<<<< HEAD"
+msgstr "Chúng tôi đang giới thiệu một lớp xác minh mới trên Bluesky — một dấu tích dễ nổi bật."
 
 #: src/view/screens/ProfileList.tsx:117
 msgid "We're sorry, but we were unable to resolve this list. If this persists, please contact the list creator, @{handleOrDid}."
@@ -10225,7 +10225,7 @@ msgstr "Có, vô hiệu hóa"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:685
 msgid "Yes, delete this starter pack"
-msgstr "Có, xóa gói khởi đầu này<<<<<<< HEAD"
+msgstr "Có, xóa gói khởi đầu này"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:796
 msgid "Yes, detach"
@@ -10245,7 +10245,7 @@ msgstr "Hôm qua"
 
 #: src/components/NewskieDialog.tsx:43
 msgid "You"
-msgstr "Bạn<<<<<<< HEAD"
+msgstr "Bạn"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:23
 msgid "You also agree to <0>Bluesky’s Community Guidelines</0>. An <1>updated version of our Community Guidelines</1> will take effect on October 15th."
@@ -10519,7 +10519,7 @@ msgstr "Bạn cần phải xác thực địa chỉ email trước khi mở xác
 
 #: src/screens/Deactivated.tsx:128
 msgid "You previously deactivated @{0}."
-msgstr "Bạn đã vô hiệu hóa @{0} trước đây.<<<<<<< HEAD"
+msgstr "Bạn đã vô hiệu hóa @{0} trước đây."
 
 #: src/screens/Settings/Settings.tsx:411
 msgid "You probably want to restart the app now."
@@ -10531,7 +10531,7 @@ msgstr "Bạn đã bày tỏ cảm xúc {0}"
 
 #: src/screens/Messages/components/ChatListItem.tsx:218
 msgid "You reacted {0} to {1}"
-msgstr "Bạn đã bày tỏ cảm xúc {0} cho {1}<<<<<<< HEAD"
+msgstr "Bạn đã bày tỏ cảm xúc {0} cho {1}"
 
 #: src/screens/Settings/Settings.tsx:293
 #: src/view/shell/desktop/LeftNav.tsx:209
@@ -10540,7 +10540,7 @@ msgstr "Bạn sẽ đăng xuất khỏi tất cả tài khoản của mình."
 
 #: src/components/activity-notifications/SubscribeProfileDialog.tsx:139
 msgid "You will no longer receive notifications for {0}"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:220
 msgid "You will no longer receive notifications for this thread"
@@ -10564,7 +10564,7 @@ msgstr "Bạn: {defaultEmbeddedContentMessage}"
 
 #: src/screens/Messages/components/ChatListItem.tsx:176
 msgid "You: {short}"
-msgstr "Bạn: {short}<<<<<<< HEAD"
+msgstr "Bạn: {short}"
 
 #: src/screens/Signup/index.tsx:145
 msgid "You'll follow the suggested users and feeds once you finish creating your account!"
@@ -10638,7 +10638,7 @@ msgstr "Bạn đã đến giới hạn tải lên video hàng ngày (quá nhiề
 
 #: src/screens/VideoFeed/index.tsx:1123
 msgid "You've run out of videos to watch. Maybe it's a good time to take a break?"
-msgstr "Không còn video để xem nữa. Có lẽ đây là thời điểm thích hợp để nghỉ giải lao?<<<<<<< HEAD"
+msgstr "Không còn video để xem nữa. Có lẽ đây là thời điểm thích hợp để nghỉ giải lao?"
 
 #: src/view/com/modals/DeleteAccount.tsx:84
 msgid "Your account has been deleted"
@@ -10662,7 +10662,7 @@ msgstr "Tài khoản của bạn đã vi phạm <0>Điều khoản Dịch vụ c
 
 #: src/screens/Takendown.tsx:154
 msgid "Your appeal has been submitted. If your appeal succeeds, you will receive an email."
-msgstr "Khiếu nại của bạn đã được gửi. Nếu khiếu nại của bạn được chấp thuận, bạn sẽ nhận được một email.<<<<<<< HEAD"
+msgstr "Khiếu nại của bạn đã được gửi. Nếu khiếu nại của bạn được chấp thuận, bạn sẽ nhận được một email."
 
 #: src/screens/Signup/StepInfo/index.tsx:332
 msgid "Your birth date"
@@ -10715,7 +10715,7 @@ msgstr "Bảng tin theo dõi còn trống! Hãy theo dõi thêm người dùng �
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:240
 msgid "Your full handle will be <0>@{0}</0>"
-msgstr "Tên tài khoản đầy đủ của bạn sẽ là <0>@{0}</0><<<<<<< HEAD"
+msgstr "Tên tài khoản đầy đủ của bạn sẽ là <0>@{0}</0>"
 
 #: src/Navigation.tsx:524
 #: src/screens/Search/modules/ExploreInterestsCard.tsx:67
@@ -10740,7 +10740,7 @@ msgstr "Từ cấm của bạn"
 
 #: src/view/com/modals/ChangePassword.tsx:169
 msgid "Your password has been changed successfully!"
-msgstr "Mật khẩu đã được thay đổi thành công!<<<<<<< HEAD"
+msgstr "Mật khẩu đã được thay đổi thành công!"
 
 #: src/screens/Signup/StepInfo/index.tsx:147
 msgid "Your password must be at least 8 characters long."

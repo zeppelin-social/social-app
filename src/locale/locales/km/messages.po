@@ -495,7 +495,7 @@ msgstr "<0>{date}</0> នៅ {time}"
 
 #: src/screens/Search/SearchResults.tsx:255
 msgid "<0>Sign in</0><1> or </1><2>create an account</2><3> </3><4>to search for news, sports, politics, and everything else happening on Bluesky.</4>"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/StarterPack/Wizard/index.tsx:479
 msgid "<0>You</0> and<1> </1><2>{0} </2>are included in your starter pack"
@@ -532,7 +532,7 @@ msgstr ""
 
 #: src/components/dialogs/nuxs/ActivitySubscriptions.tsx:113
 msgid "A screenshot of a profile page with a bell icon next to the follow button, indicating the new activity notifications feature."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:532
 #: src/screens/Settings/AboutSettings.tsx:73
@@ -583,7 +583,7 @@ msgstr "គណនីត្រូវបានរារាំង"
 #: src/view/com/profile/ProfileMenu.tsx:186
 msgctxt "toast"
 msgid "Account followed"
-msgstr "គណនីបានធ្វើតាម<<<<<<< HEAD"
+msgstr "គណនីបានធ្វើតាម"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:425
 #: src/view/com/profile/ProfileMenu.tsx:149
@@ -598,7 +598,7 @@ msgstr "គណនីត្រូវបានបិទសំឡេង"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:89
 msgid "Account Muted by List"
-msgstr "គណនីត្រូវបានបិទសំឡេងដោយបញ្ជី<<<<<<< HEAD"
+msgstr "គណនីត្រូវបានបិទសំឡេងដោយបញ្ជី"
 
 #: src/screens/Settings/Settings.tsx:631
 msgid "Account options"
@@ -617,7 +617,7 @@ msgstr "គណនីត្រូវបានបិទ"
 #: src/view/com/profile/ProfileMenu.tsx:198
 msgctxt "toast"
 msgid "Account unfollowed"
-msgstr "គណនី​មិន​បាន​តាម<<<<<<< HEAD"
+msgstr "គណនី​មិន​បាន​តាម"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:415
 #: src/view/com/profile/ProfileMenu.tsx:139
@@ -684,7 +684,7 @@ msgstr "បន្ថែមអត្ថបទជំនួស"
 
 #: src/view/com/composer/videos/SubtitleDialog.tsx:106
 msgid "Add alt text (optional)"
-msgstr "បន្ថែមអត្ថបទជំនួស (ជាជម្រើស)<<<<<<< HEAD"
+msgstr "បន្ថែមអត្ថបទជំនួស (ជាជម្រើស)"
 
 #: src/screens/Settings/Settings.tsx:571
 #: src/screens/Settings/Settings.tsx:574
@@ -946,7 +946,7 @@ msgstr "កំហុសបានកើតឡើងខណៈពេលកំពុ
 
 #: src/components/Post/Embed/VideoEmbed/index.tsx:157
 msgid "An error occurred while loading the video. Please try again later."
-msgstr "កំហុសបានកើតឡើងខណៈពេលកំពុងផ្ទុកវីដេអូ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ<<<<<<< HEAD"
+msgstr "កំហុសបានកើតឡើងខណៈពេលកំពុងផ្ទុកវីដេអូ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ"
 
 #: src/components/Post/Embed/VideoEmbed/index.web.tsx:227
 msgid "An error occurred while loading the video. Please try again."
@@ -1132,7 +1132,7 @@ msgstr "រូបរាង"
 #: src/screens/Feeds/NoSavedFeedsOfAnyType.tsx:47
 #: src/screens/Home/NoFeedsPinned.tsx:93
 msgid "Apply default recommended feeds"
-msgstr "អនុវត្ត​មតិព័ត៌មាន​ដែល​បាន​ណែនាំ​លំនាំដើម<<<<<<< HEAD"
+msgstr "អនុវត្ត​មតិព័ត៌មាន​ដែល​បាន​ណែនាំ​លំនាំដើម"
 
 #: src/screens/Settings/Settings.tsx:505
 #: src/screens/Settings/Settings.tsx:507
@@ -1202,7 +1202,7 @@ msgstr "សិល្បៈ"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:171
 msgid "Artistic or non-erotic nudity."
-msgstr "អាក្រាតកាយបែបសិល្បៈ ឬមិនស្រើបស្រាល<<<<<<< HEAD"
+msgstr "អាក្រាតកាយបែបសិល្បៈ ឬមិនស្រើបស្រាល"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:566
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:568
@@ -1294,7 +1294,7 @@ msgstr ""
 #: src/components/dialogs/BirthDateSettings.tsx:103
 #: src/screens/Settings/AccountSettings.tsx:140
 msgid "Birthday"
-msgstr "ថ្ងៃកំណើត<<<<<<< HEAD"
+msgstr "ថ្ងៃកំណើត"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:816
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:320
@@ -1311,7 +1311,7 @@ msgstr "ទប់ស្កាត់"
 #: src/view/com/profile/ProfileMenu.tsx:424
 #: src/view/com/profile/ProfileMenu.tsx:431
 msgid "Block account"
-msgstr "បិទគណនី<<<<<<< HEAD"
+msgstr "បិទគណនី"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:811
 #: src/view/com/profile/ProfileMenu.tsx:496
@@ -1358,7 +1358,7 @@ msgstr "គណនី​ដែល​បាន​ទប់ស្កាត់"
 #: src/Navigation.tsx:192
 #: src/view/screens/ModerationBlockedAccounts.tsx:104
 msgid "Blocked Accounts"
-msgstr "គណនី​ដែល​បាន​ទប់ស្កាត់<<<<<<< HEAD"
+msgstr "គណនី​ដែល​បាន​ទប់ស្កាត់"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:813
 #: src/view/com/profile/ProfileMenu.tsx:508
@@ -1383,7 +1383,7 @@ msgstr "ការទប់ស្កាត់ជាសាធារណៈ។ គ�
 
 #: src/view/com/profile/ProfileMenu.tsx:505
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
-msgstr "ការទប់ស្កាត់នឹងមិនរារាំងស្លាកមិនឱ្យអនុវត្តនៅលើគណនីរបស់អ្នកទេ ប៉ុន្តែវានឹងបញ្ឈប់គណនីនេះពីការឆ្លើយតបនៅក្នុងខ្សែស្រឡាយរបស់អ្នក ឬធ្វើអន្តរកម្មជាមួយអ្នក<<<<<<< HEAD"
+msgstr "ការទប់ស្កាត់នឹងមិនរារាំងស្លាកមិនឱ្យអនុវត្តនៅលើគណនីរបស់អ្នកទេ ប៉ុន្តែវានឹងបញ្ឈប់គណនីនេះពីការឆ្លើយតបនៅក្នុងខ្សែស្រឡាយរបស់អ្នក ឬធ្វើអន្តរកម្មជាមួយអ្នក"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:666
 #: src/view/com/post-thread/PostThreadItem.tsx:978
@@ -1691,7 +1691,7 @@ msgstr ""
 #: src/components/dms/ConvoMenu.tsx:176
 msgctxt "toast"
 msgid "Chat muted"
-msgstr "បានបិទការជជែក<<<<<<< HEAD"
+msgstr "បានបិទការជជែក"
 
 #: src/Navigation.tsx:567
 #: src/screens/Messages/components/InboxPreview.tsx:22
@@ -1769,7 +1769,7 @@ msgstr ""
 
 #: src/view/screens/Feeds.tsx:733
 msgid "Choose your own timeline! Feeds built by the community help you find content you love."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Signup/StepInfo/index.tsx:316
 msgid "Choose your password"
@@ -1963,7 +1963,7 @@ msgstr "កំប្លែង"
 #: src/screens/Onboarding/index.tsx:24
 #: src/screens/Onboarding/state.ts:101
 msgid "Comics"
-msgstr "រឿងកំប្លែង<<<<<<< HEAD"
+msgstr "រឿងកំប្លែង"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:45
 #: src/Navigation.tsx:341
@@ -1973,7 +1973,7 @@ msgstr "គោលការណ៍ណែនាំសហគមន៍"
 
 #: src/screens/Onboarding/StepFinished.tsx:311
 msgid "Complete onboarding and start using your account"
-msgstr "បញ្ចប់ការបើកដំណើរការ ហើយចាប់ផ្តើមប្រើគណនីរបស់អ្នក<<<<<<< HEAD"
+msgstr "បញ្ចប់ការបើកដំណើរការ ហើយចាប់ផ្តើមប្រើគណនីរបស់អ្នក"
 
 #: src/screens/Signup/index.tsx:183
 msgid "Complete the challenge"
@@ -2072,7 +2072,7 @@ msgstr ""
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:51
 msgid "Content & Media"
-msgstr "ខ្លឹមសារ និងប្រព័ន្ធផ្សព្វផ្សាយ<<<<<<< HEAD"
+msgstr "ខ្លឹមសារ និងប្រព័ន្ធផ្សព្វផ្សាយ"
 
 #: src/screens/Settings/Settings.tsx:205
 #: src/screens/Settings/Settings.tsx:208
@@ -2171,7 +2171,7 @@ msgstr "ចម្លង"
 
 #: src/screens/Settings/AboutSettings.tsx:149
 msgid "Copied build version to clipboard"
-msgstr "បានចម្លងកំណែស្ថាបនាទៅ clipboard<<<<<<< HEAD"
+msgstr "បានចម្លងកំណែស្ថាបនាទៅ clipboard"
 
 #: src/components/dms/MessageContextMenu.tsx:55
 #: src/components/PostControls/DiscoverDebug.tsx:41
@@ -2262,7 +2262,7 @@ msgstr "ចម្លងអត្ថបទសារ"
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:149
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:152
 msgid "Copy post at:// URI"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:523
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:525
@@ -2275,7 +2275,7 @@ msgstr "ចម្លងកូដ QR"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:445
 msgid "Copy TXT record value"
-msgstr "ចម្លងតម្លៃកំណត់ត្រា TXT<<<<<<< HEAD"
+msgstr "ចម្លងតម្លៃកំណត់ត្រា TXT"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:40
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:107
@@ -2352,7 +2352,7 @@ msgstr "បង្កើតកញ្ចប់ចាប់ផ្តើមសម្
 #: src/view/shell/NavSignupCard.tsx:47
 #: src/view/shell/NavSignupCard.tsx:52
 msgid "Create account"
-msgstr "ចុះឈ្មោះ<<<<<<< HEAD"
+msgstr "ចុះឈ្មោះ"
 
 #: src/screens/Signup/index.tsx:128
 msgid "Create Account"
@@ -2430,7 +2430,7 @@ msgstr "ទម្រង់ងងឹត"
 
 #: src/screens/Settings/AppearanceSettings.tsx:121
 msgid "Dark theme"
-msgstr "ស្បែកខ្មៅងងឹត<<<<<<< HEAD"
+msgstr "ស្បែកខ្មៅងងឹត"
 
 #: src/screens/Signup/StepInfo/index.tsx:344
 msgid "Date of birth"
@@ -2440,7 +2440,7 @@ msgstr "ថ្ងៃខែឆ្នាំកំណើត"
 #: src/screens/Settings/AccountSettings.tsx:164
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:73
 msgid "Deactivate account"
-msgstr "បិទដំណើរការគណនី<<<<<<< HEAD"
+msgstr "បិទដំណើរការគណនី"
 
 #: src/screens/Settings/Settings.tsx:462
 msgid "Debug Moderation"
@@ -2466,7 +2466,7 @@ msgstr "លំនាំដើម"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:75
 msgid "Default icons"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dms/MessageContextMenu.tsx:185
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:760
@@ -2499,7 +2499,7 @@ msgstr "លុបពាក្យសម្ងាត់កម្មវិធី"
 #: src/screens/Messages/components/RequestButtons.tsx:316
 #: src/screens/Messages/components/RequestButtons.tsx:323
 msgid "Delete chat"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/Settings.tsx:469
 msgid "Delete chat declaration record"
@@ -2534,7 +2534,7 @@ msgstr ""
 
 #: src/view/com/modals/DeleteAccount.tsx:267
 msgid "Delete my account"
-msgstr "លុបសារពីខ្ញុំ<<<<<<< HEAD"
+msgstr "លុបសារពីខ្ញុំ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:741
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:743
@@ -2553,7 +2553,7 @@ msgstr "លុបកញ្ចប់ចាប់ផ្តើម?"
 
 #: src/view/screens/ProfileList.tsx:763
 msgid "Delete this list?"
-msgstr "លុបបញ្ជីនេះ<<<<<<< HEAD"
+msgstr "លុបបញ្ជីនេះ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:755
 msgid "Delete this post?"
@@ -2588,7 +2588,7 @@ msgstr "ការពិពណ៌នា"
 #: src/view/com/composer/GifAltText.tsx:150
 #: src/view/com/composer/photos/ImageAltTextDialog.tsx:114
 msgid "Descriptive alt text"
-msgstr "អត្ថបទ alt ពិពណ៌នា<<<<<<< HEAD"
+msgstr "អត្ថបទ alt ពិពណ៌នា"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:791
 msgid "Detach quote post?"
@@ -2602,7 +2602,7 @@ msgstr ""
 #: src/screens/Settings/AboutSettings.tsx:132
 msgctxt "toast"
 msgid "Developer mode enabled"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/Settings.tsx:278
 #: src/screens/Settings/Settings.tsx:281
@@ -2903,7 +2903,7 @@ msgstr "កែសម្រួលមតិព័ត៌មាន"
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:89
 #: src/view/com/composer/photos/Gallery.tsx:195
 msgid "Edit image"
-msgstr "កែរូបភាព<<<<<<< HEAD"
+msgstr "កែរូបភាព"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:722
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:735
@@ -3384,7 +3384,7 @@ msgstr ""
 
 #: src/components/dms/MessageContextMenu.tsx:79
 msgid "Failed to delete message"
-msgstr "បរាជ័យក្នុងការលុបសារ<<<<<<< HEAD"
+msgstr "បរាជ័យក្នុងការលុបសារ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:207
 msgid "Failed to delete post, please try again"
@@ -3486,7 +3486,7 @@ msgstr ""
 #: src/components/moderation/LabelsOnMeDialog.tsx:254
 #: src/screens/Messages/components/ChatDisabled.tsx:87
 msgid "Failed to submit appeal, please try again."
-msgstr "បរាជ័យក្នុងការដាក់បណ្តឹងតវ៉ា សូមព្យាយាមម្តងទៀត<<<<<<< HEAD"
+msgstr "បរាជ័យក្នុងការដាក់បណ្តឹងតវ៉ា សូមព្យាយាមម្តងទៀត"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:227
 msgid "Failed to toggle thread mute, please try again"
@@ -3565,13 +3565,13 @@ msgstr ""
 #: src/view/shell/desktop/RightNav.tsx:103
 #: src/view/shell/Drawer.tsx:357
 msgid "Feedback"
-msgstr "មតិកែលម្អ<<<<<<< HEAD"
+msgstr "មតិកែលម្អ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:277
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:293
 msgctxt "toast"
 msgid "Feedback sent!"
-msgstr "បានផ្ញើមតិកែលម្អ!<<<<<<< HEAD"
+msgstr "បានផ្ញើមតិកែលម្អ!"
 
 #: src/Navigation.tsx:582
 #: src/screens/Search/SearchResults.tsx:73
@@ -4095,7 +4095,7 @@ msgstr ""
 #: src/components/dialogs/EmailDialog/screens/Manage2FA/Disable.tsx:198
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:317
 msgid "Have a code? <0>Click here.</0>"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Signup/index.tsx:217
 msgid "Having trouble?"
@@ -4156,7 +4156,7 @@ msgstr "លាក់"
 
 #: src/components/dialogs/Embed.tsx:128
 msgid "Hide customization options"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:551
 #: src/screens/Settings/DeerSettings.tsx:556
@@ -4180,7 +4180,7 @@ msgstr "លាក់ការឆ្លើយតបសម្រាប់ខ្ញ
 
 #: src/screens/Search/modules/ExploreInterestsCard.tsx:110
 msgid "Hide this card"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:766
 msgid "Hide this post?"
@@ -4321,7 +4321,7 @@ msgstr ""
 
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:272
 msgid "If you need to update your email, <0>click here</0>."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:757
 msgid "If you remove this post, you won't be able to recover it."
@@ -4488,7 +4488,7 @@ msgstr "លេខកូដផ្ទៀងផ្ទាត់មិនត្រឹ
 
 #: src/view/com/modals/InviteCodes.tsx:94
 msgid "Invite a Friend"
-msgstr "អញ្ជើញមិត្តម្នាក់<<<<<<< HEAD"
+msgstr "អញ្ជើញមិត្តម្នាក់"
 
 #: src/screens/Signup/StepInfo/index.tsx:238
 msgid "Invite code"
@@ -4516,7 +4516,7 @@ msgstr "អញ្ជើញមិត្តភ័ក្តិរបស់អ្ន
 
 #: src/screens/StarterPack/Wizard/StepDetails.tsx:31
 msgid "Invites, but personal"
-msgstr "ការអញ្ជើញ ប៉ុន្តែផ្ទាល់ខ្លួន<<<<<<< HEAD"
+msgstr "ការអញ្ជើញ ប៉ុន្តែផ្ទាល់ខ្លួន"
 
 #: src/screens/Settings/DeerSettings.tsx:440
 msgid "ISO 3166-1 Location (currently {0})"
@@ -4662,7 +4662,7 @@ msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:222
 msgid "Learn more about the moderation applied to this content."
-msgstr "ស្វែងយល់បន្ថែមអំពីការសម្របសម្រួលដែលបានអនុវត្តចំពោះខ្លឹមសារនេះ<<<<<<< HEAD"
+msgstr "ស្វែងយល់បន្ថែមអំពីការសម្របសម្រួលដែលបានអនុវត្តចំពោះខ្លឹមសារនេះ"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:149
 msgid "Learn more about these changes and how to share your thoughts with us by <0>reading our blog post.</0>"
@@ -5216,7 +5216,7 @@ msgstr "បិទ"
 #: src/components/RichTextTag.tsx:140
 #: src/components/RichTextTag.tsx:153
 msgid "Mute {tag}"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:684
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:690
@@ -5268,7 +5268,7 @@ msgstr "បិទពាក្យនេះនៅក្នុងស្លាកត
 
 #: src/components/dialogs/MutedWords.tsx:170
 msgid "Mute this word until you unmute it"
-msgstr "បិទ​ពាក្យ​នេះ​រហូត​ដល់​អ្នក​បើក​សំឡេង​វា<<<<<<< HEAD"
+msgstr "បិទ​ពាក្យ​នេះ​រហូត​ដល់​អ្នក​បើក​សំឡេង​វា"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:580
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
@@ -5794,7 +5794,7 @@ msgstr ""
 
 #: src/components/StarterPack/QrCode.tsx:82
 msgid "on<0><1/><2><3/></2></0>"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/Settings.tsx:395
 msgid "Onboarding reset"
@@ -5892,7 +5892,7 @@ msgstr "បើកតំណទៅ {niceUrl}"
 
 #: src/components/dms/ActionsWrapper.tsx:35
 msgid "Open message options"
-msgstr "បើកជម្រើសសារ<<<<<<< HEAD"
+msgstr "បើកជម្រើសសារ"
 
 #: src/screens/Settings/Settings.tsx:460
 msgid "Open moderation debug page"
@@ -5921,7 +5921,7 @@ msgstr ""
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:566
 msgid "Open starter pack menu"
-msgstr "បើកម៉ឺនុយកញ្ចប់ចាប់ផ្តើម<<<<<<< HEAD"
+msgstr "បើកម៉ឺនុយកញ្ចប់ចាប់ផ្តើម"
 
 #: src/screens/Settings/Settings.tsx:453
 #: src/screens/Settings/Settings.tsx:467
@@ -5992,7 +5992,7 @@ msgstr ""
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
 msgid "Opens GIF select dialog"
-msgstr "បើកប្រអប់ជ្រើសរើស GIF<<<<<<< HEAD"
+msgstr "បើកប្រអប់ជ្រើសរើស GIF"
 
 #: src/screens/Settings/Settings.tsx:244
 msgid "Opens helpdesk in browser"
@@ -6012,7 +6012,7 @@ msgstr ""
 
 #: src/screens/Login/LoginForm.tsx:274
 msgid "Opens password reset form"
-msgstr "បើកទម្រង់កំណត់ពាក្យសម្ងាត់ឡើងវិញ<<<<<<< HEAD"
+msgstr "បើកទម្រង់កំណត់ពាក្យសម្ងាត់ឡើងវិញ"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:906
 #: src/view/com/util/UserAvatar.tsx:594
@@ -6185,7 +6185,7 @@ msgstr ""
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:337
 msgid "Pin to Home"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:461
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:468
@@ -6307,7 +6307,7 @@ msgstr "សូមបញ្ចូលពាក្យ ស្លាក ឬឃ្ល�
 
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:144
 msgid "Please enter a valid, non-temporary email address. You may need to access this email in the future."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Login/LoginForm.tsx:108
 msgid "Please enter hosting provider URL"
@@ -6427,7 +6427,7 @@ msgstr "Post ដោយ {0}"
 #: src/Navigation.tsx:278
 #: src/Navigation.tsx:285
 msgid "Post by @{0}"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:187
 msgctxt "toast"
@@ -6555,7 +6555,7 @@ msgstr "ផ្តល់អាទិភាពដល់ការតាមដាន
 #: src/view/shell/desktop/RightNav.tsx:110
 #: src/view/shell/desktop/RightNav.tsx:111
 msgid "Privacy"
-msgstr "ឯកជនភាព<<<<<<< HEAD"
+msgstr "ឯកជនភាព"
 
 #: src/screens/Settings/Settings.tsx:183
 #: src/screens/Settings/Settings.tsx:186
@@ -6571,7 +6571,7 @@ msgstr "ភាពឯកជន និងសុវត្ថិភាព"
 
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:158
 msgid "Privacy and Security settings"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:35
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:102
@@ -6679,11 +6679,11 @@ msgstr ""
 #: src/components/PostControls/RepostButton.web.tsx:84
 #: src/components/PostControls/RepostButton.web.tsx:91
 msgid "Quote post"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:308
 msgid "Quote post was re-attached"
-msgstr "Quote post ត្រូវបានភ្ជាប់ម្តងទៀត>>>>>>> 6a94a753c (Update message catalogs & lockfile)"
+msgstr "Quote post ត្រូវបានភ្ជាប់ម្តងទៀត"
 
 #: src/components/PostControls/RepostButton.tsx:173
 #: src/components/PostControls/RepostButton.tsx:195
@@ -6717,7 +6717,7 @@ msgstr "ចៃដន្យ (ហៅកាត់ថា \"រ៉ូឡែតរប�
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:600
 msgid "Rate limit exceeded – you've tried to change your handle too many times in a short period. Please wait a minute before trying again."
-msgstr "លើសកម្រិតកំណត់ - អ្នកបានព្យាយាមផ្លាស់ប្តូរចំណុចទាញរបស់អ្នកច្រើនដងពេកក្នុងរយៈពេលខ្លី។ សូមរង់ចាំមួយភ្លែត មុនពេលព្យាយាមម្តងទៀត<<<<<<< HEAD"
+msgstr "លើសកម្រិតកំណត់ - អ្នកបានព្យាយាមផ្លាស់ប្តូរចំណុចទាញរបស់អ្នកច្រើនដងពេកក្នុងរយៈពេលខ្លី។ សូមរង់ចាំមួយភ្លែត មុនពេលព្យាយាមម្តងទៀត"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:654
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:656
@@ -6751,7 +6751,7 @@ msgstr ""
 
 #: src/screens/PostThread/components/ThreadItemReadMore.tsx:71
 msgid "Read more replies"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:112
 msgid "Read our blog post"
@@ -6840,7 +6840,7 @@ msgstr "លុប {displayName} ចេញពីកញ្ចប់ចាប់ផ
 
 #: src/screens/Search/components/SearchHistory.tsx:94
 msgid "Remove {historyItem}"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/Settings.tsx:648
 #: src/screens/Settings/Settings.tsx:651
@@ -6880,7 +6880,7 @@ msgstr "លុប​មតិព័ត៌មាន?"
 #: src/view/screens/ProfileList.tsx:528
 #: src/view/screens/SavedFeeds.tsx:350
 msgid "Remove from my feeds"
-msgstr "លុបចេញពីមតិព័ត៌មានរបស់ខ្ញុំ<<<<<<< HEAD"
+msgstr "លុបចេញពីមតិព័ត៌មានរបស់ខ្ញុំ"
 
 #: src/screens/Settings/Settings.tsx:661
 msgid "Remove from quick access?"
@@ -7055,7 +7055,7 @@ msgstr ""
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:339
 msgctxt "toast"
 msgid "Reply visibility updated"
-msgstr "បានធ្វើបច្ចុប្បន្នភាពភាពមើលឃើញនៃការឆ្លើយតប<<<<<<< HEAD"
+msgstr "បានធ្វើបច្ចុប្បន្នភាពភាពមើលឃើញនៃការឆ្លើយតប"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:338
 msgid "Reply was successfully hidden"
@@ -7097,7 +7097,7 @@ msgstr ""
 
 #: src/components/dms/MessageContextMenu.tsx:164
 msgid "Report message"
-msgstr "រាយការណ៍ពីសារ<<<<<<< HEAD"
+msgstr "រាយការណ៍ពីសារ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:710
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:712
@@ -7223,7 +7223,7 @@ msgstr "ទាមទារអត្ថបទជំនួសមុនពេលប
 
 #: src/components/dialogs/EmailDialog/screens/Manage2FA/Enable.tsx:96
 msgid "Require an email code to sign in to your account."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Signup/StepInfo/index.tsx:252
 msgid "Required for this provider"
@@ -7248,7 +7248,7 @@ msgstr "ផ្ញើអ៊ីមែលឡើងវិញ"
 
 #: src/components/intents/VerifyEmailIntentDialog.tsx:122
 msgid "Resend Verification Email"
-msgstr "ផ្ញើអ៊ីមែលផ្ទៀងផ្ទាត់ឡើងវិញ<<<<<<< HEAD"
+msgstr "ផ្ញើអ៊ីមែលផ្ទៀងផ្ទាត់ឡើងវិញ"
 
 #: src/screens/Settings/Settings.tsx:489
 #: src/screens/Settings/Settings.tsx:491
@@ -7262,7 +7262,7 @@ msgstr "កំណត់លេខកូដឡើងវិញ"
 
 #: src/view/com/modals/ChangePassword.tsx:204
 msgid "Reset Code"
-msgstr "កំណត់លេខកូដឡើងវិញ<<<<<<< HEAD"
+msgstr "កំណត់លេខកូដឡើងវិញ"
 
 #: src/screens/Settings/DeerSettings.tsx:580
 msgid "Reset gates"
@@ -7676,7 +7676,7 @@ msgstr ""
 
 #: src/screens/Settings/LanguageSettings.tsx:157
 msgid "Select which languages you want your subscribed feeds to include. If none are selected, all languages will be shown."
-msgstr "ជ្រើសរើសភាសាណាមួយដែលអ្នកចង់បញ្ចូលព័ត៌មានដែលបានជាវរបស់អ្នក។ ប្រសិនបើ​មិន​ត្រូវ​បាន​ជ្រើសរើស​ទេ ភាសា​ទាំងអស់​នឹង​ត្រូវ​បាន​បង្ហាញ<<<<<<< HEAD"
+msgstr "ជ្រើសរើសភាសាណាមួយដែលអ្នកចង់បញ្ចូលព័ត៌មានដែលបានជាវរបស់អ្នក។ ប្រសិនបើ​មិន​ត្រូវ​បាន​ជ្រើសរើស​ទេ ភាសា​ទាំងអស់​នឹង​ត្រូវ​បាន​បង្ហាញ"
 
 #: src/screens/Signup/StepInfo/index.tsx:345
 msgid "Select your date of birth"
@@ -7791,7 +7791,7 @@ msgstr "រៀបចំគណនីរបស់អ្នក"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:107
 msgid "Sets email for password reset"
-msgstr "កំណត់អ៊ីមែលសម្រាប់កំណត់ពាក្យសម្ងាត់ឡើងវិញ<<<<<<< HEAD"
+msgstr "កំណត់អ៊ីមែលសម្រាប់កំណត់ពាក្យសម្ងាត់ឡើងវិញ"
 
 #: src/Navigation.tsx:213
 #: src/screens/Settings/Settings.tsx:100
@@ -7970,7 +7970,7 @@ msgstr ""
 
 #: src/view/com/post-thread/PostThreadShowHiddenReplies.tsx:22
 msgid "Show hidden replies"
-msgstr "បង្ហាញការឆ្លើយតបដែលលាក់<<<<<<< HEAD"
+msgstr "បង្ហាញការឆ្លើយតបដែលលាក់"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:554
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:556
@@ -7983,7 +7983,7 @@ msgstr "ទោះយ៉ាងណាក៏ដោយ បង្ហាញបញ្�
 
 #: src/components/Post/ShowMoreTextButton.tsx:51
 msgid "Show More"
-msgstr "បង្ហាញច្រើនទៀត<<<<<<< HEAD"
+msgstr "បង្ហាញច្រើនទៀត"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:546
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:548
@@ -8024,7 +8024,7 @@ msgstr ""
 #: src/screens/Settings/ThreadPreferences.tsx:120
 #: src/screens/Settings/ThreadPreferences.tsx:260
 msgid "Show replies by people you follow before all other replies"
-msgstr "បង្ហាញការឆ្លើយតបដោយមនុស្សដែលអ្នកតាមដាន មុនពេលការឆ្លើយតបផ្សេងទៀតទាំងអស់<<<<<<< HEAD"
+msgstr "បង្ហាញការឆ្លើយតបដោយមនុស្សដែលអ្នកតាមដាន មុនពេលការឆ្លើយតបផ្សេងទៀតទាំងអស់"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:630
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:640
@@ -8047,7 +8047,7 @@ msgstr "បង្ហាញការព្រមាន"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:56
 msgid "Show warning and filter from feeds"
-msgstr "បង្ហាញការព្រមាន និងត្រងពីមតិព័ត៌មាន<<<<<<< HEAD"
+msgstr "បង្ហាញការព្រមាន និងត្រងពីមតិព័ត៌មាន"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:612
 #: src/view/com/post-thread/PostThreadItem.tsx:924
@@ -8105,7 +8105,7 @@ msgstr "ចូលទៅគណនីដែលមិនមានក្នុងប
 
 #: src/components/dialogs/Signin.tsx:46
 msgid "Sign in to Bluesky or create a new account"
-msgstr "ចូល Bluesky ឬបង្កើតគណនីថ្មីមួយ<<<<<<< HEAD"
+msgstr "ចូល Bluesky ឬបង្កើតគណនីថ្មីមួយ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:532
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:534
@@ -8131,7 +8131,7 @@ msgstr "ចេញ"
 
 #: src/screens/Takendown.tsx:88
 msgid "Sign Out"
-msgstr "ចេញ<<<<<<< HEAD"
+msgstr "ចេញ"
 
 #: src/screens/Settings/Settings.tsx:292
 #: src/view/shell/desktop/LeftNav.tsx:208
@@ -8298,7 +8298,7 @@ msgstr ""
 
 #: src/components/dialogs/SearchablePeopleList.tsx:382
 msgid "Start chat with {displayName}"
-msgstr "ចាប់ផ្តើមជជែកជាមួយ {displayName}<<<<<<< HEAD"
+msgstr "ចាប់ផ្តើមជជែកជាមួយ {displayName}"
 
 #: src/Navigation.tsx:587
 #: src/Navigation.tsx:592
@@ -8335,7 +8335,7 @@ msgstr "កញ្ចប់ចាប់ផ្តើមអនុញ្ញាតឱ
 #: src/screens/Settings/AboutSettings.tsx:98
 #: src/screens/Settings/AboutSettings.tsx:101
 msgid "Status Page"
-msgstr "ទំព័រស្ថានភាព<<<<<<< HEAD"
+msgstr "ទំព័រស្ថានភាព"
 
 #: src/screens/Signup/index.tsx:169
 msgid "Step {0} of {1}"
@@ -8427,7 +8427,7 @@ msgstr "ណែនាំ"
 #: src/view/screens/Support.tsx:31
 #: src/view/screens/Support.tsx:34
 msgid "Support"
-msgstr "គាំទ្រ<<<<<<< HEAD"
+msgstr "គាំទ្រ"
 
 #: src/screens/Settings/Settings.tsx:124
 #: src/screens/Settings/Settings.tsx:138
@@ -8454,7 +8454,7 @@ msgstr ""
 #: src/screens/Settings/AppearanceSettings.tsx:100
 #: src/screens/Settings/AppearanceSettings.tsx:150
 msgid "System"
-msgstr "ប្រព័ន្ធ<<<<<<< HEAD"
+msgstr "ប្រព័ន្ធ"
 
 #: src/screens/Settings/AboutSettings.tsx:105
 #: src/screens/Settings/AboutSettings.tsx:108
@@ -8520,7 +8520,7 @@ msgstr "ប្រាប់យើងបន្តិចទៀត"
 #: src/view/shell/desktop/RightNav.tsx:116
 #: src/view/shell/desktop/RightNav.tsx:117
 msgid "Terms"
-msgstr "លក្ខខណ្ឌ<<<<<<< HEAD"
+msgstr "លក្ខខណ្ឌ"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:30
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:97
@@ -8726,7 +8726,7 @@ msgstr "មានបញ្ហាក្នុងការទាក់ទងម៉
 
 #: src/view/com/notifications/NotificationFeed.tsx:130
 msgid "There was an issue fetching notifications. Tap here to try again."
-msgstr "មានបញ្ហាក្នុងការទាញយកការជូនដំណឹង។ ចុចទីនេះដើម្បីព្យាយាមម្តងទៀត<<<<<<< HEAD"
+msgstr "មានបញ្ហាក្នុងការទាញយកការជូនដំណឹង។ ចុចទីនេះដើម្បីព្យាយាមម្តងទៀត"
 
 #: src/screens/Search/Explore.tsx:986
 #: src/view/com/posts/PostFeed.tsx:751
@@ -8763,7 +8763,7 @@ msgstr "មានបញ្ហាក្នុងការផ្ញើរបាយ
 #: src/view/com/posts/FeedShutdownMsg.tsx:52
 #: src/view/com/posts/FeedShutdownMsg.tsx:71
 msgid "There was an issue updating your feeds, please check your internet connection and try again."
-msgstr "មានបញ្ហាក្នុងការធ្វើបច្ចុប្បន្នភាពព័ត៌មានរបស់អ្នក សូមពិនិត្យមើលការតភ្ជាប់អ៊ីនធឺណិតរបស់អ្នក ហើយព្យាយាមម្តងទៀត<<<<<<< HEAD"
+msgstr "មានបញ្ហាក្នុងការធ្វើបច្ចុប្បន្នភាពព័ត៌មានរបស់អ្នក សូមពិនិត្យមើលការតភ្ជាប់អ៊ីនធឺណិតរបស់អ្នក ហើយព្យាយាមម្តងទៀត"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:406
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:419
@@ -8952,7 +8952,7 @@ msgstr ""
 
 #: src/screens/Profile/ErrorState.tsx:40
 msgid "This moderation service is unavailable. See below for more details. If this issue persists, contact us."
-msgstr "សេវាកម្មសម្របសម្រួលនេះមិនមានទេ។ សូមមើលខាងក្រោមសម្រាប់ព័ត៌មានលម្អិតបន្ថែម។ ប្រសិនបើបញ្ហានេះនៅតែបន្តកើតមាន សូមទាក់ទងមកយើងខ្ញុំ<<<<<<< HEAD"
+msgstr "សេវាកម្មសម្របសម្រួលនេះមិនមានទេ។ សូមមើលខាងក្រោមសម្រាប់ព័ត៌មានលម្អិតបន្ថែម។ ប្រសិនបើបញ្ហានេះនៅតែបន្តកើតមាន សូមទាក់ទងមកយើងខ្ញុំ"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:652
 #: src/view/com/post-thread/PostThreadItem.tsx:964
@@ -8969,7 +8969,7 @@ msgstr "ប្រកាសនេះត្រូវបានលុប"
 
 #: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:145
 msgid "This post is only visible to logged-in users."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:768
 msgid "This post will be hidden from feeds and threads. This cannot be undone."
@@ -8981,7 +8981,7 @@ msgstr "អ្នកនិពន្ធនៃប្រកាសនេះបាន
 
 #: src/view/com/profile/ProfileMenu.tsx:522
 msgid "This profile is only visible to logged-in users. It won't be visible to people who aren't signed in."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:803
 msgid "This reply will be sorted into a hidden section at the bottom of your thread and will mute notifications for subsequent replies - both for yourself and others."
@@ -9038,7 +9038,7 @@ msgstr "អ្នកប្រើប្រាស់នេះមិនតាមដ
 
 #: src/components/dialogs/MutedWords.tsx:435
 msgid "This will delete \"{0}\" from your muted words. You can always add it back later."
-msgstr "វានឹងលុប \"{0}\" ចេញពីពាក្យដែលអ្នកបានបិទ។ អ្នកតែងតែអាចបន្ថែមវាត្រឡប់មកវិញនៅពេលក្រោយ<<<<<<< HEAD"
+msgstr "វានឹងលុប \"{0}\" ចេញពីពាក្យដែលអ្នកបានបិទ។ អ្នកតែងតែអាចបន្ថែមវាត្រឡប់មកវិញនៅពេលក្រោយ"
 
 #: src/screens/Settings/Settings.tsx:663
 msgid "This will remove @{0} from the quick access list."
@@ -9103,11 +9103,11 @@ msgstr "តើអ្នកចង់ផ្ញើរបាយការណ៍នេ
 
 #: src/components/dms/DateDivider.tsx:44
 msgid "Today"
-msgstr "ថ្ងៃនេះ<<<<<<< HEAD======="
+msgstr "ថ្ងៃនេះ"
 
 #: src/screens/Settings/DeerSettings.tsx:371
 msgid "TODO: Fall back to constellation api to find blocked replies"
-msgstr ">>>>>>> 6a94a753c (Update message catalogs & lockfile)"
+msgstr ""
 
 #: src/view/com/util/forms/DropdownButton.tsx:263
 msgid "Toggle dropdown"
@@ -9136,7 +9136,7 @@ msgstr ""
 
 #: src/Navigation.tsx:552
 msgid "Topic"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dms/MessageContextMenu.tsx:137
 #: src/components/dms/MessageContextMenu.tsx:139
@@ -9213,7 +9213,7 @@ msgstr "មិនអាចទាក់ទងសេវាកម្មរបស់
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:673
 msgid "Unable to delete"
-msgstr "មិនអាចលុបបានទេ<<<<<<< HEAD"
+msgstr "មិនអាចលុបបានទេ"
 
 #: src/screens/Settings/Settings.tsx:514
 msgid "Unapply Pull Request"
@@ -9321,7 +9321,7 @@ msgstr "បើក​សំឡេង"
 #: src/components/RichTextTag.tsx:140
 #: src/components/RichTextTag.tsx:153
 msgid "Unmute {tag}"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:683
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:689
@@ -9336,7 +9336,7 @@ msgstr "បើកការសន្ទនា"
 
 #: src/view/screens/ProfileList.tsx:605
 msgid "Unmute list"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:580
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
@@ -9363,7 +9363,7 @@ msgstr ""
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:310
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:312
 msgid "Unpin from home"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:460
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:467
@@ -9380,7 +9380,7 @@ msgstr ""
 
 #: src/view/screens/ProfileList.tsx:362
 msgid "Unpinned from your feeds"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/Settings.tsx:481
 #: src/screens/Settings/Settings.tsx:483
@@ -9442,12 +9442,12 @@ msgstr "ធ្វើបច្ចុប្បន្នភាពទៅ {domain}"
 
 #: src/components/dialogs/EmailDialog/screens/Update.tsx:203
 msgid "Update your email"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:311
 msgctxt "toast"
 msgid "Updating quote attachment failed"
-msgstr "ការធ្វើបច្ចុប្បន្នភាពឯកសារភ្ជាប់សម្រង់បានបរាជ័យ<<<<<<< HEAD"
+msgstr "ការធ្វើបច្ចុប្បន្នភាពឯកសារភ្ជាប់សម្រង់បានបរាជ័យ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:343
 msgctxt "toast"
@@ -9583,7 +9583,7 @@ msgstr "បាន​បង្កើត​បញ្ជី​អ្នក​ប្
 #: src/view/com/modals/CreateOrEditList.tsx:160
 msgctxt "toast"
 msgid "User list updated"
-msgstr "ធ្វើបច្ចុប្បន្នភាពបញ្ជីអ្នកប្រើប្រាស់<<<<<<< HEAD"
+msgstr "ធ្វើបច្ចុប្បន្នភាពបញ្ជីអ្នកប្រើប្រាស់"
 
 #: src/screens/Signup/StepHandle/index.tsx:235
 msgid "Username cannot be longer than {MAX_SERVICE_HANDLE_LENGTH, plural, other {# characters}}"
@@ -9714,7 +9714,7 @@ msgstr ""
 
 #: src/components/ageAssurance/AgeAssuranceRedirectDialog.tsx:74
 msgid "Verifying your age assurance status"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/AboutSettings.tsx:124
 #: src/screens/Settings/AboutSettings.tsx:153
@@ -9750,7 +9750,7 @@ msgstr ""
 
 #: src/screens/VideoFeed/index.tsx:1072
 msgid "Video is playing"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/Post/Embed/VideoEmbed/index.web.tsx:220
 msgid "Video not found."
@@ -10036,7 +10036,7 @@ msgstr "យើងកំពុងមានបញ្ហាបណ្តាញ ស�
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:94
 msgid "We’re introducing a new layer of verification on Bluesky — an easy-to-see checkmark."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/view/screens/ProfileList.tsx:117
 msgid "We're sorry, but we were unable to resolve this list. If this persists, please contact the list creator, @{handleOrDid}."
@@ -10225,7 +10225,7 @@ msgstr "បាទ បិទដំណើរការ"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:685
 msgid "Yes, delete this starter pack"
-msgstr "បាទ/ចាស លុបកញ្ចប់ចាប់ផ្តើមនេះ<<<<<<< HEAD"
+msgstr "បាទ/ចាស លុបកញ្ចប់ចាប់ផ្តើមនេះ"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:796
 msgid "Yes, detach"
@@ -10245,7 +10245,7 @@ msgstr "ម្សិលមិញ"
 
 #: src/components/NewskieDialog.tsx:43
 msgid "You"
-msgstr "អ្នក<<<<<<< HEAD"
+msgstr "អ្នក"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:23
 msgid "You also agree to <0>Bluesky’s Community Guidelines</0>. An <1>updated version of our Community Guidelines</1> will take effect on October 15th."
@@ -10519,7 +10519,7 @@ msgstr ""
 
 #: src/screens/Deactivated.tsx:128
 msgid "You previously deactivated @{0}."
-msgstr "ពីមុនអ្នកបានបិទដំណើរការ @{0}<<<<<<< HEAD"
+msgstr "ពីមុនអ្នកបានបិទដំណើរការ @{0}"
 
 #: src/screens/Settings/Settings.tsx:411
 msgid "You probably want to restart the app now."
@@ -10531,7 +10531,7 @@ msgstr ""
 
 #: src/screens/Messages/components/ChatListItem.tsx:218
 msgid "You reacted {0} to {1}"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/Settings.tsx:293
 #: src/view/shell/desktop/LeftNav.tsx:209
@@ -10540,7 +10540,7 @@ msgstr "អ្នកនឹងត្រូវបានចេញពីគណនី
 
 #: src/components/activity-notifications/SubscribeProfileDialog.tsx:139
 msgid "You will no longer receive notifications for {0}"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:220
 msgid "You will no longer receive notifications for this thread"
@@ -10564,7 +10564,7 @@ msgstr "អ្នក៖ {defaultEmbeddedContentMessage}"
 
 #: src/screens/Messages/components/ChatListItem.tsx:176
 msgid "You: {short}"
-msgstr "អ្នក៖ {short}<<<<<<< HEAD"
+msgstr "អ្នក៖ {short}"
 
 #: src/screens/Signup/index.tsx:145
 msgid "You'll follow the suggested users and feeds once you finish creating your account!"
@@ -10638,7 +10638,7 @@ msgstr "អ្នកបានឈានដល់ដែនកំណត់ប្រ
 
 #: src/screens/VideoFeed/index.tsx:1123
 msgid "You've run out of videos to watch. Maybe it's a good time to take a break?"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/view/com/modals/DeleteAccount.tsx:84
 msgid "Your account has been deleted"
@@ -10662,7 +10662,7 @@ msgstr ""
 
 #: src/screens/Takendown.tsx:154
 msgid "Your appeal has been submitted. If your appeal succeeds, you will receive an email."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Signup/StepInfo/index.tsx:332
 msgid "Your birth date"
@@ -10715,7 +10715,7 @@ msgstr "មតិព័ត៌មានខាងក្រោមរបស់អ្
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:240
 msgid "Your full handle will be <0>@{0}</0>"
-msgstr "ចំណុចទាញពេញលេញរបស់អ្នកនឹងមាន <0>@{0}</0><<<<<<< HEAD"
+msgstr "ចំណុចទាញពេញលេញរបស់អ្នកនឹងមាន <0>@{0}</0>"
 
 #: src/Navigation.tsx:524
 #: src/screens/Search/modules/ExploreInterestsCard.tsx:67
@@ -10740,7 +10740,7 @@ msgstr "ពាក្យដែលអ្នកបានបិទ"
 
 #: src/view/com/modals/ChangePassword.tsx:169
 msgid "Your password has been changed successfully!"
-msgstr "ពាក្យសម្ងាត់របស់អ្នកត្រូវបានផ្លាស់ប្តូរដោយជោគជ័យ<<<<<<< HEAD"
+msgstr "ពាក្យសម្ងាត់របស់អ្នកត្រូវបានផ្លាស់ប្តូរដោយជោគជ័យ"
 
 #: src/screens/Signup/StepInfo/index.tsx:147
 msgid "Your password must be at least 8 characters long."
