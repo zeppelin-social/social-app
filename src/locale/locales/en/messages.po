@@ -5630,8 +5630,8 @@ msgstr ""
 
 #: src/screens/PostThread/components/HeaderDropdown.tsx:93
 #: src/screens/PostThread/components/HeaderDropdown.tsx:98
-#: src/screens/Settings/ThreadPreferences.tsx:80
-#: src/screens/Settings/ThreadPreferences.tsx:83
+#: src/screens/Settings/ThreadPreferences.tsx:84
+#: src/screens/Settings/ThreadPreferences.tsx:87
 msgid "Newest replies first"
 msgstr ""
 
@@ -5943,8 +5943,8 @@ msgstr ""
 
 #: src/screens/PostThread/components/HeaderDropdown.tsx:83
 #: src/screens/PostThread/components/HeaderDropdown.tsx:88
-#: src/screens/Settings/ThreadPreferences.tsx:72
-#: src/screens/Settings/ThreadPreferences.tsx:75
+#: src/screens/Settings/ThreadPreferences.tsx:76
+#: src/screens/Settings/ThreadPreferences.tsx:79
 msgid "Oldest replies first"
 msgstr ""
 
@@ -6701,8 +6701,8 @@ msgstr ""
 msgid "Primary Language"
 msgstr ""
 
-#: src/screens/Settings/ThreadPreferences.tsx:94
-#: src/screens/Settings/ThreadPreferences.tsx:99
+#: src/screens/Settings/ThreadPreferences.tsx:98
+#: src/screens/Settings/ThreadPreferences.tsx:103
 msgid "Prioritize your Follows"
 msgstr ""
 
@@ -8206,7 +8206,7 @@ msgstr ""
 msgid "Show more replies"
 msgstr ""
 
-#: src/screens/Settings/ThreadPreferences.tsx:127
+#: src/screens/Settings/ThreadPreferences.tsx:131
 msgid "Show post replies in a threaded tree view"
 msgstr ""
 
@@ -8224,7 +8224,7 @@ msgstr ""
 msgid "Show replies as"
 msgstr ""
 
-#: src/screens/Settings/ThreadPreferences.tsx:104
+#: src/screens/Settings/ThreadPreferences.tsx:108
 msgid "Show replies by people you follow before all other replies"
 msgstr ""
 
@@ -8456,15 +8456,15 @@ msgstr ""
 msgid "Sorry! Your session expired. Please sign in again."
 msgstr ""
 
-#: src/screens/Settings/ThreadPreferences.tsx:52
+#: src/screens/Settings/ThreadPreferences.tsx:56
 msgid "Sort replies"
 msgstr ""
 
-#: src/screens/Settings/ThreadPreferences.tsx:59
+#: src/screens/Settings/ThreadPreferences.tsx:63
 msgid "Sort replies by"
 msgstr ""
 
-#: src/screens/Settings/ThreadPreferences.tsx:56
+#: src/screens/Settings/ThreadPreferences.tsx:60
 msgid "Sort replies to the same post by:"
 msgstr ""
 
@@ -9291,7 +9291,7 @@ msgstr ""
 msgid "Thread preferences"
 msgstr ""
 
-#: src/screens/Settings/ThreadPreferences.tsx:42
+#: src/screens/Settings/ThreadPreferences.tsx:46
 msgid "Thread Preferences"
 msgstr ""
 
@@ -9349,8 +9349,8 @@ msgstr ""
 
 #: src/screens/PostThread/components/HeaderDropdown.tsx:73
 #: src/screens/PostThread/components/HeaderDropdown.tsx:78
-#: src/screens/Settings/ThreadPreferences.tsx:64
-#: src/screens/Settings/ThreadPreferences.tsx:67
+#: src/screens/Settings/ThreadPreferences.tsx:68
+#: src/screens/Settings/ThreadPreferences.tsx:71
 msgid "Top replies first"
 msgstr ""
 
@@ -9367,8 +9367,8 @@ msgstr ""
 msgid "Translate"
 msgstr ""
 
-#: src/screens/Settings/ThreadPreferences.tsx:115
-#: src/screens/Settings/ThreadPreferences.tsx:120
+#: src/screens/Settings/ThreadPreferences.tsx:119
+#: src/screens/Settings/ThreadPreferences.tsx:124
 msgid "Tree view"
 msgstr ""
 
