@@ -233,19 +233,14 @@ export function QuoteEmbed({
   const author =
     embed.type === 'post'
       ? embed.view.author
-      : // @ts-expect-error — FIXME this won't error once @zeppelin-social/api is upgraded past 0.15.26
-        embed.view['social.zeppelin.author']
+      : embed.view['social.zeppelin.author']
   const quoteEmbed = embed.type === 'post' ? embed.view.embeds?.[0] : undefined
   const cid =
-    embed.type === 'post'
-      ? embed.view.cid
-      : // @ts-expect-error — FIXME this won't error once @zeppelin-social/api is upgraded past 0.15.26
-        embed.view['social.zeppelin.cid']
+    embed.type === 'post' ? embed.view.cid : embed.view['social.zeppelin.cid']
   const indexedAt =
     embed.type === 'post'
       ? embed.view.indexedAt
-      : // @ts-expect-error — FIXME this won't error once @zeppelin-social/api is upgraded past 0.15.26
-        embed.view['social.zeppelin.indexedAt']!
+      : embed.view['social.zeppelin.indexedAt']!
 
   const moderationOpts = useModerationOpts()
   const quote = React.useMemo<$Typed<AppBskyFeedDefs.PostView>>(

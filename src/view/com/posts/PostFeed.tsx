@@ -171,7 +171,7 @@ export function getItemsForFeedback(feedRow: FeedRow): {
     return feedRow.items.map((item, i) => ({
       item: item.items[0],
       feedContext: feedRow.items[i].feedContext,
-	  reqId: feedRow.items[i].reqId,
+      reqId: feedRow.items[i].reqId,
     }))
   } else if (feedRow.type === 'videoGridRow') {
     return feedRow.items.map((item, i) => ({
@@ -761,8 +761,6 @@ let PostFeed = ({
         return <SuggestedFollows feed={feed} />
       } else if (row.type === 'interstitialProgressGuide') {
         return <ProgressGuide />
-      } else if (row.type === 'ageAssuranceBanner') {
-        return <AgeAssuranceDismissibleFeedBanner />
       } else if (row.type === 'interstitialTrending') {
         return <TrendingInterstitial />
       } else if (row.type === 'interstitialTrendingVideos') {

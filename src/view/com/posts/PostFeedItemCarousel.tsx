@@ -123,6 +123,7 @@ export function PostFeedItemCarousel({items}: {items: FeedPostSlice[]}) {
                     ]}
                     key={item._reactKey}>
                     <PostFeedItem
+                      reqId={slice.reqId}
                       post={item.post}
                       record={item.record}
                       reason={slice.reason}

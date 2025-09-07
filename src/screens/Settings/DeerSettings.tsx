@@ -14,7 +14,7 @@ import {
   useGatesCache,
 } from '#/lib/statsig/statsig'
 import {isWeb} from '#/platform/detection'
-import {setGeolocation, useGeolocation} from '#/state/geolocation'
+import {useGeolocationConfig} from '#/state/geolocation/index'
 import * as persisted from '#/state/persisted'
 import {useGoLinksEnabled, useSetGoLinksEnabled} from '#/state/preferences'
 import {
@@ -77,6 +77,7 @@ import {Star_Stroke2_Corner0_Rounded as StarIcon} from '#/components/icons/Star'
 import {Verified_Stroke2_Corner2_Rounded as VerifiedIcon} from '#/components/icons/Verified'
 import * as Layout from '#/components/Layout'
 import {Text} from '#/components/Typography'
+import {device} from '#/storage'
 import {SearchProfileCard} from '../Search/components/SearchProfileCard'
 
 type Props = NativeStackScreenProps<CommonNavigatorParams>
@@ -93,7 +94,12 @@ function GeolocationSettingsDialog({
   const [countryCode, setCountryCode] = useState('')
 
   const submit = () => {
-    setGeolocation({countryCode})
+    device.set(['geolocation'], {
+      countryCode,
+      regionCode: undefined,
+      ageBlockedGeos: [],
+      ageRestrictedGeos: [],
+    })
     control.close()
   }
 
@@ -270,7 +276,7 @@ export function DeerSettingsScreen({}: Props) {
   const hideFollowNotifications = useHideFollowNotifications()
   const setHideFollowNotifications = useSetHideFollowNotifications()
 
-  const location = useGeolocation()
+  const location = useGeolocationConfig()
   const setLocationControl = Dialog.useDialogControl()
 
   const constellationInstance = useConstellationInstance()
@@ -438,7 +444,7 @@ export function DeerSettingsScreen({}: Props) {
             <SettingsList.ItemIcon icon={GlobeIcon} />
             <SettingsList.ItemText>
               <Trans>{`ISO 3166-1 Location (currently ${
-                location.geolocation?.countryCode ?? '?'
+                location.config?.countryCode ?? '?'
               })`}</Trans>
             </SettingsList.ItemText>
             <SettingsList.BadgeButton

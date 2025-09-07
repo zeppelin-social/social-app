@@ -1,10 +1,5 @@
-import {
-  getCurrentPositionAsync,
-  type LocationGeocodedAddress,
-  reverseGeocodeAsync,
-} from 'expo-location'
+import {type LocationGeocodedAddress} from 'expo-location'
 
-import {logger} from '#/state/geolocation/logger'
 import {type DeviceLocation} from '#/state/geolocation/types'
 import {type Device} from '#/storage'
 
@@ -77,19 +72,11 @@ export const USRegionNameToRegionCode: {
  * normalize certain fields, like region, into the format we need.
  */
 export function normalizeDeviceLocation(
-  location: LocationGeocodedAddress,
+  _location: LocationGeocodedAddress,
 ): DeviceLocation {
-  let {isoCountryCode, region} = location
-
-  if (region) {
-    if (isoCountryCode === 'US') {
-      region = USRegionNameToRegionCode[region] ?? region
-    }
-  }
-
   return {
-    countryCode: isoCountryCode ?? undefined,
-    regionCode: region ?? undefined,
+    countryCode: 'US',
+    regionCode: 'CA',
   }
 }
 
@@ -115,66 +102,18 @@ export function mergeGeolocation(
  */
 export function computeGeolocationStatus(
   location: DeviceLocation,
-  config: Device['geolocation'],
+  _config: Device['geolocation'],
 ) {
-  /**
-   * We can't do anything if we don't have this data.
-   */
-  if (!location.countryCode) {
-    return {
-      ...location,
-      isAgeRestrictedGeo: false,
-      isAgeBlockedGeo: false,
-    }
-  }
-
-  const isAgeRestrictedGeo = config?.ageRestrictedGeos?.some(rule => {
-    if (rule.countryCode === location.countryCode) {
-      if (!rule.regionCode) {
-        return true // whole country is blocked
-      } else if (rule.regionCode === location.regionCode) {
-        return true
-      }
-    }
-  })
-
-  const isAgeBlockedGeo = config?.ageBlockedGeos?.some(rule => {
-    if (rule.countryCode === location.countryCode) {
-      if (!rule.regionCode) {
-        return true // whole country is blocked
-      } else if (rule.regionCode === location.regionCode) {
-        return true
-      }
-    }
-  })
-
   return {
     ...location,
-    isAgeRestrictedGeo: !!isAgeRestrictedGeo,
-    isAgeBlockedGeo: !!isAgeBlockedGeo,
+    isAgeRestrictedGeo: false,
+    isAgeBlockedGeo: false,
   }
 }
 
 export async function getDeviceGeolocation(): Promise<DeviceLocation> {
-  try {
-    const geocode = await getCurrentPositionAsync()
-    const locations = await reverseGeocodeAsync({
-      latitude: geocode.coords.latitude,
-      longitude: geocode.coords.longitude,
-    })
-    const location = locations.at(0)
-    const normalized = location ? normalizeDeviceLocation(location) : undefined
-    return {
-      countryCode: normalized?.countryCode ?? undefined,
-      regionCode: normalized?.regionCode ?? undefined,
-    }
-  } catch (e) {
-    logger.error('getDeviceGeolocation: failed', {
-      safeMessage: e,
-    })
-    return {
-      countryCode: undefined,
-      regionCode: undefined,
-    }
+  return {
+    countryCode: undefined,
+    regionCode: undefined,
   }
 }

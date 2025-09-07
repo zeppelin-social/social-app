@@ -11,7 +11,7 @@ import {
   computeGeolocationStatus,
   type GeolocationStatus,
   useGeolocationConfig,
-} from '#/state/geolocation'
+} from '#/state/geolocation/index'
 import {useRequestDeviceLocation} from '#/state/geolocation/useRequestDeviceLocation'
 import {atoms as a, useTheme, web} from '#/alf'
 import {Admonition} from '#/components/Admonition'

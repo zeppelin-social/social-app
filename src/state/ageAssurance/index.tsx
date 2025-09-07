@@ -11,7 +11,6 @@ import {
 } from '#/state/ageAssurance/types'
 import {useIsAgeAssuranceEnabled} from '#/state/ageAssurance/useIsAgeAssuranceEnabled'
 import {logger} from '#/state/ageAssurance/util'
-import {useGeolocationStatus} from '#/state/geolocation'
 import {useAgent} from '#/state/session'
 
 export const createAgeAssuranceQueryKey = (did: string) =>
@@ -43,7 +42,6 @@ AgeAssuranceAPIContext.displayName = 'AgeAssuranceAPIContext'
  */
 export function Provider({children}: {children: React.ReactNode}) {
   const agent = useAgent()
-  const {status: geolocation} = useGeolocationStatus()
   const isAgeAssuranceEnabled = useIsAgeAssuranceEnabled()
   const getAndRegisterPushToken = useGetAndRegisterPushToken()
   const [refetchWhilePending, setRefetchWhilePending] = useState(false)
@@ -78,10 +76,7 @@ export function Provider({children}: {children: React.ReactNode}) {
           account: agent.session?.did,
         })
 
-        await getAndRegisterPushToken({
-          isAgeRestricted:
-            !!geolocation?.isAgeRestrictedGeo && data.status !== 'assured',
-        })
+        await getAndRegisterPushToken()
 
         return data
       } catch (e) {
